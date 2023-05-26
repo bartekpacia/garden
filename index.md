@@ -1,3 +1,1 @@
-# Bartek's blog
-
-Hello there
+Hello there.

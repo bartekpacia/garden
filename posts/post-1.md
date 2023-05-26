@@ -1,6 +1,4 @@
----
-title: "Taming webdev"
----
+# Taming webdev
 
 My acquaintance with web development a.k.a frontend is long and boring. It's
 something I tried at the very beginning of my journey with programming and since
