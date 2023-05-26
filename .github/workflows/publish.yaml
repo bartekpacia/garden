@@ -15,6 +15,9 @@ jobs:
       - name: Set up ssb
         run: brew install bartekpacia/tools/ssb
 
+      - name: Set up pandoc
+        run: brew install pandoc
+
       - name: Run ssb
         run: ssb index.md
 
