@@ -1,0 +1,21 @@
+:root {
+  --primary: #669900;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: var(--primary);
+}
+
+pre {
+  background-color: #f8f9fa;
+  padding: 0.5em;
+}
+
+blockquote {
+  margin: 0;
+  background-color: #ffffe0;
+  padding: 1em;
+}
