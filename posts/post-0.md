@@ -1,3 +1,7 @@
+---
+date: 20050402
+---
+
 This is a post to test out the blog.
 
 # This is h1

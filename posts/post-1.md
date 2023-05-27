@@ -1,3 +1,7 @@
+---
+date: 20200313
+---
+
 # Taming webdev
 
 My acquaintance with web development a.k.a frontend is long and boring. It's
