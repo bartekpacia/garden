@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+for post in posts/*.md; do
+    creation_date="$(yq --front-matter extract '.date' "$post")"
+    touch -t "${creation_date}2137" "$post"
+    echo "Updated creation date for $post"
+done
+
+ssb index.md
