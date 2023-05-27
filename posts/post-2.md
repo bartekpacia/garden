@@ -45,15 +45,15 @@ So on that page, instead of clicking “Download Android Studio”, scroll down 
 find the ["Command line tools only" section] and then download the variant for
 your OS. Alternatively, you can use `curl`.
 
+```bash
+$ curl --remote-name https://dl.google.com/android/repository/commandlinetools-mac-9477386_latest.zip
+```
+
 > To make things simpler, let’s assume we’re in the `Downloads` directory:
 >
 > ```bash
 > $ cd ~/Downloads
 > ```
-
-```bash
-$ curl --remote-name https://dl.google.com/android/repository/commandlinetools-mac-9477386_latest.zip
-```
 
 Now extract the downloaded archive:
 
