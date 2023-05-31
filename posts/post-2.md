@@ -198,9 +198,9 @@ are:
 
 There are many build tools, but each of them [does one thing and does it
 well](https://en.wikipedia.org/wiki/Unix_philosophy). They’re invoked by the
-build system (usually it's Android Gradle Plugin who calls them) and
-nobody uses them directly (unless you’re curious or integrating with an
-alternative build system).
+build system (usually it's Android Gradle Plugin who calls them) and nobody uses
+them directly (unless you’re curious or integrating with an alternative build
+system).
 
 If you’d like to learn more about the build tools, head over
 [here](https://developer.android.com/tools).
@@ -224,20 +224,37 @@ The most famous of them is definitely `adb`.
 
 ### Platforms
 
-What are platforms?
+First, let's get installation out of our way:
 
 ```bash
 $ sdkmanager --install 'platforms;android-33'
 ```
 
-This includes the source files for the platform, so that IDEs can show the code
-when you navigate to a symbol.
+But what are platforms?
 
-You can think of “platforms” as header files – libraries you import aren’t
-_actually_ packaged.
+"Platform" includes the source of classes that are part of the OS, so that IDEs
+can show the code when you navigate to a symbol from the `android` namespace.
 
-Implementations of most of the SDK is provided by the OS itself once you run the
-app.
+The packages from with `android` in the beginning aren't built into the APK.
+They're only place on the compile classpath, but that's it. The real
+implementation is provided by the OS itself. To illustrate this, let's consider
+this Java file:
+
+```java
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
+  // ...
+}
+```
+
+The packages starting with `android` are implemented in the OS and made
+available to your app at runtime. On the other hand, the `androidx` packages are
+"extra" and they are, bundled into the APK.
 
 [developer.android.com/studio]: https://developer.android.com/studio
 ["Command line tools only" section]: https://developer.android.com/studio#command-line-tools-only
