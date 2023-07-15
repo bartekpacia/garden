@@ -19,9 +19,8 @@ This post is for you if you:
 Why am I writing this post? Surely there are official guides on installing
 Android SDK?
 
-Well, I think that the official, commonly recommended way of downloading Android
-SDK sucks. More specifically, recommending everyone to install Android Studio
-sucks.
+Well, I think that the official, recommended way of downloading Android SDK
+sucks. More specifically, telling everyone to install Android Studio sucks.
 
 I'm under the impression that the official docs are optimized for the lowest
 common denominator type of person. That's not a bad thing when you're just
@@ -29,8 +28,24 @@ getting started with Android development, but after doing the setup of SDK a few
 times, I want to know more about what I am doing and why I am doing it. And
 that's what the official docs fall short of.
 
-I also strongly believe that knowing something more about the tools you're
-depending on everyday makes you a better developer.
+Another problems appears when building on CI. The more popualar ones have some
+kind of pre-built "Set up Android SDK" step, but it's not always the case. And
+you won't install Android Studio on a CI server, right. Right?
+
+I also strongly believe that everyone should know a thing or two about the tools
+they're depending on every day.
+
+## Install Java Development Kit
+
+I use the [Eclipse Temurin] JDK distribution, but other ones should work too:
+
+```
+brew tap homebrew/cask-version
+brew install temurin17
+```
+
+Unless you're spelunking in some legacy project, you should use JDK 17, since
+it's the latest LTS release.
 
 ## Install core command-line tools
 
@@ -109,7 +124,7 @@ way](https://developer.android.com/tools/releases/cmdline-tools).
 # Modify PATH
 
 Before going further, you want to add the path where command-line tools are to
-[PATH], because…
+[PATH], because otherwise you'll be greeted by a "not found" error:
 
 ```
 $ sdkmanager
@@ -220,7 +235,7 @@ After the installation completes, platform tools can be found under
 ls -1 "$ANDROID_HOME/build-tools/33.0.2"
 ```
 
-The most famous of them is definitely `adb`.
+The most famous binary inside `platform-tools` is definitely `adb`.
 
 ### Platforms
 
@@ -232,13 +247,14 @@ $ sdkmanager --install 'platforms;android-33'
 
 But what are platforms?
 
-"Platform" includes the source of classes that are part of the OS, so that IDEs
-can show the code when you navigate to a symbol from the `android` namespace.
+A "platform" includes the source code of classes that are part of the OS, so
+that IDEs can show the code when you navigate to a symbol from the `android`
+namespace, for example `Context` or `Bundle`.
 
-The packages from with `android` in the beginning aren't built into the APK.
-They're only place on the compile classpath, but that's it. The real
-implementation is provided by the OS itself. To illustrate this, let's consider
-this Java file:
+The packages from the `android` top-level namespace in the beginning aren't
+built into the APK. They're only placed on the compile classpath, but that's it.
+The real implementation is provided by the OS itself. To illustrate this, let's
+consider this Java file:
 
 ```java
 import android.content.Context;
@@ -254,9 +270,28 @@ public class MainActivity extends AppCompatActivity {
 
 The packages starting with `android` are implemented in the OS and made
 available to your app at runtime. On the other hand, the `androidx` packages are
-"extra" and they are, bundled into the APK.
+"extra" and they are bundled into the APK. It's easy to verify that yourself by
+running `apkanalyzer` (from `cmdline-tools`) on the APK.
+
+```bash
+./gradlew :app:assembleDebug
+cd app/build/outputs/apk/debug
+apkanalyzer dex packages app-debug.apk --defined-only | grep '^C' # only classes
+```
+
+There'll be lots of classes whose namespace starts with `androidx` namespace,
+but ([almost][almost_asterisk]) none of them will be from the `android`
+namespace.
+
+---
+
+Now you've got everything set up, and hopefully you've also learned something
+about the SDK's structure. You can go to your Android app project and start
+building it.
 
 [developer.android.com/studio]: https://developer.android.com/studio
 ["Command line tools only" section]: https://developer.android.com/studio#command-line-tools-only
+[Eclipse Temurin]: https://adoptium.net/en-US/temurin/releases/
 [PATH]: https://en.wikipedia.org/wiki/PATH_(variable)
 [Android Runtime]: https://source.android.com/docs/core/runtime
+[almost_asterisk]: https://stackoverflow.com/q/76694804/7009800
