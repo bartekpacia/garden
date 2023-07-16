@@ -28,7 +28,7 @@ getting started with Android development, but after doing the setup of SDK a few
 times, I want to know more about what I am doing and why I am doing it. And
 that's what the official docs fall short of.
 
-Another problems appears when building on CI. The more popualar ones have some
+Another problems appears when building on CI. The more popular ones have some
 kind of pre-built "Set up Android SDK" step, but it's not always the case. And
 you won't install Android Studio on a CI server, right. Right?
 
