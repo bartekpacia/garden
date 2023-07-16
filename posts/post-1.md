@@ -291,7 +291,7 @@ building it.
 
 [developer.android.com/studio]: https://developer.android.com/studio
 ["Command line tools only" section]: https://developer.android.com/studio#command-line-tools-only
-[Eclipse Temurin]: https://adoptium.net/en-US/temurin/releases/
+[Eclipse Temurin]: https://adoptium.net/temurin/releases
 [PATH]: https://en.wikipedia.org/wiki/PATH_(variable)
 [Android Runtime]: https://source.android.com/docs/core/runtime
 [almost_asterisk]: https://stackoverflow.com/q/76694804/7009800
