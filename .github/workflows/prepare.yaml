@@ -1,0 +1,19 @@
+name: prepare
+
+on:
+  push:
+    branches-ignore: master
+
+jobs:
+  main:
+    runs-on: macos-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: brew install maciejzj/ssb/ssb yq
+
+      - name: Try to generate website
+        run: ./generate
