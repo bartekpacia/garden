@@ -87,9 +87,9 @@ vm.heapSize = 1024M
 
 ### Changing GPS coordinates
 
-There's a `AVD.conf` file in `~/.android/avd/Pixel_7_API_33.avd`which by default
-contains the GPS coordinates. By default, they point to Google's HQ in
-California.
+There's a `AVD.conf` file in `~/.android/avd/Pixel_7_API_33.avd` which contains
+the emulator's GPS coordinates. By default, they point to Google's HQ in
+Mountain View, California.
 
 ```
 [perAvd]
@@ -100,14 +100,25 @@ loc\longitude=-122.084
 loc\velocity=0
 ```
 
-You can edit the coordinates with any text editor and the changes will be
-immediately picked up by the AVD.
+You can edit the coordinates with any text editor and the changes will be picked
+up by the AVD the next time it starts up. To see the changes in real time
+instead, use this [emulator console] command:
+
+```
+adb emu geo fix 18.213 50.769
+```
+
+Somewhat counterintuitively, in the command above longitude comes before
+latitude.
+
+### Saving GPS coordinates
 
 ### Disabling saving quick-boot state on exit
 
-I don't like the quick-boot feature. It's unreliable and has weird bugs.
+I don't like the quick-boot feature. It's unreliable, has weird bugs, and saving
+the snapshot always takes too long when closing the emulator.
 
-To get rid of this, add this line to `AVD.conf`:
+To disable quick-boot, add this line to `AVD.conf`:
 
 ```
 set\saveSnapshotOnExit=1
@@ -128,8 +139,9 @@ rm -rf ~/.android/avd/Pixel_7_API_33.avd/snapshots
 
 **Learn more**
 
-- https://developer.android.com/studio/run/advanced-emulator-usage
-- https://learn.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/device-manager?tabs=macos&pivots=macos
+- [Advanced emulator usage](https://developer.android.com/studio/run/emulator-commandline#common)
+- [Managing Virtual Devices with the Android Device Manager](https://learn.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/device-manager)
 
-[commonly used options]: https://developer.android.com/studio/run/emulator-commandline#common
 [advanced options]: https://developer.android.com/studio/run/emulator-commandline
+[advanced emulator usage]: https://developer.android.com/studio/run/advanced-emulator-usage
+[emulator console]: https://developer.android.com/studio/run/emulator-console
