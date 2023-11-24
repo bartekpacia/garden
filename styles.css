@@ -10,6 +10,29 @@ footer {
   text-align: right;
 }
 
+pre {
+  padding: 0.5em;
+  background-color: #f8f9fa;
+}
+
+code {
+  background-color: #f8f9fa;
+}
+
+blockquote {
+  margin: 0;
+  background-color: #ffffe0;
+  padding: 0.5em;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+blockquote pre {
+  margin: 0.4em;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
@@ -24,13 +47,28 @@ footer {
   pre,
   li,
   p,
-  a {
+  a,
+  strong {
     color: #f0f6fc;
   }
 
-  pre {
+  pre,
+  code {
     background-color: #232327;
-    padding: 1em;
+  }
+
+  blockquote {
+    background-color: #232327;
+  }
+
+  blockquote {
+    margin: 0;
+    background-color: #b0a565;
+    padding: 0.5em;
+  }
+
+  blockquote p {
+    margin: 0;
   }
 }
 
