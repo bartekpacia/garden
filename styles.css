@@ -10,6 +10,30 @@ footer {
   text-align: right;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  pre,
+  li,
+  p,
+  a {
+    color: #f0f6fc;
+  }
+
+  pre {
+    background-color: #232327;
+    padding: 1em;
+  }
+}
+
 img,
 video {
   width: 100%;
@@ -22,134 +46,4 @@ table {
   max-width: 100%;
   overflow-x: auto;
   display: block;
-}
-
-@media only screen and (max-width: 600px) {
-}
-
-code span.al {
-  color: #ff0000;
-  font-weight: bold;
-}
-/* Annotation */
-code span.an {
-  color: #60a0b0;
-  font-weight: bold;
-  font-style: italic;
-}
-/* Attribute */
-code span.at {
-  color: #7d9029;
-}
-/* BaseN */
-code span.bn {
-  color: #40a070;
-}
-/* BuiltIn */
-code span.bu {
-}
-/* ControlFlow */
-code span.cf {
-  color: #007020;
-  font-weight: bold;
-}
-/* Char */
-code span.ch {
-  color: #4070a0;
-}
-/* Constant */
-code span.cn {
-  color: #880000;
-}
-/* Comment */
-code span.co {
-  color: #60a0b0;
-  font-style: italic;
-}
-/* CommentVar */
-code span.cv {
-  color: #60a0b0;
-  font-weight: bold;
-  font-style: italic;
-}
-/* Documentation */
-code span.do {
-  color: #ba2121;
-  font-style: italic;
-}
-/* DataType */
-code span.dt {
-  color: #902000;
-}
-/* DecVal */
-code span.dv {
-  color: #40a070;
-}
-/* Error */
-code span.er {
-  color: #ff0000;
-  font-weight: bold;
-}
-/* Extension */
-code span.ex {
-}
-/* Float */
-code span.fl {
-  color: #40a070;
-}
-/* Function */
-code span.fu {
-  color: #06287e;
-}
-/* Import */
-code span.im {
-}
-/* Information */
-code span.in {
-  color: #60a0b0;
-  font-weight: bold;
-  font-style: italic;
-}
-/* Keyword */
-code span.kw {
-  color: #007020;
-  font-weight: bold;
-}
-/* Operator */
-code span.op {
-  color: #666666;
-}
-/* Other */
-code span.ot {
-  color: #007020;
-}
-/* Preprocessor */
-code span.pp {
-  color: #bc7a00;
-}
-/* SpecialChar */
-code span.sc {
-  color: #4070a0;
-}
-/* SpecialString */
-code span.ss {
-  color: #bb6688;
-}
-/* String */
-code span.st {
-  color: #4070a0;
-}
-/* Variable */
-code span.va {
-  color: #19177c;
-}
-/* VerbatimString */
-code span.vs {
-  color: #4070a0;
-}
-/* Warning */
-code span.wa {
-  color: #60a0b0;
-  font-weight: bold;
-  font-style: italic;
 }
