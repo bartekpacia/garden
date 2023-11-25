@@ -12,8 +12,9 @@ experience because:
 - no easy way to share emulator config with other developers and testers
 
 In this article I'll show how I manage AVDs from the terminal. You don't even
-need to have Android Studio / IntellIJ installed – [Android command-line
-tools](https://developer.android.com/studio/command-line) are enough.
+need to have Android Studio / IntellIJ installed –
+[Android command-line tools](https://developer.android.com/studio/command-line)
+are enough.
 
 ### Creating AVD
 
@@ -111,8 +112,6 @@ adb emu geo fix 18.213 50.769
 Somewhat counterintuitively, in the command above longitude comes before
 latitude.
 
-### Saving GPS coordinates
-
 ### Disabling saving quick-boot state on exit
 
 I don't like the quick-boot feature. It's unreliable, has weird bugs, and saving
@@ -142,6 +141,8 @@ rm -rf ~/.android/avd/Pixel_7_API_33.avd/snapshots
 - [Advanced emulator usage](https://developer.android.com/studio/run/emulator-commandline#common)
 - [Managing Virtual Devices with the Android Device Manager](https://learn.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/device-manager)
 
-[advanced options]: https://developer.android.com/studio/run/emulator-commandline
-[advanced emulator usage]: https://developer.android.com/studio/run/advanced-emulator-usage
+[advanced options]:
+  https://developer.android.com/studio/run/emulator-commandline
+[advanced emulator usage]:
+  https://developer.android.com/studio/run/advanced-emulator-usage
 [emulator console]: https://developer.android.com/studio/run/emulator-console

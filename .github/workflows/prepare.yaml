@@ -13,7 +13,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install dependencies
-        run: brew install maciejzj/ssb/ssb yq
+        run: brew install maciejzj/ssb/ssb yq prettier
+
+      - name: Verify formatting
+        run: prettier --check --prose-wrap always .
 
       - name: Try to generate website
         run: ./generate
