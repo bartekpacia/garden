@@ -4,8 +4,8 @@ date: 20231125
 
 # Flutter Engine notes
 
-This is a quick-start guide of setting up a Flutter engine, making a simple
-change, and using it.
+This is a quick-start guide of setting up the Flutter engine development
+environment, making a simple change, and using it in a Flutter app.
 
 My setup is fairly standard – I'm on M1 Mac, Android emulator is arm64, iOS
 simulator is arm64 as well. No Rosetta2 involved.
@@ -104,6 +104,5 @@ Run Android tests of `AccessibilityBridge` with Roboelectric:
 	--java-filter io.flutter.view.AccessibilityBridge
 ```
 
-[the official guide]:
-  https://github.com/flutter/flutter/wiki/Setting-up-the-Engine-development-environment#getting-the-source
+[the official guide]: https://github.com/flutter/flutter/wiki/Setting-up-the-Engine-development-environment#getting-the-source
 [depot_tools]: https://chromium.googlesource.com/chromium/tools/depot_tools
