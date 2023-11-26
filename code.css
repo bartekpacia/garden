@@ -1,6 +1,8 @@
 /* This file is mostly copied from
 https://github.com/jez/pandoc-markdown-css-theme/blob/67c1d1cb8ac81b6cbb4144cc24ae429a195f0fca/public/css/skylighting-solarized-theme.css */
 
+/* Only place styles for pre, code, and span elements in this file. */
+
 :root {
   --solarized-base03: #002b36;
   --solarized-base02: #073642;
@@ -37,15 +39,24 @@ https://github.com/jez/pandoc-markdown-css-theme/blob/67c1d1cb8ac81b6cbb4144cc24
 pre,
 pre.numberSource {
   background: var(--solarized-base3);
-  /* border: 1px solid var(--solarized-base2); */
+  border: 1px solid var(--solarized-base2);
+  padding: 0.5em;
   --color-code-highlight-bg: var(--solarized-base2);
 }
 pre code {
   color: var(--solarized-base00);
+  /* TODO: fix appearance of code */
+  /* line-height: 1; */
+  /* font-size: 14px; */
 }
 pre.numberSource > code.sourceCode > span > a:first-child::before {
   color: var(--solarized-base1);
 }
+
+code {
+  background-color: var(--solarized-base3);
+}
+
 code span.kw {
   color: var(--solarized-green);
   font-weight: normal;

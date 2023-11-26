@@ -34,9 +34,34 @@ void main() {
     }
   }();
 }
+
+// the following line has 80 characters
+print('1234567890123456789012345678901234567890123456789012345678901234567890');
+```
+
+This is git diff:
+
+```diff
+diff --git a/code.css b/code.css
+index ebd4525..7d95b95 100644
+--- a/code.css
++++ b/code.css
+@@ -1,6 +1,8 @@
+ /* This file is mostly copied from
+ https://github.com/jez/pandoc-markdown-css-theme */
+
++/* Only place styles for pre, code, and span elements in this file. */
++
+ :root {
+   --solarized-base03: #002b36;
 ```
 
 > This is a blockquote
+> With some code in it:
+>
+> ```bash
+> $ printf "%s\n" "Hello, world!"
+> ```
 
 This is a list:
 
