@@ -1,15 +1,16 @@
 Hello there.
 
-I'm Bartek and this is my digital garden - my own place on the World Wide Web.
-You'll here find my thoughts on different topics, or (sometimes) longer
-articles.
+I'm Bartek and I'm a software developer. I use, maintain, and contribute to
+open-source software.
 
-It could be called a blog, but I'll not use this word since this word has always
-been putting too much pressure on me, and I ended up accumulating endless "not
-good enough" write-ups in my Notion.
+Currently I work at [LeanCode].
 
-I reserve the right to update contents of my articles at any time, but I will
-not break URLs.
+and this is my digital garden - my own place on the World Wide Web.
+You'll find here my thoughts on different topics, or (sometimes) longer
+articles, and random notes.
+
+I like simplicity, consistency, and minimalism, and strive to exercise these in
+my work and life.
 
 This site contains no ads, no trackers, no cookies, and no bullshit.
 
