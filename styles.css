@@ -1,22 +1,35 @@
+:root {
+  --primary: #669900;
+  --background: #eeeeee;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+  }
+}
+
 body {
   max-width: 40em;
   margin: auto;
   padding: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.62;
+  font-family: sans-serif;
 }
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
 header {
   font-size: 1.2em;
 }
+
 footer {
   text-align: right;
-}
-
-pre {
-  padding: 0.5em;
-  background-color: #f8f9fa;
-}
-
-code {
-  background-color: #f8f9fa;
 }
 
 blockquote {
@@ -44,7 +57,6 @@ blockquote pre {
   h4,
   h5,
   h6,
-  pre,
   li,
   p,
   a,
@@ -52,19 +64,13 @@ blockquote pre {
     color: #f0f6fc;
   }
 
-  pre,
-  code {
-    background-color: #232327;
-  }
-
   blockquote {
-    background-color: #232327;
+    /* background-color: #232327; */
   }
 
   blockquote {
     margin: 0;
     background-color: #b0a565;
-    padding: 0.5em;
   }
 
   blockquote p {

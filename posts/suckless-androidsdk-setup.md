@@ -112,7 +112,7 @@ First, create a place where Android SDK will be located. In my case, it's always
 `~/androidsdk`, because that's where I like having it.
 
 ```bash
-$ mkdir ~/androisdk
+$ mkdir ~/androidsdk
 ```
 
 Then create a directory for the command-line tools:
@@ -171,7 +171,7 @@ what's the purpose of each component.
 
 Now you've got yourself a few command-line tools. But that's about it. You still
 don't have any build tools (compilers, resource mergers, shrinkers, that sort of
-stuff), system images, or an emulator.
+stuff), system images, and even an emulator.
 
 To get them, you use
 [sdkmanager](https://developer.android.com/studio/command-line/sdkmanager). It's
@@ -182,7 +182,8 @@ everything you might need in your Android development journey. It's located in
 
 Now let's run `sdkmanager` again and download stuff that is always needed.
 
-A useful command is `sdkmanager --list_installed`.
+A useful command to remember `sdkmanager --list_installed`. Much faster than
+opening up the GUI of SDK manager in Android Studio.
 
 ### Emulator
 
@@ -244,12 +245,12 @@ executables in that directory are:
   assets) so that they can be packaged into an APK
 - `apksigner` which, unsurprisingly, signs APK files
 
-There are many build tools, but each one of them
-[does one thing and does it well](https://en.wikipedia.org/wiki/Unix_philosophy).
-They're invoked by the build system (usually it's Android Gradle Plugin who
-calls them) and few people use them directly (unless they're curious or
-integrating with an alternative build system). If you'd like to learn more about
-the build tools, head over [here](https://developer.android.com/tools).
+There are many build tools, but each one of them [does one thing and does it
+well](https://en.wikipedia.org/wiki/Unix_philosophy). They're invoked by the
+build system (usually it's Android Gradle Plugin who calls them) and few people
+use them directly (unless they're something less common, such as integrating
+with an alternative build system). If you'd like to learn more about the build
+tools, head over [here](https://developer.android.com/tools).
 
 Adding build tools binaries to PATH is a bit more involved, because there are
 often many versions of them under `$ANDROID_HOME/build-tools`. Here's what I
@@ -269,10 +270,10 @@ fi
 
 ### Platform tools
 
-AGP handles these too.
+(AGP handles these automatically, but we're not interested in that right now)
 
-These tools let you interact with a running Android device, either physical or
-virtual.
+Platform tools let you interact with a running Android device, either physical
+or virtual.
 
 ```bash
 $ sdkmanager --install 'platform-tools'
@@ -285,11 +286,12 @@ After the installation completes, platform tools can be found under
 export PATH="$ANDROID_HOME/platform-tools:$PATH"
 ```
 
-The most famous binary inside `platform-tools` is definitely `adb`.
+The most famous binary inside `platform-tools` is definitely `adb`. If you've
+been into custom ROMs at some point, you might've also heard of `fastboot`.
 
 ### Platforms
 
-AGP handles these too.
+(AGP handles these automatically, but we're not interested in that right now)
 
 First, let's get installation out of our way:
 
@@ -335,7 +337,7 @@ apkanalyzer dex packages app-debug.apk --defined-only | grep '^C' # only classes
 ```
 
 There'll be lots of classes whose namespace starts with `androidx` namespace,
-but ([almost][almost_asterisk]) none of them will be from the `android`
+but **([almost][almost_asterisk])** none of them will be from the `android`
 namespace.
 
 ## Summary
@@ -343,20 +345,17 @@ namespace.
 And that's it for this blogpost.
 
 Last thing: here's [my own shell config file], from where you can easily copy
-the PATH-related commands.
+the PATH-related commands. Be inspired by it! (or just copy-paste)
 
 Now you've got everything set up, and hopefully you've also learned something
 about the SDK's structure. You can go to your Android app project and start
 building it.
 
 [developer.android.com/studio]: https://developer.android.com/studio
-["Command line tools only" section]:
-  https://developer.android.com/studio#command-line-tools-only
+["Command line tools only" section]: https://developer.android.com/studio#command-line-tools-only
 [Eclipse Temurin]: https://adoptium.net/temurin/releases
 [PATH]: https://en.wikipedia.org/wiki/PATH_(variable)
 [Android Runtime]: https://source.android.com/docs/core/runtime
 [almost_asterisk]: https://stackoverflow.com/q/76694804/7009800
-[my own shell config file]:
-  https://github.com/bartekpacia/dotfiles/blob/6cc3a37e7a8330b760a4810fc49c31ab8a56e9f3/dot/shrc#L32-L52
-[Google recommends doing it this way]:
-  https://developer.android.com/tools/releases/cmdline-tools
+[my own shell config file]: https://github.com/bartekpacia/dotfiles/blob/6cc3a37e7a8330b760a4810fc49c31ab8a56e9f3/dot/shrc#L32-L52
+[Google recommends doing it this way]: https://developer.android.com/tools/releases/cmdline-tools
