@@ -1,6 +1,6 @@
-# blog
+# garden
 
-My personal blog website.
+My personal ~~blog~~ digital garden website.
 
 ### Set post data
 

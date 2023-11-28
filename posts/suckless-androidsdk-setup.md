@@ -342,7 +342,7 @@ namespace.
 
 ## Summary
 
-And that's it for this blogpost.
+And that's it for this article.
 
 Last thing: here's [my own shell config file], from where you can easily copy
 the PATH-related commands. Be inspired by it! (or just copy-paste)
