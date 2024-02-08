@@ -245,12 +245,13 @@ executables in that directory are:
   assets) so that they can be packaged into an APK
 - `apksigner` which, unsurprisingly, signs APK files
 
-There are many build tools, but each one of them [does one thing and does it
-well](https://en.wikipedia.org/wiki/Unix_philosophy). They're invoked by the
-build system (usually it's Android Gradle Plugin who calls them) and few people
-use them directly (unless they're something less common, such as integrating
-with an alternative build system). If you'd like to learn more about the build
-tools, head over [here](https://developer.android.com/tools).
+There are many build tools, but each one of them
+[does one thing and does it well](https://en.wikipedia.org/wiki/Unix_philosophy).
+They're invoked by the build system (usually it's Android Gradle Plugin who
+calls them) and few people use them directly (unless they're something less
+common, such as integrating with an alternative build system). If you'd like to
+learn more about the build tools, head over
+[here](https://developer.android.com/tools).
 
 Adding build tools binaries to PATH is a bit more involved, because there are
 often many versions of them under `$ANDROID_HOME/build-tools`. Here's what I
@@ -352,10 +353,13 @@ about the SDK's structure. You can go to your Android app project and start
 building it.
 
 [developer.android.com/studio]: https://developer.android.com/studio
-["Command line tools only" section]: https://developer.android.com/studio#command-line-tools-only
+["Command line tools only" section]:
+  https://developer.android.com/studio#command-line-tools-only
 [Eclipse Temurin]: https://adoptium.net/temurin/releases
 [PATH]: https://en.wikipedia.org/wiki/PATH_(variable)
 [Android Runtime]: https://source.android.com/docs/core/runtime
 [almost_asterisk]: https://stackoverflow.com/q/76694804/7009800
-[my own shell config file]: https://github.com/bartekpacia/dotfiles/blob/6cc3a37e7a8330b760a4810fc49c31ab8a56e9f3/dot/shrc#L32-L52
-[Google recommends doing it this way]: https://developer.android.com/tools/releases/cmdline-tools
+[my own shell config file]:
+  https://github.com/bartekpacia/dotfiles/blob/6cc3a37e7a8330b760a4810fc49c31ab8a56e9f3/dot/shrc#L32-L52
+[Google recommends doing it this way]:
+  https://developer.android.com/tools/releases/cmdline-tools
