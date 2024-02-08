@@ -56,8 +56,7 @@ index ebd4525..7d95b95 100644
    --solarized-base03: #002b36;
 ```
 
-> This is a blockquote
-> With some code in it:
+> This is a blockquote With some code in it:
 >
 > ```bash
 > $ printf "%s\n" "Hello, world!"
