@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Personal garden of Bartek Pacia</title>
+        <link>https://garden.pacia.tech</link>
+        <description>Bartek's digital garden</description>
+        <item>
+            <title>Example item 1</title>
+            <link>https://github.com/bartekpacia</link>
+            <description>My personal GitHub profile</description>
+        </item>
+        <item>
+            <title>Crazy project</title>
+            <link>https://github.com/bartekpacia/chariotofheaven</link>
+            <description>Was very fun to build</description>
+        </item>
+    </channel>
+</rss>
