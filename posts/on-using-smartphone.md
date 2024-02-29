@@ -7,8 +7,7 @@ date: 20240208
 What a time we live in. Every one of us carries an insanely powerful pocket
 computer at all times, with access to the cumulative knowledge of all humanity.
 
-Yet most of us don't take advantage of that insanely powerful device - myself
-included.
+Yet most of us don't take advantage of that - myself included.
 
 I was thinking about this and realized that one cause of that is that is I've
 come to associate my phone as a device for low effort, passive content
