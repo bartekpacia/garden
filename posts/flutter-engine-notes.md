@@ -52,7 +52,9 @@ ninja -C out/android_debug_unopt_arm64
 
 To build only the JAR (skipping things like generating javadoc, linting):
 
-`ninja -C out/android_debug_unopt_arm64 android_jar`
+```
+ninja -C out/android_debug_unopt_arm64 android_jar
+```
 
 ### Build for iOS simulator
 
@@ -118,5 +120,6 @@ Run Android tests of `AccessibilityBridge` with Roboelectric:
 	--java-filter io.flutter.view.AccessibilityBridge
 ```
 
-[the official guide]: https://github.com/flutter/flutter/wiki/Setting-up-the-Engine-development-environment#getting-the-source
+[the official guide]:
+  https://github.com/flutter/flutter/wiki/Setting-up-the-Engine-development-environment#getting-the-source
 [depot_tools]: https://chromium.googlesource.com/chromium/tools/depot_tools
