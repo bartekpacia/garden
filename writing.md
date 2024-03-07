@@ -1,4 +1,5 @@
-Some of my writing is not published as posts on this website.
+Some of my writing is not published as posts on this website, because I wrote
+for someone else, for money.
 
 - [The power of open-source. Making Maestro work better with Flutter](https://blog.mobile.dev/the-power-of-open-source-making-maestro-work-better-with-flutter-d92b386f9a33)
 - [Announcing Patrol 2.0](https://leancode.co/blog/patrol-2-0-improved-flutter-ui-testing)
