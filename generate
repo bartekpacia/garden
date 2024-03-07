@@ -7,4 +7,5 @@ for post in posts/*.md; do
     echo "Updated creation date for $post"
 done
 
-ssb index.md
+ssb -d index.md
+ssb writing.md
