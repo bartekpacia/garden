@@ -52,7 +52,9 @@ ninja -C out/android_debug_unopt_arm64
 
 To build only the JAR (skipping things like generating javadoc, linting):
 
-`ninja -C out/android_debug_unopt_arm64 android_jar`
+```
+ninja -C out/android_debug_unopt_arm64 android_jar
+```
 
 ### Build for iOS simulator
 
