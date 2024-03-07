@@ -26,21 +26,29 @@ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 
 Generate build files:
 
-`./flutter/tools/gn --unoptimized --mac-cpu arm64`
+```
+./flutter/tools/gn --unoptimized --mac-cpu arm64
+```
 
 Run build:
 
-`ninja -C out/host_debug_unopt_arm64`
+```
+ninja -C out/host_debug_unopt_arm64
+```
 
 ### Build for Android emulator
 
 Generate build files:
 
-`./flutter/tools/gn --android --android-cpu arm64 --unoptimized`
+```
+./flutter/tools/gn --android --android-cpu arm64 --unoptimized
+```
 
 Run build:
 
-`ninja -C out/android_debug_unopt_arm64`
+```
+ninja -C out/android_debug_unopt_arm64
+```
 
 To build only the JAR (skipping things like generating javadoc, linting):
 
@@ -50,11 +58,15 @@ To build only the JAR (skipping things like generating javadoc, linting):
 
 Generate build files:
 
-`./flutter/tools/gn --ios --unoptimized --simulator --simulator-cpu arm64`
+```
+./flutter/tools/gn --ios --unoptimized --simulator --simulator-cpu arm64
+```
 
 Run build:
 
-`ninja -C out/ios_debug_sim_unopt_arm64`
+```
+ninja -C out/ios_debug_sim_unopt_arm64
+```
 
 # Run
 
@@ -87,7 +99,9 @@ flutter \
 Theoretically, passing `--local-engine-src-path $FLUTTER_ENGINE` is redundant -
 the default value is `$FLUTTER_ENGINE`. For example you could set:
 
-`export FLUTTER_ENGINE=~/dev/bartekpacia/engine/src`
+```
+export FLUTTER_ENGINE=~/dev/bartekpacia/engine/src
+```
 
 Unfortunately I've found it to be a bit flaky, and prefer to pass
 `--local-engine-src-path` explicitly and not set `$FLUTTER_ENGINE` envvar.
@@ -104,6 +118,5 @@ Run Android tests of `AccessibilityBridge` with Roboelectric:
 	--java-filter io.flutter.view.AccessibilityBridge
 ```
 
-[the official guide]:
-  https://github.com/flutter/flutter/wiki/Setting-up-the-Engine-development-environment#getting-the-source
+[the official guide]: https://github.com/flutter/flutter/wiki/Setting-up-the-Engine-development-environment#getting-the-source
 [depot_tools]: https://chromium.googlesource.com/chromium/tools/depot_tools
