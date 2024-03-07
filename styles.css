@@ -1,15 +1,32 @@
 :root {
-  --primary: #669900;
+  --text: #333333;
   --background: #eeeeee;
+  --background-highlight: #fff7e0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --text: #d8dde2;
     --background: #121212;
+    --background-highlight: #6a4f00;
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+a,
+strong {
+  color: var(--text);
+}
+
 body {
+  background-color: var(--background);
   max-width: 40em;
   margin: auto;
   padding: 1.5em;
@@ -26,6 +43,17 @@ h3 {
 
 header {
   font-size: 1.2em;
+
+  #title-header {
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  a {
+    padding-right: 0.5em;
+  }
 }
 
 footer {
@@ -38,8 +66,8 @@ footer {
 
 blockquote {
   margin: 0;
-  background-color: #ffffe0;
   padding: 0.5em;
+  background-color: var(--background-highlight);
 }
 
 blockquote p {
@@ -48,38 +76,6 @@ blockquote p {
 
 blockquote pre {
   margin: 0.4em;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  li,
-  p,
-  a,
-  strong {
-    color: #f0f6fc;
-  }
-
-  blockquote {
-    /* background-color: #232327; */
-  }
-
-  blockquote {
-    margin: 0;
-    background-color: #b0a565;
-  }
-
-  blockquote p {
-    margin: 0;
-  }
 }
 
 img,
