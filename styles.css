@@ -30,6 +30,10 @@ header {
 
 footer {
   text-align: right;
+
+  a {
+    padding-left: 0.75em;
+  }
 }
 
 blockquote {
