@@ -12,6 +12,20 @@
   }
 }
 
+img[src^="/assets/img/dark"] {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  img[src^="/assets/img/dark"] {
+    display: inherit;
+  }
+
+  img[src^="/assets/img/light"] {
+    display: none;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -91,3 +105,4 @@ table {
   overflow-x: auto;
   display: block;
 }
+

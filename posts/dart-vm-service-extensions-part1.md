@@ -106,6 +106,10 @@ $ dart run spy.dart
 The printer program has counted to 21
 ```
 
+![](/assets/img/light/dart-vms.png)
+
+![](/assets/img/dark/dart-vms.png)
+
 Looks pretty basic, but it's enough for now. Everything needed to implement a
 new service extension is in the built-in [`dart:developer`][dartdeveloper]
 package.
@@ -309,8 +313,8 @@ socket.listen(
 
 # New service extension in a Flutter app
 
-The previous example was a toy one. The real strength of service extensions can
-be seen when working on developer tools for Flutter.
+The previous examples were, let's face it, toy ones. The real strength of
+service extensions can be seen when working on developer tools for Flutter.
 
 Actually, many of the universally praised development-time features that Flutter
 is known for – like [Hot Reload] and [Hot Restart] – are implemented as Dart VM
@@ -352,7 +356,11 @@ its state over service extension!
 
 # Summary
 
-That's all for this post. I hope you find it insightful.
+That's all for this post. I'm happy I finally published it. It's been in my
+"writing cabinet" since May 2023, and I've been procrastinating so much on it.
+Done is better than perfect.
+
+I hope you enjoyed it.
 
 [Dart VM Service Protocol]: https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service.md
 [repo]: https://github.com/bartekpacia/dart-vm-service-extensions
