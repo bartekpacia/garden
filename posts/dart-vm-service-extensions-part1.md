@@ -51,16 +51,20 @@ projects, often developer tooling-related.
 Show how many default service extensions are there (in Observatory/DevTools)
 
 I first learned about and implemented service extensions when I was working on a
-new feature for a [custom test framework for
-Flutter](https://github.com/leancodepl/patrol). That feature has been ditched
-for a while now, but the service extension mechanism seemed pretty interesting
-to me, and not well-known.
+[new feature](https://github.com/leancodepl/patrol/pull/593) for a [custom test
+framework for Flutter](https://github.com/leancodepl/patrol). That feature has
+been ditched for a while now, but the service extension mechanism seemed pretty
+interesting to me, and not well-known. There are also no good resources on the
+internet about it, so I decided to share my knowledge and create one.
 
 # New service extension in a Dart program
 
 Let's implement our first simple service extension. To do so, we need a program
 that has some internal state. We'll bolt our service extension on top of it to
 query that state.
+
+> All code [is available in the GitHub repo][repo] in the `dart_sample`
+> directory.
 
 ### What we'll build
 
@@ -103,8 +107,7 @@ The printer program has counted to 21
 ```
 
 Looks pretty basic, but it's enough for now. Everything needed to implement a
-new service extension is in the built-in
-`[dart:developer](https://api.dart.dev/stable/dart-developer/dart-developer-library.html)`
+new service extension is in the built-in [`dart:developer`][dartdeveloper]
 package.
 
 ---
@@ -122,9 +125,8 @@ developer.registerExtension(extensionName, _getCountHandler);
 ```
 
 `_getCountHandler` must conform to the
-`[ServiceExtensionHandler](https://api.dart.dev/stable/3.1.2/dart-developer/ServiceExtensionHandler.html)`
-typedef. In our case, it's going to simply return a small JSON containing
-`count`:
+[`ServiceExtensionHandler`][ServiceExtensionHandler] typedef. In our case, it's
+going to simply return a small JSON containing `count`:
 
 ```dart
 Future<developer.ServiceExtensionResponse> _getCountHandler(
@@ -213,7 +215,7 @@ Finally, let's call the service extension. Here we pass the `isolateId` that we
 got as the second argument on the command line:
 
 ```dart
-print("Calling service extension ext.printer.getCount...");
+print('Calling service extension ext.printer.getCount...');
 socket.add(jsonEncode({
   'jsonrpc': '2.0',
   'id': 1,
@@ -311,7 +313,7 @@ The previous example was a toy one. The real strength of service extensions can
 be seen when working on developer tools for Flutter.
 
 Actually, many of the universally praised development-time features that Flutter
-is known for – like Hot Reload and Hot Restart – are implemented as Dart VM
+is known for – like [Hot Reload] and [Hot Restart] – are implemented as Dart VM
 Service extensions. [Flutter Engine also has a few service
 extensions](https://github.com/flutter/flutter/wiki/Engine-specific-Service-Protocol-extensions).
 If you're curious and would like to dive deeper in its internals,
@@ -353,6 +355,9 @@ its state over service extension!
 That's all for this post. I hope you find it insightful.
 
 [Dart VM Service Protocol]: https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service.md
-
-[repo]:
-[^slava]: Source: https://mrale.ph/dartvm. It's a great website, BTW.
+[repo]: https://github.com/bartekpacia/dart-vm-service-extensions
+[ServiceExtensionHandler]: https://api.dart.dev/stable/3.3.0/dart-developer/ServiceExtensionHandler.html
+[dartdeveloper]: https://api.dart.dev/stable/dart-developer/dart-developer-library.html
+[Hot Reload]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L211-L226
+[Hot Restart]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L228-L239
+[^slava]: Taken from https://mrale.ph/dartvm. It's a great website.
