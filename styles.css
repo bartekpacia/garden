@@ -12,6 +12,24 @@
   }
 }
 
+img[src^="/assets/img/dark"] {
+  display: none;
+}
+
+img[src^="/assets/img/light"] {
+  display: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  img[src^="/assets/img/dark"] {
+    display: inherit;
+  }
+
+  img[src^="/assets/img/light"] {
+    display: none;
+  }
+}
+
 h1,
 h2,
 h3,

@@ -55,6 +55,7 @@ pre.numberSource > code.sourceCode > span > a:first-child::before {
 
 code {
   background-color: var(--solarized-base3);
+  padding: 2px;
 }
 
 code span.kw {
