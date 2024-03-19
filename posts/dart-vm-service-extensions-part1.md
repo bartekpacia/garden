@@ -249,7 +249,7 @@ Calling service extension ext.printer.getCount...
 Got response from ext.printer.getCount: {status: printing, count: 2}
 ```
 
-Good - we got the response. It works.
+Good - it works, we got the response. [Here's the full code][spy_basic].
 
 # More safety thanks to the vm_service package
 
@@ -285,8 +285,20 @@ Future<void> main(List<String> args) async {
 }
 ```
 
-Create an instance of `VmService`, which provides a higher-level type-safe
-interface to a VM remote service.
+Now we need to create a stream controller and a completer. They are required by
+`VmService`, which we'll create shortly.
+
+```dart
+final StreamController<dynamic> controller = StreamController<dynamic>();
+final Completer<void> streamClosedCompleter = Completer<void>();
+socket.listen(
+  (dynamic data) => controller.add(data),
+  onDone: () => streamClosedCompleter.complete(),
+);
+```
+
+Finally, create an instance of `VmService`, which provides a higher-level
+type-safe interface to a VM remote service.
 
 ```dart
 // VmService is a reference to the VM service that is (possibly) running in a
@@ -299,17 +311,29 @@ final vm_service.VmService vmService = vm_service.VmService(
 );
 ```
 
-You'll be yelled at by the analyzer for not having `controller`. Let's put this
-code before defining `vmService` , but after defining `socket`:
+Finally, we can call the service extension using
+[`VmService.callServiceExtension`][callServiceExtension]:
 
 ```dart
-final StreamController<dynamic> controller = StreamController<dynamic>();
-final Completer<void> streamClosedCompleter = Completer<void>();
-socket.listen(
-  (dynamic data) => controller.add(data),
-  onDone: () => streamClosedCompleter.complete(),
+final serviceExtensionName = 'ext.printer.getCount';
+print('Calling service extension $serviceExtensionName...');
+final vm_service.Response response = await vmService.callServiceExtension(
+  serviceExtensionName,
+  isolateId: isolateId,
 );
+print('Got response from $serviceExtensionName: ${response.json}');
+socket.close();
 ```
+
+[Full code here][spy]. This version of our "spy" VM service client is actually
+more lines of code – but it is one time boilerplate that provides a good
+foundation if your service-extensions-based project grows. Notice how we no
+longer care about low-level details like calling `toJson()` on a map, specifying
+protocol, or assigning ids to messages.
+
+> One very cool improvement that can be made to this program is automatic
+> retrieval of the main isolate ID. Since it's very similar I won't explain it
+> in detail again, instead I'll just [link to its code][spy_best].
 
 # New service extension in a Flutter app
 
@@ -326,7 +350,8 @@ file in the
 [`flutter_tools`](https://github.com/flutter/flutter/tree/master/packages/flutter_tools)
 package is a good starting point.
 
-Service extensions are also essential to Flutter's new [DevTools Extensions] system works.
+Service extensions are also essential to Flutter's new [DevTools Extensions]
+system.
 
 The main difference between the previous pure-Dart example and this one is that
 in case of a Flutter app (running in debug mode), the VM service connection
@@ -368,6 +393,10 @@ I hope you enjoyed it! See you soon in part 2.
 [repo]: https://github.com/bartekpacia/dart-vm-service-extensions
 [ServiceExtensionHandler]: https://api.dart.dev/stable/3.3.0/dart-developer/ServiceExtensionHandler.html
 [dartdeveloper]: https://api.dart.dev/stable/dart-developer/dart-developer-library.html
+[spy_basic]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_basic.dart
+[spy]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy.dart
+[spy_best]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_best.dart
+[callServiceExtension]: https://api.flutter.dev/flutter/vm_service/VmService/callServiceExtension.html
 [Hot Reload]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L211-L226
 [Hot Restart]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L228-L239
 [DevTools Extensions]: https://docs.flutter.dev/tools/devtools/extensions
