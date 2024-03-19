@@ -74,8 +74,6 @@ package is a good starting point.
 Service extensions are also essential to Flutter's new [DevTools Extensions]
 system.
 
-Show how many default service extensions are there (in Observatory/DevTools)
-
 I first learned about and implemented service extensions when I was working on a
 [new feature](https://github.com/leancodepl/patrol/pull/593) for a
 [custom test framework for Flutter](https://github.com/leancodepl/patrol). That
@@ -382,44 +380,40 @@ protocol, or assigning ids to messages.
 > I won't explain it in detail again, instead I'll just [link to its
 > code][spy_best].
 
-# New service extension in a Flutter app
-
-The previous examples were, let's face it, toy ones. The real strength of
-service extensions can be seen when working on developer tools for Flutter.
-
-The main difference between the previous pure-Dart example and this one is that
-in case of a Flutter app (running in debug mode), the VM service connection
-already exists – it's automatically estabilished by the `flutter` tool when you
-`flutter run` (or `flutter attach`). We'll take advantage of that and won't
-create a new one.
-
-Of course, you _could_ create another VM service connection, but I don't see a
-reason why you'd want to do that.
-
----
-
-Before starting coding, let's stop and think what we want to achieve. There are
-2 basic scenarios we can excercise:
-
-- The service extension runs in the app, host machine connects to it. This
-  enables the host to reach into the app and explore its internal state.
-- The service extensions runs on the host machine, the app connects to it. This
-  enables our app to reach out to the outside world. This is useful if something
-  can't be done from withing the device (e.g. executing some powerful `adb`
-  commands), but is trivial to do from the host.
-
-I'll show both.
-
-# Service extension running in the Flutter app
-
-Let's get our hands dirty again by implementing a counter app that will share
-its state over service extension!
-
 # Summary
 
-That's all for this post. I'm happy I finally published it. It's been in my
-"writing cabinet" since May 2023, and I've been procrastinating so much on it.
-Done is better than perfect, as they say.
+That's all for this post. It's been in my "writing cabinet" since May 2023, and
+I've been procrastinating _so much_ on it. That's mainly because I also wanted
+to talk about service extensions in the context of Flutter, but it would make
+the post 50% longer. I still plan to do it – but in part 2. For now, it is what
+it is.
+
+But before we split, let me whet your appetite for part 2.
+
+### New service extension in a Flutter app
+
+The examples I showed were, let's face it, toy ones. The real strength of
+service extensions can be seen when working on developer tools for Flutter.
+
+The main difference between the previous pure-Dart examples and Flutter app is
+that in case of a Flutter app (running in debug mode), the VM service connection
+already exists – it's automatically estabilished by the `flutter` tool when you
+`flutter run` (or `flutter attach`). We'll take advantage of that and won't
+create a new one[^two_connections].
+
+In case of a Flutter app, service extensions enable the following 2 scenarios:
+
+- **Service extension runs in the app**, host machine connects to it. This
+  enables the host to reach into the app and explore its internal state.
+- **Service extension runs on the host machine**, the app connects to it. This
+  enables the app to _reach out_ to the grand outside world. This is useful if
+  something can't be done from withing the device (e.g. executing some powerful
+  `adb` commands), but is trivial to do from the host.
+
+So yeah, in that future blog post I'll show both. Done is better than perfect,
+as they say, ha!
+
+### The end
 
 I hope you enjoyed it! See you soon in part 2.
 
@@ -455,3 +449,6 @@ I hope you enjoyed it! See you soon in part 2.
     great website.
 [^nerds]: If some experienced Dart hacker is reading this post, please do let me
     know how far from the truth I am.
+[^two_connections]: Of course, you _could_ create another VM service connection,
+    but I don't see a reason why you'd want to do that. If you have an idea,
+    drop me a line!
