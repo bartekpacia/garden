@@ -31,22 +31,21 @@ communicate with using the [JSON-RPC]-based _[Dart VM Service Protocol]._
 
 Service extensions is a mechanism that enables developers to add custom
 functionality to that server (think "custom endpoints") without using any
-third-party packages. That's what I'm going to show in this post.
+third-party packages.
 
-Most of the core service extensions are implemented in the VM itself, but some
-Dart's built-in libraries, such as `dart:io`, contribute their own service
-extensions. From the client point of view, there's no difference.
+Let's imagine a running Dart VM with 3 isolates and some service extensions:
 
 ![](/assets/img/light/dart-vm-detailed.png)
 
 ![](/assets/img/dark/dart-vm-detailed.png)
 
-There's a couple interesting points to take a note of in these pictures:
+There's a couple interesting points to take a note of:
 
-**Service extensions are bound to the isolate**.
+- There's a single VM service[^doubt]
 
-**The same extension can be registered in many isolates**.
+- Service extensions are bound to the isolate they were registered in
 
+- The same extension can be registered in many isolates
 
 So it follows that the client must always pass ID of the isolate when calling a
 service extension.
@@ -61,7 +60,7 @@ You most likely will never find a use case for a Dart VM service extension when
 developing _yet another app_. They come useful in the more “frameworky”
 projects, often developer tooling-related. 
 
-Many of the universally praised development-time features that Flutter
+Actually, many of the universally praised development-time features that Flutter
 is known for – like [Hot Reload] and [Hot Restart] – are implemented as Dart VM
 Service extensions.
 [Flutter Engine also has a few service extensions](https://github.com/flutter/flutter/wiki/Engine-specific-Service-Protocol-extensions).
@@ -74,13 +73,15 @@ package is a good starting point.
 Service extensions are also essential to Flutter's new [DevTools Extensions]
 system.
 
+Dart, apart from service extensions defined in [Dart VM Service Protocol], also
+has [Dart Development Service Protocol] and [Dart VM Service Protocol
+Extension].
+
 I first learned about and implemented service extensions when I was working on a
-[new feature](https://github.com/leancodepl/patrol/pull/593) for a
-[custom test framework for Flutter](https://github.com/leancodepl/patrol). That
-feature has been ditched for a while now, but the service extension mechanism
-seemed pretty interesting to me, and not well-known – there are no good
-resources on the internet about it, so I decided to share my knowledge and
-create one.
+[new feature](https://github.com/leancodepl/patrol/pull/593) for a [custom test
+framework for Flutter](https://github.com/leancodepl/patrol). That feature has
+been ditched for a while now, but the service extensions mechanism seemed pretty
+interesting to me, and not well-known, so I decided to share my knowledge.
 
 # New service extension in a Dart program
 
@@ -420,6 +421,10 @@ I hope you enjoyed it! See you soon in part 2.
 [JSON-RPC]: https://www.jsonrpc.org
 [Dart VM Service Protocol]:
   https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service.md
+[Dart VM Service Protocol Extension]:
+  https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service_extension.md
+[Dart Development Service Protocol]:
+  https://github.com/dart-lang/sdk/blob/main/pkg/dds/dds_protocol.md
 [repo]: https://github.com/bartekpacia/dart-vm-service-extensions
 [ServiceExtensionHandler]:
   https://api.dart.dev/stable/3.3.0/dart-developer/ServiceExtensionHandler.html
@@ -449,6 +454,7 @@ I hope you enjoyed it! See you soon in part 2.
     great website.
 [^nerds]: If some experienced Dart hacker is reading this post, please do let me
     know how far from the truth I am.
+[^doubt]:
 [^two_connections]: Of course, you _could_ create another VM service connection,
     but I don't see a reason why you'd want to do that. If you have an idea,
     drop me a line!
