@@ -51,11 +51,12 @@ projects, often developer tooling-related.
 Show how many default service extensions are there (in Observatory/DevTools)
 
 I first learned about and implemented service extensions when I was working on a
-[new feature](https://github.com/leancodepl/patrol/pull/593) for a [custom test
-framework for Flutter](https://github.com/leancodepl/patrol). That feature has
-been ditched for a while now, but the service extension mechanism seemed pretty
-interesting to me, and not well-known – there are no good resources on the
-internet about it, so I decided to share my knowledge and create one.
+[new feature](https://github.com/leancodepl/patrol/pull/593) for a
+[custom test framework for Flutter](https://github.com/leancodepl/patrol). That
+feature has been ditched for a while now, but the service extension mechanism
+seemed pretty interesting to me, and not well-known – there are no good
+resources on the internet about it, so I decided to share my knowledge and
+create one.
 
 # New service extension in a Dart program
 
@@ -155,8 +156,8 @@ final String isolateId = developer.Service.getIsolateID(Isolate.current)!;
 print('Registered service extension $extensionName in $isolateId');
 ```
 
-And that's it for the `printer` program. [Here is its full
-code](https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/printer.dart).
+And that's it for the `printer` program.
+[Here is its full code](https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/printer.dart).
 Now, let's make sure it works and that our extension is registered. To do it,
 run `priner` first with Dart VM service enabled (it's disabled by default) by
 passing the `--enable-vm-service` flag to `dart run`:
@@ -342,8 +343,8 @@ service extensions can be seen when working on developer tools for Flutter.
 
 Actually, many of the universally praised development-time features that Flutter
 is known for – like [Hot Reload] and [Hot Restart] – are implemented as Dart VM
-Service extensions. [Flutter Engine also has a few service
-extensions](https://github.com/flutter/flutter/wiki/Engine-specific-Service-Protocol-extensions).
+Service extensions.
+[Flutter Engine also has a few service extensions](https://github.com/flutter/flutter/wiki/Engine-specific-Service-Protocol-extensions).
 If you're curious and would like to dive deeper in its internals,
 [`vmservice.dart`](https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart)
 file in the
@@ -389,15 +390,25 @@ Done is better than perfect.
 
 I hope you enjoyed it! See you soon in part 2.
 
-[Dart VM Service Protocol]: https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service.md
+[Dart VM Service Protocol]:
+  https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service.md
 [repo]: https://github.com/bartekpacia/dart-vm-service-extensions
-[ServiceExtensionHandler]: https://api.dart.dev/stable/3.3.0/dart-developer/ServiceExtensionHandler.html
-[dartdeveloper]: https://api.dart.dev/stable/dart-developer/dart-developer-library.html
-[spy_basic]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_basic.dart
-[spy]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy.dart
-[spy_best]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_best.dart
-[callServiceExtension]: https://api.flutter.dev/flutter/vm_service/VmService/callServiceExtension.html
-[Hot Reload]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L211-L226
-[Hot Restart]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L228-L239
+[ServiceExtensionHandler]:
+  https://api.dart.dev/stable/3.3.0/dart-developer/ServiceExtensionHandler.html
+[dartdeveloper]:
+  https://api.dart.dev/stable/dart-developer/dart-developer-library.html
+[spy_basic]:
+  https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_basic.dart
+[spy]:
+  https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy.dart
+[spy_best]:
+  https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_best.dart
+[callServiceExtension]:
+  https://api.flutter.dev/flutter/vm_service/VmService/callServiceExtension.html
+[Hot Reload]:
+  https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L211-L226
+[Hot Restart]:
+  https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L228-L239
 [DevTools Extensions]: https://docs.flutter.dev/tools/devtools/extensions
+
 [^slava]: Taken from https://mrale.ph/dartvm. It's a great website.
