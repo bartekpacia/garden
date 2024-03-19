@@ -21,6 +21,6 @@ Facebook, uninstalling the Twitter app, and so on. Yet I still find myself
 spending too much time on platforms like Reddit (and HackerNews, but that's a
 different topic, hah).
 
-I'd like to change this. I'd like my wonderful phone – the device I truly love
-and I'm happy that I could afford it – to truly be a “bicycle for my mind”, as
-Steve Jobs once rightfully called a computer.
+I'd like to change this. I'd like my wonderful phone – the device I love and I'm
+happy I could afford it – to truly be a "bicycle for the mind", as Steve Jobs
+once rightfully called a computer.
