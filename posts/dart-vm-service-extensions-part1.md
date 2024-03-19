@@ -54,7 +54,7 @@ I first learned about and implemented service extensions when I was working on a
 [new feature](https://github.com/leancodepl/patrol/pull/593) for a [custom test
 framework for Flutter](https://github.com/leancodepl/patrol). That feature has
 been ditched for a while now, but the service extension mechanism seemed pretty
-interesting to me, and not well-known. There are also no good resources on the
+interesting to me, and not well-known – there are no good resources on the
 internet about it, so I decided to share my knowledge and create one.
 
 # New service extension in a Dart program
@@ -99,7 +99,7 @@ Now imagine that you want to write another Dart program, let's call it `spy`,
 that would be able to ask `printer` about its state. There are lots of ways to
 it – HTTP server, WebSockets, Unix Domain Sockets, and many more, but since this
 is a post about service extensions, I'll use them (Service extension actually
-work over WebSockets). Here's how I image `spy` to work when run:
+work over WebSockets). Here's how I imagine `spy` to work when run:
 
 ```
 $ dart run spy.dart
@@ -119,20 +119,20 @@ package.
 ### Implementing `printer`
 
 The first thing to do is pick a name for our new service extension. I went with
-`ext.printer.getCount` (custom service extensions must start with `ext`). Then I
-register the `_getCountHandler` function to run when the extension is called.
-I'll implement it shortly.
+`ext.printer.getCount` – custom service extensions must start with `ext`:
 
 ```dart
 const String extensionName = 'ext.printer.getCount';
-developer.registerExtension(extensionName, _getCountHandler);
 ```
 
-`_getCountHandler` must conform to the
+Then I register the `_getCountHandler` function to run when the extension is
+called. `_getCountHandler` must conform to the
 [`ServiceExtensionHandler`][ServiceExtensionHandler] typedef. In our case, it's
 going to simply return a small JSON containing `count`:
 
 ```dart
+developer.registerExtension(extensionName, _getCountHandler);
+
 Future<developer.ServiceExtensionResponse> _getCountHandler(
   String method,
   Map<String, String> parameters,
@@ -326,6 +326,8 @@ file in the
 [`flutter_tools`](https://github.com/flutter/flutter/tree/master/packages/flutter_tools)
 package is a good starting point.
 
+Service extensions are also essential to Flutter's new [DevTools Extensions] system works.
+
 The main difference between the previous pure-Dart example and this one is that
 in case of a Flutter app (running in debug mode), the VM service connection
 already exists – it's automatically estabilished by the `flutter` tool when you
@@ -360,7 +362,7 @@ That's all for this post. I'm happy I finally published it. It's been in my
 "writing cabinet" since May 2023, and I've been procrastinating so much on it.
 Done is better than perfect.
 
-I hope you enjoyed it.
+I hope you enjoyed it! See you soon in part 2.
 
 [Dart VM Service Protocol]: https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service.md
 [repo]: https://github.com/bartekpacia/dart-vm-service-extensions
@@ -368,4 +370,5 @@ I hope you enjoyed it.
 [dartdeveloper]: https://api.dart.dev/stable/dart-developer/dart-developer-library.html
 [Hot Reload]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L211-L226
 [Hot Restart]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L228-L239
+[DevTools Extensions]: https://docs.flutter.dev/tools/devtools/extensions
 [^slava]: Taken from https://mrale.ph/dartvm. It's a great website.
