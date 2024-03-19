@@ -58,7 +58,7 @@ functionality.
 
 You most likely will never find a use case for a Dart VM service extension when
 developing _yet another app_. They come useful in the more “frameworky”
-projects, often developer tooling-related. 
+projects, often developer tooling-related.
 
 Actually, many of the universally praised development-time features that Flutter
 is known for – like [Hot Reload] and [Hot Restart] – are implemented as Dart VM
@@ -78,10 +78,11 @@ has [Dart Development Service Protocol] and [Dart VM Service Protocol
 Extension].
 
 I first learned about and implemented service extensions when I was working on a
-[new feature](https://github.com/leancodepl/patrol/pull/593) for a [custom test
-framework for Flutter](https://github.com/leancodepl/patrol). That feature has
-been ditched for a while now, but the service extensions mechanism seemed pretty
-interesting to me, and not well-known, so I decided to share my knowledge.
+[new feature](https://github.com/leancodepl/patrol/pull/593) for a
+[custom test framework for Flutter](https://github.com/leancodepl/patrol). That
+feature has been ditched for a while now, but the service extensions mechanism
+seemed pretty interesting to me, and not well-known, so I decided to share my
+knowledge.
 
 # New service extension in a Dart program
 
@@ -273,7 +274,6 @@ socket.close();
 
 ---
 
-
 That should be it. Let's run both programs now, starting with `printer`.
 
 ```
@@ -342,8 +342,8 @@ socket.listen(
 );
 ```
 
-Finally, create an instance of [`VmService`][VmService], which provides a higher-level
-type-safe interface to a VM remote service.
+Finally, create an instance of [`VmService`][VmService], which provides a
+higher-level type-safe interface to a VM remote service.
 
 ```dart
 // VmService is a reference to the VM service that is (possibly) running in a
@@ -450,11 +450,15 @@ I hope you enjoyed it! See you soon in part 2.
 [auto_main_isolate]:
   https://github.com/bartekpacia/dart-vm-service-extensions/blob/98092cef91c4921c175b27682666d2056dda287e/dart_sample/bin/spy_best.dart#L31-L37
 
-[^slava]: Taken from [https://mrale.ph/dartvm](https://mrale.ph/dartvm). It's a
-    great website.
-[^nerds]: If some experienced Dart hacker is reading this post, please do let me
-    know how far from the truth I am.
+[^slava]:
+    Taken from [https://mrale.ph/dartvm](https://mrale.ph/dartvm). It's a great
+    website.
+
+[^nerds]:
+    If some experienced Dart hacker is reading this post, please do let me know
+    how far from the truth I am.
+
 [^doubt]:
-[^two_connections]: Of course, you _could_ create another VM service connection,
-    but I don't see a reason why you'd want to do that. If you have an idea,
-    drop me a line!
+[^two_connections]:
+    Of course, you _could_ create another VM service connection, but I don't see
+    a reason why you'd want to do that. If you have an idea, drop me a line!
