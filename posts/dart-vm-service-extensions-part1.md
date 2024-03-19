@@ -1,13 +1,12 @@
 ---
-date: 20240310
+date: 20240319
 ---
 
 # Writing a custom Dart VM service extension (part 1)
 
 In this post, I'll take a closer look at Dart VM's service extensions mechanism
 and explain what service extensions are and why they are useful in certain
-situations. I'll also show how to implement a new, simple service extension in a
-pure Dart program and in a Flutter app.
+situations. I'll also show how to implement one.
 
 # The Dart language
 
@@ -26,8 +25,9 @@ your code are statically compiled into the same binary.
 
 # What are service extensions?
 
-Dart VM hosts a VM service, which is essentially a WebSocket server that you can
-communicate with using the [JSON-RPC]-based _[Dart VM Service Protocol]._
+Dart VM hosts a VM service, which is essentially a WebSockets server that you
+can communicate with using the [JSON-RPC]-based _[Dart VM Service Protocol]._
+Through a VM service, you can interact with service extensions.
 
 Service extensions is a mechanism that enables developers to add custom
 functionality to that server (think "custom endpoints") without using any
@@ -41,7 +41,7 @@ Let's imagine a running Dart VM with 3 isolates and some service extensions:
 
 There's a couple interesting points to take a note of:
 
-- There's a single VM service[^doubt]
+- There's a single VM service
 
 - Service extensions are bound to the isolate they were registered in
 
@@ -458,7 +458,6 @@ I hope you enjoyed it! See you soon in part 2.
     If some experienced Dart hacker is reading this post, please do let me know
     how far from the truth I am.
 
-[^doubt]:
 [^two_connections]:
     Of course, you _could_ create another VM service connection, but I don't see
     a reason why you'd want to do that. If you have an idea, drop me a line!
