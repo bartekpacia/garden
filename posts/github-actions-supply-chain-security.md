@@ -46,8 +46,8 @@ code:
  echo "more legit shell code"
 ```
 
-The change is introduced in a commit with message "bump deps" that removes 6969
-and adds 2137 lines of code to many files, mostly `package-lock.json`. Then
+The change is introduced in a commit with the message "bump deps" that removes
+6969 and adds 2137 lines of code to many files, mostly `package-lock.json`. Then
 `malloy` releases this new version as `v2.1`:
 
 ```console
@@ -68,7 +68,7 @@ git push --tags
 It's a Friday night. Hundreds of thousands of nightly builds run, in thousands
 of repositories, including private ones.
 
-No one notices for a few days.
+No one notices anything for a few days.
 
 ---
 
