@@ -89,9 +89,12 @@ The problem with the above is twofold:
 
 ---
 
-I maintain the `subosito/flutter-action` (it should be named `setup-flutter`).
-If you enjoyed the read, consider [sending me a few bucks for coffee][sponsor].
-I pinky promise to never perform a supply chain attack on you.
+I maintain the GiHub Actions called [subosito/flutter-action][^1]. If you
+enjoyed the read, consider [sending me a few bucks for coffee][sponsor]. I pinky
+promise to never perform a supply chain attack on you.
 
 [gh]: https://docs.github.com/en/actions/creating-actions/about-custom-actions#using-tags-for-release-management
 [sponsor]: https://github.com/sponsors/bartekpacia
+[subosito/flutter-action]: https://github.com/subosito/flutter-action
+
+[^1]: It should be named `setup-flutter`.
