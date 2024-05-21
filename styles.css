@@ -41,6 +41,7 @@ p,
 a,
 strong {
   color: var(--text);
+  position: relative;
 }
 
 body {
@@ -109,3 +110,30 @@ table {
   overflow-x: auto;
   display: block;
 }
+
+/* show the anchor links in headings if one hovers over the heading. */
+.anchor::before {
+  content: "🔗";
+  display: inline-block;
+  position: absolute;
+  right: 0.25em;
+  /* margin-right: 0.25rem; */
+  font-size: 80%;
+  line-height: 1.5;
+  opacity: 0.15;
+  width: 1.5em;
+  /* background-color: rgb(255, 165, 0); */
+}
+.anchor:hover {
+  text-decoration: none;
+}
+
+h1:hover > .anchor::before,
+h2:hover > .anchor::before,
+h3:hover > .anchor::before,
+h4:hover > .anchor::before,
+h5:hover > .anchor::before,
+h6:hover > .anchor::before {
+  opacity: 1;
+}
+/* end: heading anchor links */
