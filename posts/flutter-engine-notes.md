@@ -17,7 +17,14 @@ This step is well explained by [the official guide].
 First step is to clone [depot_tools] into $HOME:
 
 ```
-git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git ~/depot_tools
+```
+
+Since I don't do Engine development often, I don't want `depot_tools` in my
+$PATH by default. Instead, I export it only when I need it:
+
+```
+export PATH="$HOME/depot_tools:$PATH"
 ```
 
 # Build
@@ -120,6 +127,5 @@ Run Android tests of `AccessibilityBridge` with Roboelectric:
 	--java-filter io.flutter.view.AccessibilityBridge
 ```
 
-[the official guide]:
-  https://github.com/flutter/flutter/blob/master/docs/engine/dev/Setting-up-the-Engine-development-environment.md
+[the official guide]: https://github.com/flutter/flutter/blob/master/docs/engine/dev/Setting-up-the-Engine-development-environment.md
 [depot_tools]: https://chromium.googlesource.com/chromium/tools/depot_tools
