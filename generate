@@ -12,6 +12,7 @@ cp -R assets build
 cp ./*.css build
 cp rss.xml build
 cp public.key build
+cp robots.txt build
 
 MD_RENDERER="pandoc --toc --lua-filter=tools/anchor-links.lua"
 ssb \
