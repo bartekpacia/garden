@@ -1,6 +1,8 @@
-This favicon was generated using the following font:
+This favicon was generated on https://favicon.io
 
-- Font Title: Lato
-- Font Author: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (team@latofonts.com) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
-- Font Source: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHvxk6XweuBCY.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
+The following font was used:
+
+- Font Title: JetBrains Mono
+- Font Author: Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+- Font Source: https://fonts.gstatic.com/s/jetbrainsmono/v18/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPVmUsaaDhw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
