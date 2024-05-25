@@ -2,11 +2,19 @@
 set -euo pipefail
 
 for post in posts/*.md; do
-    creation_date="$(yq --front-matter extract '.date' "$post")"
-    touch -t "${creation_date}2137" "$post"
-    echo "Updated creation date for $post"
+	creation_date="$(yq --front-matter extract '.date' "$post")"
+	touch -t "${creation_date}2137" "$post"
+	echo "Updated creation date for $post"
 done
 
+mkdir -p build
+cp -R assets build
+cp ./*.css build
+cp rss.xml build
+cp public.key build
 
 MD_RENDERER="pandoc --toc --lua-filter=tools/anchor-links.lua"
-ssb -m "$MD_RENDERER" index.md writing.md contact.md
+ssb \
+	-m "$MD_RENDERER" \
+	-o build \
+	index.md writing.md contact.md
