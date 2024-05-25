@@ -7,4 +7,6 @@ for post in posts/*.md; do
     echo "Updated creation date for $post"
 done
 
-./ssb index.md writing.md contact.md
+
+MD_RENDERER="pandoc --toc --lua-filter=tools/anchor-links.lua"
+ssb -m "$MD_RENDERER" index.md writing.md contact.md
