@@ -121,5 +121,5 @@ Run Android tests of `AccessibilityBridge` with Roboelectric:
 ```
 
 [the official guide]:
-  https://github.com/flutter/flutter/wiki/Setting-up-the-Engine-development-environment#getting-the-source
+  https://github.com/flutter/flutter/blob/master/docs/engine/dev/Setting-up-the-Engine-development-environment.md
 [depot_tools]: https://chromium.googlesource.com/chromium/tools/depot_tools
