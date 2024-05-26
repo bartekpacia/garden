@@ -14,7 +14,7 @@ cp rss.xml build
 cp public.key build
 cp robots.txt build
 
-MD_RENDERER="pandoc --toc --lua-filter=tools/anchor-links.lua"
+MD_RENDERER="pandoc --lua-filter=tools/anchor-links.lua"
 ssb \
 	-m "$MD_RENDERER" \
 	-o build \

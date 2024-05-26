@@ -2,10 +2,16 @@
 
 My personal ~~blog~~ digital garden website.
 
-### Set post data
+## Some random notes
 
-For example, to set the date to March 13th, 2020 at 21:37:
+Easily see what pandoc produces:
 
 ```console
-$ touch -t 202003132137 posts/post-1.md
+pandoc posts/my-journey-to-google-io-2024.md | prettier --parser html | bat -l html
+```
+
+Set correct date (for example to March 13th, 2020 at 21:37):
+
+```console
+touch -t 202003132137 posts/post-1.md
 ```
