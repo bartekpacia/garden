@@ -39,22 +39,24 @@ they're depending on every day.
 
 ### Install Java Development Kit
 
-I use the [Eclipse Temurin] JDK distribution, but other ones should work too. On
-macOS (which I use), installing them is as simple as:
+I prefer the official OpenJDK distribution, but other ones (like Eclipse
+Temurin) also work. On macOS (which I use), installing it is as simple as:
 
 ```
-brew tap homebrew/cask-version
-brew install temurin17
+brew install openjdk@21
 ```
 
-> Unless you're spelunking in some legacy project, you should use JDK 17, since
-> it's the latest LTS release.
+> Unless you have valid reasons not to, you should use JDK 21, since it's the
+> latest LTS release.
+>
+> Here's [a great post from Jake Wharton] that explains this in much more
+> detail. Go read it!
 
 Then, set `JAVA_HOME` and add the binaries to `PATH`. To do it, open your
 `~/.bashrc`, `~/.zshrc`, or whateverrc you use and add:
 
 ```
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
 ```
 
@@ -353,13 +355,10 @@ about the SDK's structure. You can go to your Android app project and start
 building it.
 
 [developer.android.com/studio]: https://developer.android.com/studio
-["Command line tools only" section]:
-  https://developer.android.com/studio#command-line-tools-only
-[Eclipse Temurin]: https://adoptium.net/temurin/releases
+["Command line tools only" section]: https://developer.android.com/studio#command-line-tools-only
+[a great post from Jake Wharton]: https://jakewharton.com/gradle-toolchains-are-rarely-a-good-idea
 [PATH]: https://en.wikipedia.org/wiki/PATH_(variable)
 [Android Runtime]: https://source.android.com/docs/core/runtime
 [almost_asterisk]: https://stackoverflow.com/q/76694804/7009800
-[my own shell config file]:
-  https://github.com/bartekpacia/dotfiles/blob/6cc3a37e7a8330b760a4810fc49c31ab8a56e9f3/dot/shrc#L32-L52
-[Google recommends doing it this way]:
-  https://developer.android.com/tools/releases/cmdline-tools
+[my own shell config file]: https://github.com/bartekpacia/dotfiles/blob/6cc3a37e7a8330b760a4810fc49c31ab8a56e9f3/dot/shrc#L32-L52
+[Google recommends doing it this way]: https://developer.android.com/tools/releases/cmdline-tools
