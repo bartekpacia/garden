@@ -137,3 +137,9 @@ h6:hover > .anchor::before {
   opacity: 1;
 }
 /* end: heading anchor links */
+
+.published-date {
+  margin: 0;
+  color: var(--solarized-base02);
+  font-size: 0.9em;
+}
