@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+
 for post in posts/*.md; do
 	creation_date="$(yq --front-matter extract '.date' "$post")"
 	touch -t "${creation_date}2137" "$post"
@@ -13,7 +14,9 @@ cp rss.xml build
 cp public.key build
 cp robots.txt build
 
-MD_RENDERER='DATE=$(yq --front-matter extract ".date" "$md_file") pandoc --verbose --metadata=date:XD1 --lua-filter tools/anchor-links.lua --lua-filter tools/append-date.lua'
+# Depends on BSD "date" :(
+
+MD_RENDERER=$'DATE="$(date -j -f "%Y%m%d" $(yq --front-matter extract ".date" "$md_file") "+%A, %d %B %Y")" pandoc --verbose --metadata=date:XD1 --lua-filter tools/anchor-links.lua --lua-filter tools/append-date.lua'
 ssb \
 	-m "$MD_RENDERER" \
 	-o build \
