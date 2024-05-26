@@ -16,7 +16,7 @@ cp robots.txt build
 
 # Depends on BSD "date" :(
 
-MD_RENDERER='DATE="$(date -j -f "%Y%m%d" $(yq --front-matter extract ".date" "$md_file") "+%A, %d %B %Y")" pandoc --verbose --lua-filter tools/anchor-links.lua --lua-filter tools/append-date.lua'
+MD_RENDERER='DATE="$(date -j -f "%Y%m%d" $(yq --front-matter extract ".date" "$md_file") "+%A, %d %B %Y")" pandoc --verbose --lua-filter tools/anchor-links.lua --lua-filter tools/append-date.lua -V description:XDXD --template post.html --metadata title:XDD --metadata lang:en'
 ssb \
 	-m "$MD_RENDERER" \
 	-o build \
