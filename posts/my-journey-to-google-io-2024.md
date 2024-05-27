@@ -86,9 +86,34 @@ I took BART to the city, where I had the hotel.
 
 ## Internet Archive
 
+For the first day I had planned. I learned about the possibility to visit the HQ
+from [a reddit thread]
+
 Walk to Fishermans Wharf, SF Giants game
 
 ## SF Giants
+
+I'm no baseball fan (I barely understand the basics), but given that I didn't
+have anything planned for the evening, I went to see a Giants game. They played
+against Cincinnati Reds ([and lost 4:2]).
+
+Funny thing: I bought tickets on SeatGeek, and expected to receive it over
+email. The email arrived, but it said that the tickets were available in the
+SeatGeek app – and I couldn't download SeatGeek on my non-US iPhone ("App not
+available in your region"). Since the game had already started, and I just
+wanted to get in as soon as possible, I tried to buy another ticket at the
+counter – but they didn't accept tap, and I only had a phone with me (In Poland,
+you can tap literally everywhere, and apparently I'm spoiled by that). There was
+an ATM nearby, but none of my cards worked. I was so angry and almost came to
+terms with my failure, but then a guy walked up to me and told me to go ask at
+some other counter, where I explained my situation to nice, elderly lady - and
+she _printed a paper ticket_ for me!
+
+I missed the beginning, but I think it was well-worth it, since now I have a
+cool souvenir.
+
+I experienced a similar problem at the Dodger Stadium a few months back, and in
+the end I also got paper tickets. I think I might start collecting them!
 
 ## Berkeley
 
@@ -161,4 +186,6 @@ As my friend Szymon once wisely said "in Poland, the cheapest is usually a
 sensible choice. In the US, it's almost always the worst possible choice".
 
 [Reid Baker]: https://github.com/reidbaker
+[a reddit thread]: https://www.reddit.com/r/internetarchive/comments/10a9izs/internet_archive_headquarters
+[and lost 4:2]: https://www.mlb.com/gameday/reds-vs-giants/2024/05/10/745340/final/wrap
 [song]: https://www.youtube.com/watch?v=g81F_2UfXzQ
