@@ -86,8 +86,23 @@ I took BART to the city, where I had the hotel.
 
 ## Internet Archive
 
-For the first day I had planned. I learned about the possibility to visit the HQ
-from [a reddit thread]
+For the first day I had planned a visit to Internet Archive's HQ (I learned
+about this possibility from [a reddit thread]).
+
+![Internet Archive HQ](/assets/california-2024v2/4 Internet Archive.avif)
+
+It felt a bit surreal to just casually walk around (and even touch!) the servers
+of the busiest websites in the world and talk with the handful of brilliant
+engineers who make them run.
+
+Some takeways from that visit:
+
+- Archive's mission is becoming harder in the present age of so-called social
+  media's increasing dominance.
+
+- Modern social media is an illusion of shared experience. It is not shared at
+  all. Our society is built on having shared experience - but because of social
+  media, it's going away.
 
 Walk to Fishermans Wharf, SF Giants game
 
@@ -208,7 +223,7 @@ hill, taking in the beautiful vistas of the South Bay.
 
 # Wrapping up
 
-I am happy that I could experience that. For me, the Bay Area is the
+I feel happy that I could experience that. For me, the Bay Area is the
 most beautiful place in the world. I enjoyed every minute of being there, and I
 hope to come back sooner than later.
 
