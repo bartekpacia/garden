@@ -84,9 +84,13 @@ I took BART to the city, where I had the hotel.
 
 # Friday, May 10th – Exploring the city
 
-Internet Archive
+## Internet Archive
 
 Walk to Fishermans Wharf, SF Giants game
+
+## SF Giants
+
+## Berkeley
 
 Berkeley "finals are over rave". Just awesome. I had some weird impostor
 syndrome – here I am, a dude from some no-name university in a random European
@@ -96,7 +100,17 @@ It was all very stupid and again, I'm _so glad_ I went.
 
 # Saturday, May 11th – Trip 1/2
 
+## Damn Thrifty
+
 Very stupid practice by Thrifty!
+
+## Santa Cruz
+
+> _Santa Cruz in June_
+>
+> _Either blue, surf the moon_
+>
+> – [Red Hot Chili Peppers][song]
 
 # Sunday, May 12th – Trip 2/2
 
@@ -147,3 +161,4 @@ As my friend Szymon once wisely said "in Poland, the cheapest is usually a
 sensible choice. In the US, it's almost always the worst possible choice".
 
 [Reid Baker]: https://github.com/reidbaker
+[song]: https://www.youtube.com/watch?v=g81F_2UfXzQ
