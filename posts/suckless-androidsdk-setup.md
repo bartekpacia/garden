@@ -1,5 +1,6 @@
 ---
 date: 20230527
+updated: 20240526
 ---
 
 # Suckless Android SDK setup

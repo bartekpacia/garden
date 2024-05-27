@@ -3,8 +3,6 @@
 local i = 0
 local envvars = pandoc.system.environment()
 
--- pandoc.log.info("Append date called, with DATE = " .. tostring(envvars['DATE']))
-
 -- Adapted from https://stackoverflow.com/a/72762025/7009800
 local function custompara (para)
     return pandoc.Plain(
@@ -15,10 +13,15 @@ local function custompara (para)
   end
 
 function Header (h)
-    -- pandoc.log.info("Header called, with date " .. tostring(envvars["date"]) .. " and i = " .. i)
     i = i + 1
     if i == 1 then
-        local para = pandoc.Para(pandoc.Str("Published on " .. envvars['DATE']))
+        local updated_date = envvars['UPDATED_DATE']
+
+        local text = envvars['PUBLISHED_DATE']
+        if updated_date then
+            text = text .. ' / last updated: ' .. updated_date
+        end
+        local para = pandoc.Para(pandoc.Str(text))
         local newpara = custompara(para)
 
         return {h, newpara}

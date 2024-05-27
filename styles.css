@@ -1,8 +1,8 @@
 :root {
   --color-text-primary: #333333;
+  --color-text-secondary: #637282;
   --color-background: #eeeeee;
   --color-background-highlight: #fff7e0;
-  --color-text-secondary: #637282;
 
   --top-padding: 92px;
   --main-width: 745px;
@@ -79,6 +79,12 @@ article {
 #TOC ul {
   list-style: none;
   padding-inline-start: 10px;
+}
+
+#TOC ul li:first-child {
+  color: red;
+  padding-left: 20px;
+  display: none;
 }
 
 #TOC a {
@@ -189,6 +195,6 @@ h6:hover > .anchor::before {
 
 .published-date {
   margin: 0;
-  color: var(--solarized-base02);
+  color: var(--color-text-secondary);
   font-size: 0.9em;
 }
