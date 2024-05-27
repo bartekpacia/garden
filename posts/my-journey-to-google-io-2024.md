@@ -49,7 +49,7 @@ Area instead for the needless flights premium.
 > In the future, when going on a conference, I'll either stay a few days longer,
 > or have a flight that can be rebooked.
 
-## Thursday, May 9th – Taking off
+# Thursday, May 9th – Taking off
 
 My flight was scheduled from Porto
 
@@ -81,7 +81,7 @@ It was a remarkably beautiful evening.
 In the end, I arrived at SFO 4 hours late, around 8pm local time. After landing
 I took BART to the city, where I had the hotel.
 
-## Friday, May 10th – Exploring the city
+# Friday, May 10th – Exploring the city
 
 Internet Archive
 
@@ -93,11 +93,11 @@ country. How can I even party with people from UC Berkeley?
 
 It was all very stupid and again, I'm _so glad_ I went.
 
-## Saturday, May 11th – Trip 1/2
+# Saturday, May 11th – Trip 1/2
 
 Very stupid practice by Thrifty!
 
-## Sunday, May 12th – Trip 2/2
+# Sunday, May 12th – Trip 2/2
 
 Then I rushed to return the car at SFO – needlessly so, as I later learned.
 
@@ -109,13 +109,13 @@ I dropped Nils in Fremont and drove the Dumbarton bridge.
 > Otherwise it will be absolutely ruined! The sauce stops being liquid way too
 > fast.
 
-## Monday, May 13th – Badge pickup
+# Monday, May 13th – Badge pickup
 
 meeting with Reid in the evening
 
-## Tuesday, May 14th – I/O, day 1
+# Tuesday, May 14th – I/O, day 1
 
-## Wednesday, May 15th – I/O, day 2
+# Wednesday, May 15th – I/O, day 2
 
 Caught by the police On the second day of I/O (Wed, May 15th) I did not feel
 mentally well (for reasons not belonging into a public-facing blogpost) and had
@@ -131,7 +131,7 @@ To my disappointment, I was greeted by this sign:
 Since nobody was looking around, I ignored all these signs and hiked to the
 hill, taking in the beautiful vistas of the South Bay.
 
-## Wrapping up
+# Wrapping up
 
 Takeaways I am happy that I could experience that. For me, the Bay Area is the
 most beautiful place in the world. I enjoyed every minute of being there, and I
