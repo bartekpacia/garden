@@ -1,14 +1,22 @@
 :root {
-  --text: #333333;
-  --background: #eeeeee;
-  --background-highlight: #fff7e0;
+  --color-text-primary: #333333;
+  --color-text-secondary: #637282;
+  --color-background: #eeeeee;
+  --color-background-highlight: #fff7e0;
+
+  --top-padding: 92px;
+  --main-width: 745px;
+  --line-height: 26px;
+
+  --font-size-nav-toc: 12px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #bcc1c6;
-    --background: #1a1a1a;
-    --background-highlight: #6a4f00;
+    --color-text-primary: #bcc1c6;
+    --color-text-secondary: #9d9b99;
+    --color-background: #1a1a1a;
+    --color-background-highlight: #6a4f00;
   }
 }
 
@@ -30,6 +38,10 @@ img[src^="/assets/img/light"] {
   }
 }
 
+h1:first-child {
+  margin-bottom: 8px;
+}
+
 h1,
 h2,
 h3,
@@ -40,18 +52,68 @@ li,
 p,
 a,
 strong {
-  color: var(--text);
+  color: var(--color-text-primary);
   position: relative;
 }
 
 body {
-  background-color: var(--background);
-  max-width: 40em;
-  margin: auto;
-  padding: 1.5em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding-top: var(--top-padding);
+  background-color: var(--color-background);
   font-size: 1.2em;
   line-height: 1.62;
   font-family: sans-serif;
+}
+
+.centered-content {
+  max-width: var(--main-width);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 745px) {
+  .centered-content {
+    padding: 0 1em;
+  }
+}
+
+#TOC {
+  font-size: var(--font-size-nav-toc);
+  line-height: var(--line-height);
+  max-width: var(--main-width);
+  margin: 0 auto;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-inline-start: 10px;
+}
+
+#TOC ul li:first-child {
+  padding-left: 20px;
+  display: none;
+}
+
+#TOC > ul > li:nth-child(2) ::before {
+  content: "Table of contents";
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#TOC a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1364px) {
+  #TOC {
+    margin: 0;
+    position: sticky;
+    float: left;
+    top: 0;
+    max-width: calc((100vw - var(--main-width)) / 2 - 2 * var(--line-height));
+  }
 }
 
 h1,
@@ -63,7 +125,13 @@ h3 {
 header {
   font-size: 1.2em;
 
+  p {
+    display: inline-block;
+  }
+
   #title-header {
+    display: block;
+
     a {
       text-decoration: none;
       color: inherit;
@@ -86,7 +154,7 @@ footer {
 blockquote {
   margin: 0;
   padding: 0.5em;
-  background-color: var(--background-highlight);
+  background-color: var(--color-background-highlight);
 }
 
 blockquote p {
@@ -140,6 +208,6 @@ h6:hover > .anchor::before {
 
 .published-date {
   margin: 0;
-  color: var(--solarized-base02);
+  color: var(--color-text-secondary);
   font-size: 0.9em;
 }

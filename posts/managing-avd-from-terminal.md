@@ -1,5 +1,8 @@
 ---
 date: 20230917
+updated: 20240526
+title: Creating and managing Android Virtual Devices using the terminal
+description: A small cheat-sheet.
 ---
 
 # Creating and managing Android Virtual Devices using the terminal
@@ -141,8 +144,6 @@ rm -rf ~/.android/avd/Pixel_7_API_33.avd/snapshots
 - [Advanced emulator usage](https://developer.android.com/studio/run/emulator-commandline#common)
 - [Managing Virtual Devices with the Android Device Manager](https://learn.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/device-manager)
 
-[advanced options]:
-  https://developer.android.com/studio/run/emulator-commandline
-[advanced emulator usage]:
-  https://developer.android.com/studio/run/advanced-emulator-usage
+[advanced options]: https://developer.android.com/studio/run/emulator-commandline
+[advanced emulator usage]: https://developer.android.com/studio/run/advanced-emulator-usage
 [emulator console]: https://developer.android.com/studio/run/emulator-console

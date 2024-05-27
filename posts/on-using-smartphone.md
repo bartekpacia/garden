@@ -1,5 +1,6 @@
 ---
 date: 20240208
+title: On using smartphone for things that make sense
 ---
 
 # On using smartphone for things that make sense

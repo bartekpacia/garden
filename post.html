@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>
+      $title$
+    </title>
+    <!-- $if(title-prefix)$
+        $title-prefix$ –
+      $endif$
+
+      $pagetitle$ -->
+    <meta name="og:title" content="$title$" />
+    <meta name="description" content="$description$" />
+    <meta name="author" content="Bartek Pacia" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="code.css" />
+  </head>
+  <body>
+    $for(include-before)$
+      $include-before$
+    $endfor$
+
+    <header class="centered-content">
+      <nav>
+        <p id="title-header">
+          the digital garden of
+          <strong><a href="https://pacia.tech">Bartek Pacia</a></strong>
+        </p>
+        <a href="./index.html">Home</a>
+        <a href="./writing.html">Writing</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </header>
+
+    $if(toc)$
+      <nav id="$idprefix$TOC" role="doc-toc">
+        $if(toc-title)$
+          <h2 id="$idprefix$toc-title">$toc-title$</h2>
+        $endif$
+        $table-of-contents$
+      </nav>
+    $endif$
+
+    <article class="centered-content">
+      $body$
+    </article>
+
+    $for(include-after)$
+      $include-after$
+    $endfor$
+
+    <footer class="centered-content">
+      <a href="https://garden.pacia.tech/rss.xml">rss</a>
+      <a href="https://github.com/bartekpacia/blog">src</a>
+    </footer>
+  </body>
+</html>

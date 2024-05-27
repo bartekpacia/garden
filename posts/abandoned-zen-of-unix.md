@@ -1,5 +1,6 @@
 ---
 date: 20230521
+title: Short thought on "The Zen of Unix"
 ---
 
 # Short thought on "The Zen of Unix"

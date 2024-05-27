@@ -1,5 +1,7 @@
 ---
 date: 20231130
+title: Semantics in Flutter - under the hood
+description: Random notes about the semantics mechanism.
 ---
 
 # Semantics in Flutter - under the hood
@@ -88,29 +90,16 @@ TODO, but generally:
   callbacks to be run when the engine says so
 
 [Semantics]: https://api.flutter.dev/flutter/widgets/Semantics-class.html
-[SemanticsProperties]:
-  https://api.flutter.dev/flutter/semantics/SemanticsProperties-class.html
-[Semantics renderobject]:
-  https://github.com/flutter/flutter/blob/3.16.0/packages/flutter/lib/src/widgets/basic.dart#L7307-L7317
-[RenderSemanticsAnnotations]:
-  https://api.flutter.dev/flutter/rendering/RenderSemanticsAnnotations-class.html
-[SemanticsNode]:
-  https://api.flutter.dev/flutter/semantics/SemanticsNode-class.html
-[SemanticsUpdateBuilder]:
-  https://api.flutter.dev/flutter/dart-ui/SemanticsUpdateBuilder-class.html
-[SemanticsUpdateBuilder code]:
-  https://github.com/flutter/engine/blob/3.16.0/lib/ui/semantics.dart#L703
-[RenderObject]:
-  https://api.flutter.dev/flutter/rendering/RenderObject-class.html
-[RendererBinding]:
-  https://api.flutter.dev/flutter/rendering/RendererBinding-mixin.html
-[drawFrame]:
-  https://github.com/flutter/flutter/blob/3.16.0/packages/flutter/lib/src/rendering/binding.dart#L590
-[flushSemantics]:
-  https://github.com/flutter/flutter/blob/3.16.0/packages/flutter/lib/src/rendering/object.dart#L1259
-[sendSemanticsUpdates]:
-  https://api.flutter.dev/flutter/semantics/SemanticsOwner/sendSemanticsUpdate.html
-[SBU build]:
-  https://github.com/flutter/engine/blob/3.16.0/lib/ui/semantics.dart#L848
-[SemanticsUpdate]:
-  https://github.com/flutter/engine/blob/3.16.0/lib/ui/semantics.dart#L1029
+[SemanticsProperties]: https://api.flutter.dev/flutter/semantics/SemanticsProperties-class.html
+[Semantics renderobject]: https://github.com/flutter/flutter/blob/3.16.0/packages/flutter/lib/src/widgets/basic.dart#L7307-L7317
+[RenderSemanticsAnnotations]: https://api.flutter.dev/flutter/rendering/RenderSemanticsAnnotations-class.html
+[SemanticsNode]: https://api.flutter.dev/flutter/semantics/SemanticsNode-class.html
+[SemanticsUpdateBuilder]: https://api.flutter.dev/flutter/dart-ui/SemanticsUpdateBuilder-class.html
+[SemanticsUpdateBuilder code]: https://github.com/flutter/engine/blob/3.16.0/lib/ui/semantics.dart#L703
+[RenderObject]: https://api.flutter.dev/flutter/rendering/RenderObject-class.html
+[RendererBinding]: https://api.flutter.dev/flutter/rendering/RendererBinding-mixin.html
+[drawFrame]: https://github.com/flutter/flutter/blob/3.16.0/packages/flutter/lib/src/rendering/binding.dart#L590
+[flushSemantics]: https://github.com/flutter/flutter/blob/3.16.0/packages/flutter/lib/src/rendering/object.dart#L1259
+[sendSemanticsUpdates]: https://api.flutter.dev/flutter/semantics/SemanticsOwner/sendSemanticsUpdate.html
+[SBU build]: https://github.com/flutter/engine/blob/3.16.0/lib/ui/semantics.dart#L848
+[SemanticsUpdate]: https://github.com/flutter/engine/blob/3.16.0/lib/ui/semantics.dart#L1029

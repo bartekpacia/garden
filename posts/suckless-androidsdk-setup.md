@@ -1,5 +1,8 @@
 ---
 date: 20230527
+updated: 20240526
+title: Suckless Android SDK setup
+description: Because the default way to set it up sucks.
 ---
 
 # Suckless Android SDK setup
