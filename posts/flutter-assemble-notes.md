@@ -1,5 +1,7 @@
 ---
 date: 20230515
+title: Notes about "flutter assemble"
+description: Little known, low-level Flutter tool command.
 ---
 
 # Notes about "flutter assemble"
@@ -43,5 +45,4 @@ Invocation spied from running `./gradlew :app:assembleDebug --info`:
 `flutter assemble` is called by the Flutter Gradle Plugin, [here][location].
 
 [PR #32816]: https://github.com/flutter/flutter/pull/32816
-[location]:
-  https://github.com/flutter/flutter/blob/3.16.0/packages/flutter_tools/gradle/src/main/groovy/flutter.groovy#L1350-L1411
+[location]: https://github.com/flutter/flutter/blob/3.16.0/packages/flutter_tools/gradle/src/main/groovy/flutter.groovy#L1350-L1411

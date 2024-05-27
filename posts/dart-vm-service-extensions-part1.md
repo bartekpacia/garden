@@ -1,5 +1,7 @@
 ---
 date: 20240319
+title: Writing a custom Dart VM service extension (part 1)
+description: A closer look at Dart VM's little known mechanism.
 ---
 
 # Writing a custom Dart VM service extension (part 1)
@@ -419,36 +421,22 @@ as they say, ha!
 I hope you enjoyed it! See you soon in part 2.
 
 [JSON-RPC]: https://www.jsonrpc.org
-[Dart VM Service Protocol]:
-  https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service.md
-[Dart VM Service Protocol Extension]:
-  https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service_extension.md
-[Dart Development Service Protocol]:
-  https://github.com/dart-lang/sdk/blob/main/pkg/dds/dds_protocol.md
+[Dart VM Service Protocol]: https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service.md
+[Dart VM Service Protocol Extension]: https://github.com/dart-lang/sdk/blob/main/runtime/vm/service/service_extension.md
+[Dart Development Service Protocol]: https://github.com/dart-lang/sdk/blob/main/pkg/dds/dds_protocol.md
 [repo]: https://github.com/bartekpacia/dart-vm-service-extensions
-[ServiceExtensionHandler]:
-  https://api.dart.dev/stable/3.3.0/dart-developer/ServiceExtensionHandler.html
-[dartdeveloper]:
-  https://api.dart.dev/stable/3.3.0/dart-developer/dart-developer-library.html
-[spy_basic]:
-  https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_basic.dart
-[spy]:
-  https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy.dart
-[spy_best]:
-  https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_best.dart
-[registerExtension]:
-  https://api.dart.dev/stable/3.3.0/dart-developer/registerExtension.html
-[callServiceExtension]:
-  https://pub.dev/documentation/vm_service/14.1.0/vm_service/VmService/callServiceExtension.html
-[VmService]:
-  https://pub.dev/documentation/vm_service/14.1.0/vm_service/VmService-class.html
-[Hot Reload]:
-  https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L211-L226
-[Hot Restart]:
-  https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L228-L239
+[ServiceExtensionHandler]: https://api.dart.dev/stable/3.3.0/dart-developer/ServiceExtensionHandler.html
+[dartdeveloper]: https://api.dart.dev/stable/3.3.0/dart-developer/dart-developer-library.html
+[spy_basic]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_basic.dart
+[spy]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy.dart
+[spy_best]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/master/dart_sample/bin/spy_best.dart
+[registerExtension]: https://api.dart.dev/stable/3.3.0/dart-developer/registerExtension.html
+[callServiceExtension]: https://pub.dev/documentation/vm_service/14.1.0/vm_service/VmService/callServiceExtension.html
+[VmService]: https://pub.dev/documentation/vm_service/14.1.0/vm_service/VmService-class.html
+[Hot Reload]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L211-L226
+[Hot Restart]: https://github.com/flutter/flutter/blob/3.19.0/packages/flutter_tools/lib/src/vmservice.dart#L228-L239
 [DevTools Extensions]: https://docs.flutter.dev/tools/devtools/extensions
-[auto_main_isolate]:
-  https://github.com/bartekpacia/dart-vm-service-extensions/blob/98092cef91c4921c175b27682666d2056dda287e/dart_sample/bin/spy_best.dart#L31-L37
+[auto_main_isolate]: https://github.com/bartekpacia/dart-vm-service-extensions/blob/98092cef91c4921c175b27682666d2056dda287e/dart_sample/bin/spy_best.dart#L31-L37
 
 [^slava]:
     Taken from [https://mrale.ph/dartvm](https://mrale.ph/dartvm). It's a great
