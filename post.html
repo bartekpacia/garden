@@ -39,6 +39,10 @@ $endif$
 $endif$
 </head>
 <body>
+  $for(include-before)$
+  $include-before$
+  $endfor$
+
   <header>
     <nav>
       <p id="title-header">
@@ -51,23 +55,23 @@ $endif$
     </nav>
   </header>
 
-$for(include-before)$
-$include-before$
-$endfor$
+  $if(toc)$
+    <nav id="$idprefix$TOC" role="doc-toc">
+      $if(toc-title)$
+        <h2 id="$idprefix$toc-title">$toc-title$</h2>
+      $endif$
 
-$if(toc)$
-<nav id="$idprefix$TOC" role="doc-toc">
-$if(toc-title)$
-<h2 id="$idprefix$toc-title">$toc-title$</h2>
-$endif$
-$table-of-contents$
-</nav>
-$endif$
-$body$
+      $table-of-contents$
+    </nav>
+  $endif$
 
-$for(include-after)$
-$include-after$
-$endfor$
+  <article>
+    $body$
+  </article>
+
+  $for(include-after)$
+  $include-after$
+  $endfor$
 
 </body>
 </html>
