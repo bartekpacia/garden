@@ -34,21 +34,21 @@ as possible, and also stay as short as possible (because school). This year, I/O
 took place on Tuesday (May 14th) and Wednesday (May 15th), and initial plan was
 to arrive anytime Monday and leave ASAP. But because of the prices, in the end I
 chose to fly in on Thursday (May 9th) – because it was a few hundred $ cheaper
-than Monday, and I'd better spend that money on living and exploring the Bay
+than Monday, and I prefer spend that money on living and exploring the Bay
 Area instead for the needless flights premium.
 
 > **Mistake made**
 >
 > The cheapest "Economy Light" (lol) flights I bought from Lufthansa are, well,
 > stripped off of literally everything except for a seat in a plane - so I could
-> forget about rebooking the flights. Naturally, after I bought the flights, I
-> got an email inviting me to a Flutter community party on a Wednesday night –
-> right when my flight is set to take off at 7:40pm on Wednesday. I could not
-> justify shelling out another $600 or so for a one-way flight on a later day,
-> and I didn't attend that event.
+> forget about rebooking. Naturally, a few days after I bought them, I got an
+> email inviting me to a Flutter community party on a Wednesday night – right
+> when my flight is set to take off at 7:40pm on Wednesday. I could not justify
+> shelling out another $600 or so for a one-way flight on a later day, and I
+> didn't attend that event.
 
 > In the future, when going on a conference, I'll either stay a few days longer,
-> or have a flight that can be rebooked.
+> or make sure I can rebook.
 
 # Thursday, May 9th – Taking off
 
@@ -117,19 +117,35 @@ the end I also got paper tickets. I think I might start collecting them!
 
 ## Berkeley
 
-Berkeley "finals are over rave". Just awesome. I had some weird impostor
-syndrome – here I am, a dude from some no-name university in a random European
-country. How can I even party with people from UC Berkeley?
+A few days earlier I had mentioned to my friend [Nils] that I'd be in the Bay,
+and he dropped me the invite to "finals are over rave" organized by some UC
+Berkeley students.
 
-It was all very stupid and again, I'm _so glad_ I went.
+I didn't stay until the end of the Giants game and took tram and then BART to
+Berkeley.
+
+I had some weird impostor syndrome – here I am, a random dude from some random,
+no-name university in a random European country. How can I even party with
+people from UC Berkeley?
+
+In retrospect, it was all very stupid thinking. Just another reason to always
+try get out of comfort zone.
+
+I'm _so glad_ I went.
 
 # Saturday, May 11th – Trip 1/2
 
-## Damn Thrifty
+## Car rental
 
-Very stupid practice by Thrifty!
+I woke up a bit hungover and checked out of the hotel, and went to the car rental
+at O'Farrell, where I was informed that there weren't any cars left, so I had to
+take BART down to SFO to the gigantic car rental.
+
+An ambitious plan to reach Santa Cruz in the afternoon got delayed.
 
 ## Santa Cruz
+
+Pacifica Taco Bell ✅
 
 > _Santa Cruz in June_
 >
@@ -137,11 +153,14 @@ Very stupid practice by Thrifty!
 >
 > – [Red Hot Chili Peppers][song]
 
+We walked for a few hours around the absolutely stunning UC ~~Summer Camp~~
+Santa Cruz campus.
+
 # Sunday, May 12th – Trip 2/2
 
 Then I rushed to return the car at SFO – needlessly so, as I later learned.
 
-I dropped Nils in Fremont and drove the Dumbarton bridge.
+I dropped off Nils in Fremont and drove the Dumbarton bridge.
 
 > **Mistake made**
 >
@@ -151,9 +170,25 @@ I dropped Nils in Fremont and drove the Dumbarton bridge.
 
 # Monday, May 13th – Badge pickup
 
-meeting with Reid in the evening
+## Badge pickup
+
+Took Caltrain to Mountain View to pick up my badge.
+
+## Meeting with Reid
+
+On Monday evening, Reid and me met up for the first time.
+
+We had a dinner at the superb [Milagros Latin Kitchen restaurant][restaurant] in
+Redwood City.
+
+![In front of Redwood City's City Hall](/assets/california-2024v2/10 Reid and Bartek.avif)
 
 # Tuesday, May 14th – I/O, day 1
+
+Me (and hundreds other people) were admitted late because of Palestine
+protesters who blocked one of the entrances.
+
+![Watching the main keynote](/assets/california-2024v2/9 Sitting at IO.avif)
 
 # Wednesday, May 15th – I/O, day 2
 
@@ -166,14 +201,14 @@ trail entrance.
 
 To my disappointment, I was greeted by this sign:
 
-![](/assets/california-2024v2/12 Vista Point closed.avif)
+![Yes, the bird was alive](/assets/california-2024v2/12 Vista Point closed.avif)
 
 Since nobody was looking around, I ignored all these signs and hiked to the
 hill, taking in the beautiful vistas of the South Bay.
 
 # Wrapping up
 
-Takeaways I am happy that I could experience that. For me, the Bay Area is the
+I am happy that I could experience that. For me, the Bay Area is the
 most beautiful place in the world. I enjoyed every minute of being there, and I
 hope to come back sooner than later.
 
@@ -188,4 +223,6 @@ sensible choice. In the US, it's almost always the worst possible choice".
 [Reid Baker]: https://github.com/reidbaker
 [a reddit thread]: https://www.reddit.com/r/internetarchive/comments/10a9izs/internet_archive_headquarters
 [and lost 4:2]: https://www.mlb.com/gameday/reds-vs-giants/2024/05/10/745340/final/wrap
-[song]: https://www.youtube.com/watch?v=g81F_2UfXzQ
+[Nils]: https://www.nilsand.re
+[song]: https://youtu.be/g81F_2UfXzQ?t=181
+[restaurant]: http://www.milagrosrc.com
