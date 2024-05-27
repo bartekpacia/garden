@@ -1,5 +1,7 @@
 ---
 date: 20240525
+title: My journey to Google I/O '24
+description: A recount of my first I/O ever.
 ---
 
 # My journey to Google I/O '24
