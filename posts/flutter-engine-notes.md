@@ -30,7 +30,7 @@ export PATH="$HOME/depot_tools:$PATH"
 
 # Build
 
-### Build host-side executables
+## Build host-side executables
 
 Generate build files:
 
@@ -44,7 +44,7 @@ Run build:
 ninja -C out/host_debug_unopt_arm64
 ```
 
-### Build for Android emulator
+## Build for Android emulator
 
 Generate build files:
 
@@ -64,7 +64,7 @@ To build only the JAR (skipping things like generating javadoc, linting):
 ninja -C out/android_debug_unopt_arm64 android_jar
 ```
 
-### Build for iOS simulator
+## Build for iOS simulator
 
 Generate build files:
 

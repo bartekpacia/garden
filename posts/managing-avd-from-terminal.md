@@ -19,7 +19,7 @@ need to have Android Studio / IntellIJ installed –
 [Android command-line tools](https://developer.android.com/studio/command-line)
 are enough.
 
-### Creating AVD
+# Creating AVD
 
 To view installed system images:
 
@@ -48,7 +48,7 @@ $ ls -h ~/.android/avd
 Pixel_7_API_33.avd    Pixel_7_API_33.ini
 ```
 
-### Running AVD
+# Running AVD
 
 To run the newly created AVD:
 
@@ -68,7 +68,7 @@ you run it, rendering it unusable. I prefer the below:
 
 </aside>
 
-### Customizing AVD
+# Customizing AVD
 
 The AVD that we've created works, but there are some problems with it. Let's fix
 them.
@@ -89,7 +89,7 @@ hw.ramSize = 4096M
 vm.heapSize = 1024M
 ```
 
-### Changing GPS coordinates
+# Changing GPS coordinates
 
 There's a `AVD.conf` file in `~/.android/avd/Pixel_7_API_33.avd` which contains
 the emulator's GPS coordinates. By default, they point to Google's HQ in
@@ -115,7 +115,7 @@ adb emu geo fix 18.213 50.769
 Somewhat counterintuitively, in the command above longitude comes before
 latitude.
 
-### Disabling saving quick-boot state on exit
+# Disabling saving quick-boot state on exit
 
 I don't like the quick-boot feature. It's unreliable, has weird bugs, and saving
 the snapshot always takes too long when closing the emulator.
@@ -130,7 +130,7 @@ set\saveSnapshotOnExit=1
 > state”. Kind of like Unix exit codes, where 0 means success and non-zero means
 > failure.
 
-### Removing snapshots
+# Removing snapshots
 
 Snapshots live in the `snapshots` directory in your AVD's directory. Removing
 them is simple:

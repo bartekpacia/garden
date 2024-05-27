@@ -21,9 +21,9 @@ Findings:
 3. [PR that optimized semantics](https://github.com/flutter/flutter/pull/104281).
    Has some stats about how many “semantics” there are in big apps.
 
-## How does semantics flow from the Framework to the Engine?
+# How does semantics flow from the Framework to the Engine?
 
-### In the framework
+## In the framework
 
 1. Developer creates a [`Semantics`][Semantics] widget, passes
    [`SemanticsProperties`][SemanticsProperties] to it

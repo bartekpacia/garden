@@ -17,7 +17,7 @@ This post is for you if you:
 - want to know more about what Android SDK provides and have a rough idea of its
   structure
 
-## Preface and rant
+# Preface and rant
 
 Why am I writing this post? Surely there are official guides on installing
 Android SDK?
@@ -38,9 +38,9 @@ you won't install Android Studio on a CI server, right. Right?
 I also strongly believe that everyone should know a thing or two about the tools
 they're depending on every day.
 
-## Basics
+# Basics
 
-### Install Java Development Kit
+## Install Java Development Kit
 
 I prefer the official OpenJDK distribution, but other ones (like Eclipse
 Temurin) also work. On macOS (which I use), installing it is as simple as:
@@ -63,7 +63,7 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
 ```
 
-### Install core command-line tools
+## Install core command-line tools
 
 The official, recommended way to get Android SDK is to simply download Android
 Studio from [developer.android.com/studio]. (You see? There's no `/download`,
@@ -136,7 +136,7 @@ $ cp -r ~/Downloads/cmdline-tools/* ~/androidsdk/cmdline-tools/latest
 The reason why I'm using `latest` is that you might want to install other
 versions of the command line tools. [Google recommends doing it this way].
 
-### Modify PATH
+## Modify PATH
 
 Finally, you want to add the path where command-line tools live to [PATH], and
 also export 2 environment variables. Open `~/.zshrc` and add these lines:
@@ -158,7 +158,7 @@ Reload the shell to apply these changes. For example, if you happen to be using
 > To learn more about the environment variables used by Android SDK, see
 > [this page](https://developer.android.com/tools/variables).
 
-## More advanced stuff
+# More advanced stuff
 
 At this point, you've got the basics done. You should be able to go to your app
 project and run `./gradlew :app:assembleDebug`, or `flutter build apk`, or
@@ -172,7 +172,7 @@ carefully, you'll notice that Gradle downloads a bunch of stuff. In the rest of
 this post, I'll take a closer look at what exactly is being downloaded, and
 what's the purpose of each component.
 
-### Install more tools with sdkmanager
+## Install more tools with sdkmanager
 
 Now you've got yourself a few command-line tools. But that's about it. You still
 don't have any build tools (compilers, resource mergers, shrinkers, that sort of
@@ -190,7 +190,7 @@ Now let's run `sdkmanager` again and download stuff that is always needed.
 A useful command to remember `sdkmanager --list_installed`. Much faster than
 opening up the GUI of SDK manager in Android Studio.
 
-### Emulator
+## Emulator
 
 It's not necessary to build apps, but most people use it. Let's install it:
 
@@ -206,7 +206,7 @@ run `emulator` from anywhere. Open `.zshrc` and append:
 export PATH="$ANDROID_HOME/emulator:$PATH"
 ```
 
-### System images
+## System images
 
 System images are only needed if you plan to use the emulator. You'll save a few
 gigs of disk space by not downloading them.
@@ -227,7 +227,7 @@ apps installed:
 $ sdkmanager --install 'system-images;android-33;google_apis_playstore;arm64-v8'
 ```
 
-### Build tools
+## Build tools
 
 To build apps, you need build tools. By default, Android Gradle Plugin (AGP)
 takes care of downloading the right version of build tools, so you usually don't
@@ -274,7 +274,7 @@ if [ -d "$ANDROID_HOME/build-tools" ]; then
 fi
 ```
 
-### Platform tools
+## Platform tools
 
 (AGP handles these automatically, but we're not interested in that right now)
 
@@ -295,7 +295,7 @@ export PATH="$ANDROID_HOME/platform-tools:$PATH"
 The most famous binary inside `platform-tools` is definitely `adb`. If you've
 been into custom ROMs at some point, you might've also heard of `fastboot`.
 
-### Platforms
+## Platforms
 
 (AGP handles these automatically, but we're not interested in that right now)
 
@@ -346,7 +346,7 @@ There'll be lots of classes whose namespace starts with `androidx` namespace,
 but **([almost][almost_asterisk])** none of them will be from the `android`
 namespace.
 
-## Summary
+# Summary
 
 And that's it for this article.
 
