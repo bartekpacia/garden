@@ -10,7 +10,6 @@
 
   --font-size-nav-toc: 12px;
 }
-
 @media (prefers-color-scheme: dark) {
   :root {
     --color-text-primary: #bcc1c6;
@@ -23,16 +22,13 @@
 img[src^="/assets/img/dark"] {
   display: none;
 }
-
 img[src^="/assets/img/light"] {
   display: inherit;
 }
-
 @media (prefers-color-scheme: dark) {
   img[src^="/assets/img/dark"] {
     display: inherit;
   }
-
   img[src^="/assets/img/light"] {
     display: none;
   }
@@ -71,12 +67,13 @@ body {
   max-width: var(--main-width);
   margin: 0 auto;
 }
-
 @media screen and (max-width: 745px) {
   .centered-content {
     padding: 0 1em;
   }
 }
+
+/* Table of contents */
 
 #TOC {
   font-size: var(--font-size-nav-toc);
@@ -84,28 +81,16 @@ body {
   max-width: var(--main-width);
   margin: 0 auto;
 }
-
 #TOC ul {
   list-style: none;
-  padding-inline-start: 10px;
+  padding-inline-start: 18px;
 }
-
-#TOC ul li:first-child {
-  padding-left: 20px;
-  display: none;
-}
-
-#TOC > ul > li:nth-child(2) ::before {
-  content: "Table of contents";
-  display: block;
-  font-size: 1.2em;
+#TOC > ul > li:first-child > a {
   font-weight: bold;
 }
-
 #TOC a {
   text-decoration: none;
 }
-
 @media screen and (min-width: 1364px) {
   #TOC {
     margin: 0;
@@ -185,12 +170,10 @@ table {
   display: inline-block;
   position: absolute;
   right: 0.25em;
-  /* margin-right: 0.25rem; */
   font-size: 80%;
   line-height: 1.5;
   opacity: 0.15;
   width: 1.5em;
-  /* background-color: rgb(255, 165, 0); */
 }
 .anchor:hover {
   text-decoration: none;
