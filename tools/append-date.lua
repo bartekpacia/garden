@@ -18,7 +18,7 @@ function Header (h)
         local updated_date = envvars['UPDATED_DATE']
 
         local text = envvars['PUBLISHED_DATE']
-        if updated_date then
+        if updated_date ~= '' then
             text = text .. ' / last updated: ' .. updated_date
         end
         local para = pandoc.Para(pandoc.Str(text))

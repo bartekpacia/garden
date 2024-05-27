@@ -38,6 +38,10 @@ img[src^="/assets/img/light"] {
   }
 }
 
+h1:first-child {
+  margin-bottom: 8px;
+}
+
 h1,
 h2,
 h3,
@@ -82,9 +86,15 @@ article {
 }
 
 #TOC ul li:first-child {
-  color: red;
   padding-left: 20px;
   display: none;
+}
+
+#TOC > ul > li:nth-child(2) ::before {
+  content: "Table of contents";
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #TOC a {

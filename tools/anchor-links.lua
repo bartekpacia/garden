@@ -19,7 +19,6 @@ function Header (h)
         {class = 'anchor', ['aria-hidden'] = 'true'} -- attributes
       )
       table.insert(h.content, 1, anchor_link)
-      -- h.content:insert(1, anchor_link)
       return h
     end
   end
