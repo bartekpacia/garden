@@ -6,10 +6,11 @@ description: A recount of my first I/O ever.
 
 # My journey to Google I/O '24
 
-On March 15th this year, I was surprised by an email invitation to this year's
-Google I/O.
+On March 15th, I was surprised by an email invitation to Google I/O.
 
-When I clicked into `cc`, I noticed Reid Baker's email - the Google employee
+![](/assets/california-2024v2/0 Email.avif)
+
+When I clicked into `cc`, I noticed [Reid Baker]'s email - the Google employee
 whom I collaborated with on various boring-sounding Android-related integrations
 in Flutter for the past year.
 
@@ -70,7 +71,7 @@ I was fortunate to get a seat at the window, and two seats to the right were
 free – so I could spread myself out comfortably. Once over California, I could
 take in wonderful views:
 
-![View on Clear Lake](/assets/california-2024v2/1 View on Clear Lake.jpg)
+![View on Clear Lake](/assets/california-2024v2/1 View on Clear Lake.avif)
 
 ![View on the Bay – Golden Gate, San Francisco, Oakland and Berkeley](/assets/california-2024v2/2 View on Golden Gate, SF, and Oakland.avif)
 
@@ -144,3 +145,5 @@ team at Google, for making the project so friendly to open-source contributions.
 
 As my friend Szymon once wisely said "in Poland, the cheapest is usually a
 sensible choice. In the US, it's almost always the worst possible choice".
+
+[Reid Baker]: https://github.com/reidbaker
