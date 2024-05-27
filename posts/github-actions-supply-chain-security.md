@@ -1,10 +1,12 @@
 ---
 date: 20240511
 title: GitHub Actions beg for a supply chain attack
-description: We're 
+description: We're
 ---
 
 # GitHub Actions beg for a supply chain attack
+
+# What's the problem
 
 When the GitHub Actions runner sees
 
@@ -72,7 +74,7 @@ of repositories, including private ones.
 
 No one notices anything for a few days.
 
----
+# Possible fix
 
 My knowledge of the cybersecurity landscape is very basic, but I suppose a
 solution could be for GitHub to deprecate the current way of using external

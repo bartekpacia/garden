@@ -6,6 +6,8 @@ description: Random notes about the semantics mechanism.
 
 # Semantics in Flutter - under the hood
 
+This post is WIP, I might or might go back to this rabbit hole and finish it.
+
 Findings:
 
 1. `SemanticsNode`
