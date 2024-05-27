@@ -1,3 +1,7 @@
+---
+title: Writing | Bartek Pacia
+---
+
 Some of my writing is not published as posts on this website, because I wrote
 for someone else, for money.
 

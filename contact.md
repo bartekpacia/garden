@@ -1,3 +1,7 @@
+---
+title: Contact | Bartek Pacia
+---
+
 To contact me, [text me on Telegram][telegram] or [write me an email][email]. If
 you wish so, you can encrypt email message contents with my [public GPG key].
 

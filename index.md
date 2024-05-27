@@ -1,3 +1,7 @@
+---
+title: Bartek Pacia
+---
+
 Hello there.
 
 I'm Bartek and this is my digital garden - my very own place on the World Wide
