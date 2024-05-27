@@ -67,10 +67,15 @@ body {
   font-family: sans-serif;
 }
 
-article {
+.centered-content {
   max-width: var(--main-width);
   margin: 0 auto;
-  /* padding: 0 1em; */
+}
+
+@media screen and (max-width: 745px) {
+  .centered-content {
+    padding: 0 1em;
+  }
 }
 
 #TOC {
@@ -118,8 +123,6 @@ h3 {
 }
 
 header {
-  max-width: var(--main-width);
-  margin: 0 auto;
   font-size: 1.2em;
 
   p {
