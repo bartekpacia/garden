@@ -87,13 +87,35 @@ I took BART to the city, where I had the hotel.
 ## Internet Archive
 
 For the first day I had planned a visit to Internet Archive's HQ (I learned
-about this possibility from [a reddit thread]).
+about this possibility from [a reddit thread]). I emailed [Jason Scott] and he
+responded – and told me to come an hour before the tour so I'd get lunch! Turns
+out, every Friday they host a community event of sorts, where they invite some
+speakers, and then discuss the topic while having pizza!
 
-![Internet Archive HQ](/assets/california-2024v2/4 Internet Archive.avif)
+After the lunch, the trip around the building started.
+
+The HQ building very closely resembles the IA logo - but actually, it was
+the logo that came first, and then one of IA founders discovered the property
+and bought it.
+
+![Internet Archive HQ (300 Funston Avenue)](/assets/california-2024v2/4 Internet Archive outside.avif)
+
+The building itself is a former Fourth Church of Christ, Scientist. It looks
+magnificent on the outside, but the inside is what surprised me the most!
+
+![The main hall is mostly unchanged from the church times](/assets/california-2024v2/5 Internet Archive inside.avif)
+
+The main hall is mostly unchanged from the church times. It's a charming place
+where faith and technology come overlap in strange ways. There are huge server
+racks scattered around, with pew benches taking most of the space, and hundreds
+of figures[^ia_figures] of former and current IA employees (each Archive
+employee gets one after working there for 3 years).
+
+![I found the figure of Aaron Swartz](/assets/california-2024v2/5.1 Internet Archive - Aaron Swartz.avif)
 
 It felt a bit surreal to just casually walk around (and even touch!) the servers
-of the busiest websites in the world and talk with the handful of brilliant
-engineers who make them run.
+of one of the busiest websites in the world and talk with engineers who make
+them run.
 
 Some takeways from that visit:
 
@@ -104,7 +126,11 @@ Some takeways from that visit:
   all. Our society is built on having shared experience - but because of social
   media, it's going away.
 
-Walk to Fishermans Wharf, SF Giants game
+Having visited IA, I took the bus back to the hotel and rested a bit – but not
+too long, because it was another beautiful day. I went to Fisherman's Wharf, and
+then walked the waterfront to Oracle Park.
+
+![View on Downtown SF](/assets/california-2024v2/6 SF Downtown.avif)
 
 ## SF Giants
 
@@ -207,12 +233,14 @@ protesters who blocked one of the entrances.
 
 # Wednesday, May 15th – I/O, day 2
 
-Caught by the police On the second day of I/O (Wed, May 15th) I did not feel
+Caught by the police
+
+On the second day of I/O (Wed, May 15th) I did not feel
 mentally well (for reasons not belonging into a public-facing blogpost) and had
 to take a break from all the hustle happening at the venue. Some person that I
-had eaten lunch with before suggested me to climb the nearby Shoreline Vista
-Point. I took his advice, walked out of the amphitheater, and headed towards the
-trail entrance.
+had eaten lunch with suggested me to climb the nearby Shoreline Vista Point. I
+took his advice, walked out of the amphitheater, and headed towards the trail
+entrance.
 
 To my disappointment, I was greeted by this sign:
 
@@ -220,6 +248,25 @@ To my disappointment, I was greeted by this sign:
 
 Since nobody was looking around, I ignored all these signs and hiked to the
 hill, taking in the beautiful vistas of the South Bay.
+
+It was a very pleasant short hike (~20min). After reaching the top, I lay on the
+grass and was marveling the area.
+
+After a short while, some dude came along. He seemed to be just another rogue
+tourist. We chatted for a bit and then he walked away. It was only then that I
+noticed he had an earphone in one ear. This made me a bit suspicious, but I
+ignored it and just kept sitting there.
+
+But then, after ~5 minutes, a police patrol drove up the hill in a big-ass quad.
+
+like, real american police - 4 guys with big guns and helmets.
+
+The big guy said that i’m lucky he’s in a good mood today, that he's not angry
+but i cannot be here, and then they offered me a ride back to the venue. We
+chatted a bit on the way down the hill.
+
+Looking back, my behavior was just plain stupid, but fortunately, the odds
+seemed to be in my favor on that day.
 
 # Wrapping up
 
@@ -237,7 +284,10 @@ sensible choice. In the US, it's almost always the worst possible choice".
 
 [Reid Baker]: https://github.com/reidbaker
 [a reddit thread]: https://www.reddit.com/r/internetarchive/comments/10a9izs/internet_archive_headquarters
+[Jason Scott]: http://ascii.textfiles.com
 [and lost 4:2]: https://www.mlb.com/gameday/reds-vs-giants/2024/05/10/745340/final/wrap
 [Nils]: https://www.nilsand.re
 [song]: https://youtu.be/g81F_2UfXzQ?t=181
 [restaurant]: http://www.milagrosrc.com
+
+[^ia_figures]: I don't remember what material they're made of, unfortunately.
