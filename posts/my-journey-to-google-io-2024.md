@@ -239,6 +239,20 @@ protesters who blocked one of the entrances.
 
 ![Watching the main keynote](/assets/california-2024v2/9 Sitting at IO.avif)
 
+Overall, this was one of the best organized events I've attended to date. Lots
+of great food, drinks. I've got to admit I had a bit too many Bud Lights.
+
+But the best thing was meeting many people IRL who previously had only been
+GitHub usernames to me.
+
+As the sun began to set, I took Caltrain back to SF.
+
+> **Mistake made**
+>
+> I should've just kept my rental car instead of trying to save money by taking
+> public transport, which may be good by US standards, but otherwise really
+> mostly sucks. I paid with my time and patience anyway.
+
 # Wednesday, May 15th – I/O, day 2
 
 Caught by the police
