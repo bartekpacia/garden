@@ -201,6 +201,10 @@ stopped.
 We walked for a few hours around the absolutely stunning UC ~~Summer Camp~~
 Santa Cruz campus.
 
+We hiked the woods behind the campus. As we returned, a thick fog began to roll
+in, and it was getting dark, so we drove back to Santa Cruz and had dinner at a
+lovely [Santa Cruz Diner].
+
 # Sunday, May 12th – Trip 2/2
 
 Then I rushed to return the car at SFO – needlessly so, as I later learned.
@@ -278,8 +282,7 @@ I feel happy that I could experience that. For me, the Bay Area is the
 most beautiful place in the world. I enjoyed every minute of being there, and I
 hope to come back sooner than later.
 
-I'd like to thank Reid Baker, who invited me to the I/O, and the whole Flutter
-team at Google, for making the project so friendly to open-source contributions.
+Once again, I'd like to thank Reid, who invited me to the I/O.
 
 --
 
@@ -292,6 +295,7 @@ sensible choice. In the US, it's almost always the worst possible choice".
 [and lost 4:2]: https://www.mlb.com/gameday/reds-vs-giants/2024/05/10/745340/final/wrap
 [Nils]: https://www.nilsand.re
 [song]: https://youtu.be/g81F_2UfXzQ?t=181
+[Santa Cruz Diner]: https://www.santacruzdiner.com
 [restaurant]: http://www.milagrosrc.com
 
 [^ia_figures]: I don't remember what material they're made of, unfortunately.
