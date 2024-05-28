@@ -86,13 +86,13 @@ I took BART to the city, where I had the hotel.
 
 ## Internet Archive
 
-For the first day I had planned a visit to Internet Archive's HQ (I learned
-about this possibility from [a reddit thread]). I emailed [Jason Scott] and he
-responded – and told me to come an hour before the tour so I'd get lunch! Turns
-out, every Friday they host a community event of sorts, where they invite some
-speakers, and then discuss the topic while having pizza!
+For the first day I had planned a visit to the HQ of Internet Archive (IA) (I
+learned about this possibility from [a reddit thread]). Back in April, I emailed
+[Jason Scott] and he responded – and told me to come an hour before the tour so
+I'd get lunch! Turns out, every Friday they host a community event of sorts,
+where they invite some speakers, and then discuss the topic while having pizza!
 
-After the lunch, the trip around the building started.
+After lunch, the trip around the building started, and oh boy, was it worth it!
 
 The HQ building very closely resembles the IA logo - but actually, it was
 the logo that came first, and then one of IA founders discovered the property
@@ -103,13 +103,13 @@ and bought it.
 The building itself is a former Fourth Church of Christ, Scientist. It looks
 magnificent on the outside, but the inside is what surprised me the most!
 
-![The main hall is mostly unchanged from the church times](/assets/california-2024v2/5 Internet Archive inside.avif)
+![Inside the main hall](/assets/california-2024v2/5 Internet Archive inside.avif)
 
-The main hall is mostly unchanged from the church times. It's a charming place
-where faith and technology come overlap in strange ways. There are huge server
-racks scattered around, with pew benches taking most of the space, and hundreds
-of figures[^ia_figures] of former and current IA employees (each Archive
-employee gets one after working there for 3 years).
+The main hall has remained mostly unchanged from the church times. It's a
+charming place where faith and technology come overlap in strange ways. There
+are huge server racks scattered around, with pew benches taking most of the
+space, and hundreds of figures[^ia_figures] of former and current IA employees
+(each Archive employee gets one after working there for 3 years).
 
 ![I found the figure of Aaron Swartz](/assets/california-2024v2/5.1 Internet Archive - Aaron Swartz.avif)
 
@@ -176,17 +176,21 @@ I'm _so glad_ I went.
 
 # Saturday, May 11th – Trip 1/2
 
+For the weekend, Nils and me had planned a trip to Santa Cruz.
+
 ## Car rental
 
-I woke up a bit hungover and checked out of the hotel, and went to the car rental
+I woke up a bit hungover, checked out of the hotel, and went to the car rental
 at O'Farrell, where I was informed that there weren't any cars left, so I had to
-take BART down to SFO to the gigantic car rental.
+take BART down to the gigantic car rental at SFO. For $70 I got a new and shiny
+Nissan Sentra – not a bad deal if you ask me!
 
-An ambitious plan to reach Santa Cruz in the afternoon got delayed.
+An ambitious plan to reach Santa Cruz in the afternoon got delayed, but not
+stopped.
 
 ## Santa Cruz
 
-Pacifica Taco Bell ✅
+![Mandatory stop at Taco Bell in Pacifica](/assets/california-2024v2/7 Pacifica.avif)
 
 > _Santa Cruz in June_
 >
