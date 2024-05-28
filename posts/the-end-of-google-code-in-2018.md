@@ -104,7 +104,7 @@ through the contest.
 **Fun fact** At the end of the contest, there were no Android tasks left for me
 (I had done everything), so I came up with a few ideas and sent them to mentors.
 
-![My plans for the [About App screen in Lead Management app](https://codein.withgoogle.com/dashboard/task-instances/5140503520608256/)](/assets/gci-2018/assets/gci-2018/App design.avif)
+![My plans for the [About App screen in Lead Management app](https://codein.withgoogle.com/dashboard/task-instances/5140503520608256)](/assets/gci-2018/App design.avif)
 
 # People
 
