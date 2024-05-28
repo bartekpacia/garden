@@ -160,6 +160,12 @@ img,
 video {
   width: 100%;
 }
+figcaption {
+  line-height: 1;
+  font-size: 0.9em;
+  color: var(--color-text-secondary);
+}
+
 pre {
   max-width: 100%;
   overflow-x: auto;
