@@ -190,6 +190,8 @@ stopped.
 
 ## Santa Cruz
 
+I picked up Nils and drove down the coast to Santa Cruz for about 2 hours.
+
 ![Mandatory stop at Taco Bell in Pacifica](/assets/california-2024v2/7 Pacifica.avif)
 
 > _Santa Cruz in June_
@@ -202,10 +204,26 @@ We walked for a few hours around the absolutely stunning UC ~~Summer Camp~~
 Santa Cruz campus.
 
 We hiked the woods behind the campus. As we returned, a thick fog began to roll
-in, and it was getting dark, so we drove back to Santa Cruz and had dinner at a
-lovely [Santa Cruz Diner].
+in, and it was getting dark, so we drove back to Santa Cruz and had dinner at
+the lovely [Santa Cruz Diner].
 
 # Sunday, May 12th – Trip 2/2
+
+In the morning, we checked out and drove to see Santa Cruz Boardwalk and the
+beach.
+
+I'm not a huge fan of amusement parks. I also noticed that this one had seen
+better times. It looked a bit old and dull. The weather – misty and chilly -
+just added to my slight disappointment.
+
+![View on Boardwalk's Giant Dipper](/assets/california-2024v2/8 Santa Cruz Boardwalk.avif)
+
+Nils searched for "ice cream" on Google Maps and we went to the one that had the
+highest rating – Marianne's Ice Cream. We accidentally found a true local gem.
+
+The next (and last) stop was Santa Cruz Mission. It's not as impressive as the
+mission in, say, Ventura, but it was still nice. We also grabbed a geocache
+there!
 
 Then I rushed to return the car at SFO – needlessly so, as I later learned.
 
