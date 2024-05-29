@@ -218,22 +218,24 @@ just added to my slight disappointment.
 
 ![View on Boardwalk's Giant Dipper](/assets/california-2024v2/8 Santa Cruz Boardwalk.avif)
 
-Nils searched for "ice cream" on Google Maps and we went to the one that had the
-highest rating – Marianne's Ice Cream. We accidentally found a true local gem.
+The next stop was Santa Cruz Mission. It's not as impressive as the mission in,
+say, Ventura, but it was still nice. We also grabbed a geocache there!
 
-The next (and last) stop was Santa Cruz Mission. It's not as impressive as the
-mission in, say, Ventura, but it was still nice. We also grabbed a geocache
-there!
-
-Then I rushed to return the car at SFO – needlessly so, as I later learned.
+As we were about to leave, Nils searched for "ice cream" on Google Maps and we
+went to the place that had the highest rating – Marianne's Ice Cream. This
+rating thing actually works – we found a true local gem.
 
 I dropped off Nils in Fremont and drove the Dumbarton bridge.
+
+Then I rushed to return the car at SFO (needlessly so, as I later learned. The
+timer starts when I actually pick up the car, not since the time I selected when
+making a reservation on Booking.com)
 
 > **Mistake made**
 >
 > Never ask for animal style In-N-Out if you're not gonna eat it right away.
-> Otherwise it will be absolutely ruined! The sauce stops being liquid way too
-> fast.
+> Otherwise it will be absolutely ruined! The sauce thickens very fast and it's
+> honestly quite disguisting once it's cold.
 
 # Monday, May 13th – Badge pickup
 
