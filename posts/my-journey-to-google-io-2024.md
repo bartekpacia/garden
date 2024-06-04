@@ -383,13 +383,16 @@ seemed to be in my favor on that day.
 
 ## Departure
 
-After that little excursion, I went back to the venue.
+After that little excursion, I went back to the venue for a while, mainly to say
+bye to friends and take some more photos (and eat more free food, hehe).
 
 ![The last photo at the I/O sign](/assets/california-2024v2/6 Photo at the IO sign.avif)
 
 I mentioned I had lost a blouse from the welcome pack the day before.
 Fortunately, my friend [Bruno] gave me his blouse. He said he doesn't care about
 swag (I do). Bruno – thank you!
+
+After a few hours, I arrived at SFO, and that was the end of it.
 
 # Wrapping up
 
