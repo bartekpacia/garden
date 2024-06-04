@@ -1,5 +1,5 @@
 ---
-date: 20240525
+date: 20240604
 title: My journey to Google I/O '24
 description: A recount of my experience traveling to California for my first Google I/O ever.
 ---
@@ -400,6 +400,8 @@ For me, the Bay Area is the most beautiful place in the world. I enjoyed every
 minute of being there, and I hope to come back sooner than later.
 
 Once again, I'd like to thank Reid for the invite.
+
+![](/assets/california-2024v2/6 Android.avif)
 
 [Reid Baker]: https://github.com/reidbaker
 [a reddit thread]: https://www.reddit.com/r/internetarchive/comments/10a9izs/internet_archive_headquarters
