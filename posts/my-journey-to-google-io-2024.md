@@ -1,7 +1,7 @@
 ---
 date: 20240525
 title: My journey to Google I/O '24
-description: A recount of my first I/O ever.
+description: A recount of my experience traveling to California for my first Google I/O ever.
 ---
 
 # My journey to Google I/O '24
@@ -15,9 +15,7 @@ whom I collaborated with on various boring-sounding Android-related integrations
 in Flutter for the past year.
 
 I didn't immediately make any decision on whether to go or not to go. You know,
-I'm a student and have coursework to do and attendance to check off. (In
-retrospect – I cannot believe I was seriously thinking about not going. Given
-the opportunity again, I'd say "yes" in an instant)
+I'm a student and have coursework to do and attendance to check off.[^first]
 
 After a few weeks of practicing my usual "running away from making decisions", I
 decided to go. My reasoning was simple, if a bit weird:
@@ -44,15 +42,13 @@ Area instead for the needless flights premium.
 > forget about rebooking. Naturally, a few days after I bought them, I got an
 > email inviting me to a Flutter community party on a Wednesday night – right
 > when my flight is set to take off at 7:40pm on Wednesday. I could not justify
-> shelling out another $600 or so for a one-way flight on a later day, and I
-> didn't attend that event.
-
-> In the future, when going on a conference, I'll either stay a few days longer,
-> or make sure I can rebook.
+> shelling out another $600 or so to depart a few days later, and I didn't
+> attend that event.
+>
+> When I'll be attending conferences in the future, I'll either stay a few days
+> longer, or make sure I can rebook.
 
 # Thursday, May 9th – Taking off
-
-My flight was scheduled from Porto
 
 This was my flight's itinerary:
 
@@ -68,8 +64,9 @@ was rerouted to Frankfurt. It was the first time I experienced that situation,
 and was nicely surprised how smoothly everything went.
 
 I was fortunate to get a seat at the window, and two seats to the right were
-free – so I could spread myself out comfortably. Once over California, I could
-take in wonderful views:
+free – so I could spread myself out comfortably.
+
+Once over California, I could take in wonderful views:
 
 ![View on Clear Lake](/assets/california-2024v2/1 View on Clear Lake.avif)
 
@@ -77,9 +74,9 @@ take in wonderful views:
 
 ![View on South Bay and the Dumbarton bridge](/assets/california-2024v2/3 View on South Bay, Dumbarton bridge.avif)
 
-It was a remarkably beautiful evening.
+In the end, I arrived at SFO 4 hours late, around 8pm local time. It was a
+remarkably beautiful evening - warm, with delicate mist in the air.
 
-In the end, I arrived at SFO 4 hours late, around 8pm local time. After landing
 I took BART to the city, where I had the hotel.
 
 # Friday, May 10th – Exploring the city
@@ -90,7 +87,8 @@ For the first day I had planned a visit to the HQ of Internet Archive (IA) (I
 learned about this possibility from [a reddit thread]). Back in April, I emailed
 [Jason Scott] and he responded – and told me to come an hour before the tour so
 I'd get lunch! Turns out, every Friday they host a community event of sorts,
-where they invite some speakers, and then discuss the topic while having pizza!
+where they invite some speakers, and then discuss the topic while having pizza
+and ice cream.
 
 After lunch, the trip around the building started, and oh boy, was it worth it!
 
@@ -100,7 +98,7 @@ and bought it.
 
 ![Internet Archive HQ (300 Funston Avenue)](/assets/california-2024v2/4 Internet Archive outside.avif)
 
-The building itself is a former Fourth Church of Christ, Scientist. It looks
+The building itself is a former [Fourth Church of Christ, Scientist]. It looks
 magnificent on the outside, but the inside is what surprised me the most!
 
 ![Inside the main hall](/assets/california-2024v2/5 Internet Archive inside.avif)
@@ -111,24 +109,26 @@ are huge server racks scattered around, with pew benches taking most of the
 space, and hundreds of figures[^ia_figures] of former and current IA employees
 (each Archive employee gets one after working there for 3 years).
 
-![I found the figure of Aaron Swartz](/assets/california-2024v2/5.1 Internet Archive - Aaron Swartz.avif)
+![I found the figure of [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)](/assets/california-2024v2/5.1 Internet Archive - Aaron Swartz.avif)
+
+![There are 30-ish such towers in the HQ. Each has 360 spinning disks.](/assets/california-2024-v2/5.2 Internet Archive - server racks.avif)
 
 It felt a bit surreal to just casually walk around (and even touch!) the servers
 of one of the busiest websites in the world and talk with engineers who make
 them run.
 
-Some takeways from that visit:
-
-- Archive's mission is becoming harder in the present age of so-called social
-  media's increasing dominance.
-
-- Modern social media is an illusion of shared experience. It is not shared at
-  all. Our society is built on having shared experience - but because of social
-  media, it's going away.
+> **Some takeways from that visit**
+>
+> Internet Archive's mission is becoming harder in the present age of increasing
+> dominance of so-called social media.
+>
+> The so-called social media provides its users with an illusion of shared
+> experience. It is not shared at all. This is a big problem – since our society
+> is built on having shared experience - but it's steadily going away.
 
 Having visited IA, I took the bus back to the hotel and rested a bit – but not
 too long, because it was another beautiful day. I went to Fisherman's Wharf, and
-then walked the waterfront to Oracle Park.
+then walked the waterfront to [Oracle Park].
 
 ![View on Downtown SF](/assets/california-2024v2/6 SF Downtown.avif)
 
@@ -153,8 +153,8 @@ she _printed a paper ticket_ for me!
 I missed the beginning, but I think it was well-worth it, since now I have a
 cool souvenir.
 
-I experienced a similar problem at the Dodger Stadium a few months back, and in
-the end I also got paper tickets. I think I might start collecting them!
+I experienced a similar problem at the Dodger Stadium in LA a few months back,
+and in the end I also got paper tickets. I think I might start collecting them!
 
 ## Berkeley
 
@@ -162,15 +162,16 @@ A few days earlier I had mentioned to my friend [Nils] that I'd be in the Bay,
 and he dropped me the invite to "finals are over rave" organized by some UC
 Berkeley students.
 
-I didn't stay until the end of the Giants game and took tram and then BART to
-Berkeley.
+I didn't stay until the end of the Giants game. I bought the $12
+hotdog took tram and then BART to Berkeley.
 
-I had some weird impostor syndrome – here I am, a random dude from some random,
-no-name university in a random European country. How can I even party with
-people from UC Berkeley?
+I had some weird impostor syndrome – here I am, a random dude studying at some
+random, no-name university in a European country most people there probably
+won't be able to pinpoint on the map. How can I even party with people from UC
+Berkeley?
 
-In retrospect, it was all very stupid thinking. Just another reason to always
-try get out of comfort zone.
+In retrospect, this thinking was stupid and made no sense. Now it's just another
+data point in my life that proves to always try to get out of the comfort zone.
 
 I'm _so glad_ I went.
 
@@ -188,11 +189,11 @@ Nissan Sentra – not a bad deal if you ask me!
 An ambitious plan to reach Santa Cruz in the afternoon got delayed, but not
 stopped.
 
-## Santa Cruz
-
 I picked up Nils and drove down the coast to Santa Cruz for about 2 hours.
 
 ![Mandatory stop at Taco Bell in Pacifica](/assets/california-2024v2/7 Pacifica.avif)
+
+## Santa Cruz
 
 > _Santa Cruz in June_
 >
@@ -200,12 +201,18 @@ I picked up Nils and drove down the coast to Santa Cruz for about 2 hours.
 >
 > – [Red Hot Chili Peppers][song]
 
-We walked for a few hours around the absolutely stunning UC ~~Summer Camp~~
-Santa Cruz campus.
+Upon arrival to a cheap-ass motel in SC, we unloaded the bags and drove to the
+see the campus of University of California, ~~Summer Camp~~ Santa Cruz.
 
-We hiked the woods behind the campus. As we returned, a thick fog began to roll
-in, and it was getting dark, so we drove back to Santa Cruz and had dinner at
-the lovely [Santa Cruz Diner].
+![The center of the campus, Quarry Plaza, was occupied by Palestine protesters](/assets/california-2024v2/7.5 UCSC Quarry Plaza.avif)
+
+![I liked the murals a lot](/assets/california-2024v2/7.5 UCSC Murals.avif)
+
+We walked around the campus, then hiked the woods in the back. What can I say –
+it's _absolutely stunning_.
+
+As we returned, a thick fog began to roll in, and it was getting dark, so we
+drove back to Santa Cruz and had dinner at the lovely [Santa Cruz Diner].
 
 # Sunday, May 12th – Trip 2/2
 
@@ -225,7 +232,8 @@ As we were about to leave, Nils searched for "ice cream" on Google Maps and we
 went to the place that had the highest rating – Marianne's Ice Cream. This
 rating thing actually works – we found a true local gem.
 
-I dropped off Nils in Fremont and drove the Dumbarton bridge.
+I dropped off Nils in Fremont and drove the Dumbarton bridge, with a quick stop
+for in-n-out.
 
 Then I rushed to return the car at SFO (needlessly so, as I later learned. The
 timer starts when I actually pick up the car, not since the time I selected when
@@ -326,10 +334,16 @@ sensible choice. In the US, it's almost always the worst possible choice".
 [Reid Baker]: https://github.com/reidbaker
 [a reddit thread]: https://www.reddit.com/r/internetarchive/comments/10a9izs/internet_archive_headquarters
 [Jason Scott]: http://ascii.textfiles.com
+[Fourth Church of Christ, Scientist]: https://en.wikipedia.org/wiki/Fourth_Church_of_Christ,_Scientist_(San_Francisco,_California)
+[Oracle Park]: https://en.wikipedia.org/wiki/Oracle_Park
 [and lost 4:2]: https://www.mlb.com/gameday/reds-vs-giants/2024/05/10/745340/final/wrap
 [Nils]: https://www.nilsand.re
 [song]: https://youtu.be/g81F_2UfXzQ?t=181
 [Santa Cruz Diner]: https://www.santacruzdiner.com
 [restaurant]: http://www.milagrosrc.com
+
+[^first]:
+    In retrospect – I cannot believe I was seriously thinking about not going.
+    Given the opportunity again, I'd say "yes" in an instant.
 
 [^ia_figures]: I don't remember what material they're made of, unfortunately.
