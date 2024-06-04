@@ -260,7 +260,7 @@ reservation on Booking.com.
 Having returned the car, I went back to the city, where I met with my friend
 Szymon (or rather, he came to pick me up in his car). We wanted to go to the
 Twin Pigs, but it was a foggy day again, so we settled for Tank Hill, which was
-happily just below the fog level.
+happily just below the fog level yet still provided great view of the area.
 
 ![View on Mission District from the Tank Hill](/assets/california-2024v2/3 View from Tank Hill.avif)
 
@@ -273,7 +273,13 @@ point, on the other side of the Golden Gate Bridge.
 
 ## Aurora borealis
 
-At night, there were northern lights (hey Ainslee!).
+At night, I went to see the northern lights ([aurora borealis]) with some
+friends I met at the Friday party. Again, there was thick fog everywhere, so
+thick we could barely see lights of cars passing the bridge, let alone aurora.
+
+Still, it was hella fun.
+
+I ended up being at Battery Spencer twice on that day.
 
 ![Golden Gate at night](/assets/california-2024v2/3 Golden Gate at night.avif)
 
@@ -399,6 +405,7 @@ Once again, I'd like to thank Reid for the invite.
 [Jason Scott]: http://ascii.textfiles.com
 [Fourth Church of Christ, Scientist]: https://en.wikipedia.org/wiki/Fourth_Church_of_Christ,_Scientist_(San_Francisco,_California)
 [Oracle Park]: https://en.wikipedia.org/wiki/Oracle_Park
+[aurora borealis]: https://en.wikipedia.org/wiki/Aurora
 [and lost 4:2]: https://www.mlb.com/gameday/reds-vs-giants/2024/05/10/745340/final/wrap
 [Nils]: https://www.nilsand.re
 [song]: https://youtu.be/g81F_2UfXzQ?t=181
