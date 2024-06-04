@@ -291,14 +291,16 @@ On Monday evening, Reid and me met up and had a dinner at the superb [Milagros L
 I woke up in the morning and took Caltrain from the SF station down to Mountain
 View.
 
-Me and hundreds other people were admitted late because of Palestine protesters
-who blocked one of the entrances.
+There was a huge line at the venue. Me and hundreds other people were admitted
+late because of Palestine protesters who blocked one of the entrances.
 
-![Watching the main keynote](/assets/california-2024v2/5 Sitting at IO.avif)
+![Some of the banners mentioned [Project Nimbus]](/assets/california-2024v2/5 Palestine protesters.avif)
 
 Overall, this was one of the best organized events I've attended to date. Lots
 of great food, drinks, and activities. I've got to admit I had a bit too many
 Bud Lights.
+
+![Watching the main keynote](/assets/california-2024v2/5 Sitting at IO.avif)
 
 The best thing was meeting IRL the people who previously had only been GitHub
 usernames to me. I met guys from the triage team at Codemagic. I met Google
@@ -307,7 +309,7 @@ members whom I recognized from GitHub issues.
 
 Overall, it was a very fun day. In addition to watching the main keynote and
 developer keynote, I attended a few additional developer-focused sessions. On
-one of them, I (accidentally) sat next to Hixie, the Flutter project lead. It 
+one of them, I (accidentally) sat next to Hixie, the Flutter project lead. It
 
 As the sun began to set, I took Caltrain back to SF.
 
@@ -384,6 +386,7 @@ Once again, I'd like to thank Reid for the invite.
 [song]: https://youtu.be/g81F_2UfXzQ?t=181
 [Santa Cruz Diner]: https://www.santacruzdiner.com
 [restaurant]: http://www.milagrosrc.com
+[Project Nimbus]: https://en.wikipedia.org/wiki/Project_Nimbus
 
 [^first]:
     In retrospect – I cannot believe I was seriously thinking about not going.
