@@ -27,13 +27,14 @@ decided to go. My reasoning was simple, if a bit weird:
   year they'll do it in a more Apple-y way - that is, just play video in front
   of the audience (no, thanks).
 
-In mid-April, I booked the flights. Me being me, I wanted to fly there as cheap
-as possible, and also stay as short as possible (because school). This year, I/O
-took place on Tuesday (May 14th) and Wednesday (May 15th), and initial plan was
-to arrive anytime Monday and leave ASAP. But because of the prices, in the end I
-chose to fly in on Thursday (May 9th) – because it was a few hundred $ cheaper
-than Monday, and I prefer spend that money on living and exploring the Bay
-Area instead for the needless flights premium.
+In mid-April, I finally booked the flight from Porto (where I live right now) to
+San Francisco and back. Me being me, I wanted to fly there as cheap as possible,
+and also stay as short as possible (because school). This year, I/O took place
+on Tuesday (May 14th) and Wednesday (May 15th), and initial plan was to arrive
+anytime Monday and leave ASAP. But because of the prices, in the end I chose to
+fly in on Thursday (May 9th) – because it was a few hundred $ cheaper than
+Monday, and I'd rather spend that money on living and exploring the Bay Area
+instead of paying a premium for the flights.
 
 > **Mistake made**
 >
@@ -59,9 +60,11 @@ This was my flight's itinerary:
 
 I remember still being in Porto metro at 7:40am and freaking out if I'll make it
 on time. Fortunately I did, and the plane in Porto had about an hour of delay.
-In Zurich I ran to the gate only to find out it had closed a few minutes ago. I
-was rerouted to Frankfurt. It was the first time I experienced that situation,
-and was nicely surprised how smoothly everything went.
+Coupled with little time for layover, it was a close call, so as soon as I
+landed in Zurich, I ran to the gate – only to find out it had closed a few
+minutes ago. I was rerouted to Frankfurt, and from there I flew to San
+Francisco. It was the first time I experienced that situation, and frankly, was
+nicely surprised how smoothly everything went.
 
 I was fortunate to get a seat at the window, and two seats to the right were
 free – so I could spread myself out comfortably.
@@ -111,7 +114,7 @@ space, and hundreds of figures[^ia_figures] of former and current IA employees
 
 ![I found the figure of [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)](/assets/california-2024v2/5.1 Internet Archive - Aaron Swartz.avif)
 
-![There are 30-ish such towers in the HQ. Each has 360 spinning disks.](/assets/california-2024-v2/5.2 Internet Archive - server racks.avif)
+![There are 30-ish such towers in the HQ. Each has 360 spinning disks.](/assets/california-2024v2/5.2 Internet Archive - server racks.avif)
 
 It felt a bit surreal to just casually walk around (and even touch!) the servers
 of one of the busiest websites in the world and talk with engineers who make
@@ -216,14 +219,16 @@ drove back to Santa Cruz and had dinner at the lovely [Santa Cruz Diner].
 
 # Sunday, May 12th – Trip 2/2
 
-In the morning, we checked out and drove to see Santa Cruz Boardwalk and the
+## Santa Cruz, day 2
+
+In the morning, we checked out and drove to see the Santa Cruz Boardwalk and the
 beach.
 
 I'm not a huge fan of amusement parks. I also noticed that this one had seen
 better times. It looked a bit old and dull. The weather – misty and chilly -
 just added to my slight disappointment.
 
-![View on Boardwalk's Giant Dipper](/assets/california-2024v2/8 Santa Cruz Boardwalk.avif)
+![View on the Boardwalk's Giant Dipper](/assets/california-2024v2/8 Santa Cruz Boardwalk.avif)
 
 The next stop was Santa Cruz Mission. It's not as impressive as the mission in,
 say, Ventura, but it was still nice. We also grabbed a geocache there!
@@ -232,12 +237,13 @@ As we were about to leave, Nils searched for "ice cream" on Google Maps and we
 went to the place that had the highest rating – Marianne's Ice Cream. This
 rating thing actually works – we found a true local gem.
 
-I dropped off Nils in Fremont and drove the Dumbarton bridge, with a quick stop
-for in-n-out.
+The clock was ticking though, and my 24h car rental was due in a few hours, so
+before noon we left Santa Cruz and rushed to Fremont (where Nils lives), with a
+quick stop for In-N-Out.
 
-Then I rushed to return the car at SFO (needlessly so, as I later learned. The
-timer starts when I actually pick up the car, not since the time I selected when
-making a reservation on Booking.com)
+As I later learned, we didn't have to rush so hard – The timer starts when I
+actually pick up the car, not since the time I selected when making a
+reservation on Booking.com.
 
 > **Mistake made**
 >
@@ -245,7 +251,14 @@ making a reservation on Booking.com)
 > Otherwise it will be absolutely ruined! The sauce thickens very fast and it's
 > honestly quite disguisting once it's cold.
 
+## Back to San Francisco
+
+I met with my friend Szymon,
+
 # Monday, May 13th – Badge pickup
+
+I woke up in the morning and took Caltrain from the SF station down to Mountain
+View.
 
 ## Badge pickup
 
@@ -261,6 +274,9 @@ Redwood City.
 ![In front of Redwood City's City Hall](/assets/california-2024v2/10 Reid and Bartek.avif)
 
 # Tuesday, May 14th – I/O, day 1
+
+I woke up in the morning and took Caltrain from the SF station down to Mountain
+View.
 
 Me (and hundreds other people) were admitted late because of Palestine
 protesters who blocked one of the entrances.
@@ -278,19 +294,17 @@ As the sun began to set, I took Caltrain back to SF.
 > **Mistake made**
 >
 > I should've just kept my rental car instead of trying to save money by taking
-> public transport, which may be good by US standards, but otherwise really
-> mostly sucks. I paid with my time and patience anyway.
+> public transport which, in the Bay, is perhaps good by US standards, but
+> otherwise really mostly sucks. I paid with my time and patience anyway.
 
 # Wednesday, May 15th – I/O, day 2
 
-Caught by the police
+## Arrested (almost)
 
-On the second day of I/O (Wed, May 15th) I did not feel
-mentally well (for reasons not belonging into a public-facing blogpost) and had
-to take a break from all the hustle happening at the venue. Some person that I
-had eaten lunch with suggested me to climb the nearby Shoreline Vista Point. I
-took his advice, walked out of the amphitheater, and headed towards the trail
-entrance.
+On the second day of I/O (Wed, May 15th) I didn't feel well and had to take a
+break from all the hustle happening at the venue. Some person that I had eaten
+lunch with suggested me to climb the nearby Shoreline Vista Point. I took his
+advice, walked out of the amphitheater, and headed towards the trail entrance.
 
 To my disappointment, I was greeted by this sign:
 
@@ -308,11 +322,10 @@ noticed he had an earphone in one ear. This made me a bit suspicious, but I
 ignored it and just kept sitting there.
 
 But then, after ~5 minutes, a police patrol drove up the hill in a big-ass quad.
+Guys were fully geared-up, looking like they were going to fight in a war.
 
-like, real american police - 4 guys with big guns and helmets.
-
-The big guy said that i’m lucky he’s in a good mood today, that he's not angry
-but i cannot be here, and then they offered me a ride back to the venue. We
+The big guy said that I'm lucky he's in a good mood today, that he's not angry
+but I cannot be here, and then they offered me a ride back to the venue. We
 chatted a bit on the way down the hill.
 
 Looking back, my behavior was just plain stupid, but fortunately, the odds
@@ -320,9 +333,11 @@ seemed to be in my favor on that day.
 
 # Wrapping up
 
-I feel happy that I could experience that. For me, the Bay Area is the
-most beautiful place in the world. I enjoyed every minute of being there, and I
-hope to come back sooner than later.
+I feel happy and grateful that I could experience everything what I did during
+those few days.
+
+The Bay Area is the most beautiful place in the world. I enjoyed every minute of
+being there, and I hope to come back sooner than later.
 
 Once again, I'd like to thank Reid, who invited me to the I/O.
 
