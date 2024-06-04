@@ -214,7 +214,9 @@ beautifully placed on a hill, a short drive from the city.
 ![I liked the murals a lot](/assets/california-2024v2/2 UCSC Murals.avif)
 
 We walked around the campus, then hiked the woods in the back. What can I say –
-it's _absolutely stunning_.
+it's _absolutely stunning_. I envy all the people studying there, among birds
+chirping, squirrels running on sidewalks and climbing trees, and pacific wind
+blowing.
 
 As we returned, a thick fog began to roll in, and it was getting dark, so we
 drove back to Santa Cruz and had dinner at the lovely [Santa Cruz Diner].
@@ -255,9 +257,23 @@ reservation on Booking.com.
 
 ## Back to San Francisco
 
-I met with my friend Szymon.
+Having returned the car, I went back to the city, where I met with my friend
+Szymon (or rather, he came to pick me up in his car). We wanted to go to the
+Twin Pigs, but it was a foggy day again, so we settled for Tank Hill, which was
+happily just below the fog level.
 
-At night, there were northern lights.
+![View on Mission District from the Tank Hill](/assets/california-2024v2/3 View from Tank Hill.avif)
+
+Then we spend some time in Dolores Park, and then drove Battery Spencer vista
+point, on the other side of the Golden Gate Bridge.
+
+![Serene, sunny afternoon in Dolores Park](/assets/california-2024v2/3 Dolores Park.avif)
+
+![Pacific Ocean, as seen from Battery Spencer](/assets/california-2024v2/3 Pacific Ocean from Battery Spencer.avif)
+
+## Aurora borealis
+
+At night, there were northern lights (hey Ainslee!).
 
 ![Golden Gate at night](/assets/california-2024v2/3 Golden Gate at night.avif)
 
@@ -307,7 +323,7 @@ usernames to me. I met guys from the triage team at Codemagic. I met Google
 engineers who develop the framework every day. I met many other community
 members whom I recognized from GitHub issues.
 
-Overall, it was a very fun day. In addition to watching the main keynote and
+All in all, it was a very fun day. In addition to watching the main keynote and
 developer keynote, I attended a few additional developer-focused sessions. On
 one of them, I (accidentally) sat next to Hixie, the Flutter project lead. It
 
@@ -360,11 +376,13 @@ seemed to be in my favor on that day.
 
 ## Departure
 
+After that little excursion, I went back to the venue.
+
 ![The last photo at the I/O sign](/assets/california-2024v2/6 Photo at the IO sign.avif)
 
-The day before I had lost a blouse that was in the welcome pack.
-
-Fortunately, my newly-met friend Bruno gave me his blouse. I am so thankful.
+I mentioned I had lost a blouse from the welcome pack the day before.
+Fortunately, my friend [Bruno] gave me his blouse. He said he doesn't care about
+swag (I do). Bruno – thank you!
 
 # Wrapping up
 
@@ -387,6 +405,7 @@ Once again, I'd like to thank Reid for the invite.
 [Santa Cruz Diner]: https://www.santacruzdiner.com
 [restaurant]: http://www.milagrosrc.com
 [Project Nimbus]: https://en.wikipedia.org/wiki/Project_Nimbus
+[Bruno]: https://github.com/bleroux
 
 [^first]:
     In retrospect – I cannot believe I was seriously thinking about not going.
