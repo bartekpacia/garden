@@ -257,7 +257,9 @@ reservation on Booking.com.
 
 I met with my friend Szymon.
 
-At night, there were nothern lights.
+At night, there were northern lights.
+
+![Golden Gate at night](/assets/california-2024v2/3 Golden Gate at night.avif)
 
 # Monday, May 13th
 
@@ -266,14 +268,14 @@ View.
 
 ## Badge pickup
 
-Took Caltrain to Mountain View to pick up my badge.
+I walked[^mv] from the train station to near the Shoreline Amphitheatre, where
+the badge pickup facilities were located.
+
+![The tent where registration took place](/assets/california-2024v2/4 Registration.avif)
 
 ## Meeting with Reid
 
-On Monday evening, Reid and me met up for the first time.
-
-We had a dinner at the superb [Milagros Latin Kitchen restaurant][restaurant] in
-Redwood City.
+On Monday evening, Reid and me met up and had a dinner at the superb [Milagros Latin Kitchen restaurant][restaurant] in Redwood City.
 
 ![In front of Redwood City's City Hall](/assets/california-2024v2/4 Reid and Bartek.avif)
 
@@ -293,9 +295,10 @@ Overall, this was one of the best organized events I've attended to date. Lots
 of great food, drinks, and activities. I've got to admit I had a bit too many
 Bud Lights.
 
-But the best thing was meeting many people IRL who previously had only been
-GitHub usernames to me. I met guys from the triage team at Codemagic. I met
-Google engineers who develop the framework every day.
+The best thing was meeting many people IRL who previously had only been GitHub
+usernames to me. I met guys from the triage team at Codemagic. I met Google
+engineers who develop the framework every day. I met many other community
+members whom I recognized from GitHub issues.
 
 As the sun began to set, I took Caltrain back to SF.
 
@@ -307,7 +310,7 @@ As the sun began to set, I took Caltrain back to SF.
 
 # Wednesday, May 15th
 
-## Google I/O, day 1
+## Google I/O, day 2
 
 ## Arrested (almost)
 
@@ -331,12 +334,12 @@ tourist. We chatted for a bit and then he walked away. It was only then that I
 noticed he had an earphone in one ear. This made me a bit suspicious, but I
 ignored it and just kept sitting there.
 
-But then, after ~5 minutes, a police patrol drove up the hill in a big-ass quad.
+But then, after ~5 minutes, a police patrol drove up the hill in a big quad.
 Guys were fully geared-up, looking like they were going to fight in a war.
 
-The big guy said that I'm lucky he's in a good mood today, that he's not angry
-but I cannot be here, and then they offered me a ride back to the venue. We
-chatted a bit on the way down the hill.
+One of them said that I'm lucky he's in a good mood today, that he's not angry
+but I cannot be here - and then they offered me a ride back to the venue. We
+chatted a bit on the way down the hill. Overall, it was... fun?
 
 Looking back, my behavior was just plain stupid, but fortunately, the odds
 seemed to be in my favor on that day.
@@ -380,3 +383,7 @@ sensible choice. In the US, it's almost always the worst possible choice".
     Given the opportunity again, I'd say "yes" in an instant.
 
 [^ia_figures]: I don't remember what material they're made of, unfortunately.
+[^mv]:
+    Not that there's anything interesting to see in Mountain View - it's all
+    infinite suburban sprawl. I simply felt like taking a walk, just like
+    Forrest Gump felt like running.
