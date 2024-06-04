@@ -12,7 +12,7 @@ On March 15th, I was surprised by an email invitation to Google I/O.
 
 When I clicked into `cc`, I noticed [Reid Baker]'s email - the Google employee
 whom I collaborated with on various boring-sounding Android-related integrations
-in Flutter for the past year.
+in the Flutter framework for the past year.
 
 I didn't immediately make any decision on whether to go or not to go. You know,
 I'm a student and have coursework to do and attendance to check off.[^first]
@@ -59,6 +59,8 @@ This was my flight's itinerary:
 08:40am Porto -> 12:10pm Zurich
 01:35pm Zurich -> 4:30pm San Francisco
 ```
+
+(Times are local – I wish the flight was 3 hours. It was 11.)
 
 I remember still being in Porto metro at 7:40am and freaking out if I'll make it
 on time. Fortunately I did, and the plane in Porto had about an hour of delay.
@@ -328,12 +330,13 @@ Bud Lights.
 
 The best thing was meeting IRL the people who previously had only been GitHub
 usernames to me. I met guys from the triage team at Codemagic. I met Google
-engineers who develop the framework every day. I met many other community
+engineers who work on the Flutter framework every day. I met many other community
 members whom I recognized from GitHub issues.
 
 All in all, it was a very fun day. In addition to watching the main keynote and
 developer keynote, I attended a few additional developer-focused sessions. On
-one of them, I (accidentally) sat next to Hixie, the Flutter project lead. It
+one of them, I (accidentally) sat next to [Hixie], the Flutter project lead. It
+was humbling.
 
 As the sun began to set, I took Caltrain back to SF.
 
@@ -419,6 +422,7 @@ Once again, I'd like to thank Reid for the invite.
 [Santa Cruz Diner]: https://www.santacruzdiner.com
 [restaurant]: http://www.milagrosrc.com
 [Project Nimbus]: https://en.wikipedia.org/wiki/Project_Nimbus
+[Hixie]: https://github.com/hixie
 [Bruno]: https://github.com/bleroux
 
 [^first]:
