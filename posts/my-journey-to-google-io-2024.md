@@ -166,8 +166,9 @@ A few days earlier I had mentioned to my friend [Nils] that I'd be in the Bay,
 and he dropped me the invite to "finals are over rave" organized by some UC
 Berkeley students.
 
-I didn't stay until the end of the Giants game. I bought the $12
-hotdog took tram and then BART to Berkeley.
+I didn't stay until the end of the Giants game. Since I was starving, I bought
+the worst (and most expensive – $12) hotdog I've ever had and took tram and then
+BART to around the UC Berkeley campus.
 
 I had some weird impostor syndrome – here I am, a random dude studying at some
 random, no-name university in a European country most people there probably
