@@ -362,11 +362,6 @@ minute of being there, and I hope to come back sooner than later.
 
 Once again, I'd like to thank Reid for the invite.
 
---
-
-As my friend Szymon once wisely said "in Poland, the cheapest is usually a
-sensible choice. In the US, it's almost always the worst possible choice".
-
 [Reid Baker]: https://github.com/reidbaker
 [a reddit thread]: https://www.reddit.com/r/internetarchive/comments/10a9izs/internet_archive_headquarters
 [Jason Scott]: http://ascii.textfiles.com
