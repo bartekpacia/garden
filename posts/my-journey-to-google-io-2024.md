@@ -406,9 +406,13 @@ those few days. I met old friends, and made new ones.
 For me, the Bay Area is the most beautiful place in the world. I enjoyed every
 minute of being there, and I hope to come back sooner than later.
 
-Once again, I'd like to thank Reid for the invite.
-
 ![](/assets/california-2024v2/6 Android.avif)
+
+---
+
+Thanks to Reid for the invite. This journey wouldn't have happened without it.
+
+Thanks to [Marcin](shilangyu.dev) for proofreading this post.
 
 [Reid Baker]: https://github.com/reidbaker
 [a reddit thread]: https://www.reddit.com/r/internetarchive/comments/10a9izs/internet_archive_headquarters
