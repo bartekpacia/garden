@@ -259,9 +259,10 @@ reservation on Booking.com.
 ## Back to San Francisco
 
 Having returned the car, I went back to the city, where I met with my friend
-Szymon (or rather, he came to pick me up in his car). We wanted to go to the
-Twin Pigs, but it was a foggy day again, so we settled for Tank Hill, which was
-happily just below the fog level yet still provided great view of the area.
+Szymon (or rather, he came to pick me up in his car). We wanted to drive to Twin
+Peaks (since I hadn't been there yet), but it was a foggy day again, so we
+settled for Tank Hill, which was happily just below the fog level yet still
+provided great view of the area.
 
 ![View on Mission District from the Tank Hill](/assets/california-2024v2/3 View from Tank Hill.avif)
 
