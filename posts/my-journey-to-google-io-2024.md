@@ -412,7 +412,7 @@ minute of being there, and I hope to come back sooner than later.
 
 Thanks to Reid for the invite. This journey wouldn't have happened without it.
 
-Thanks to [Marcin](shilangyu.dev) for proofreading this post.
+Thanks to [Marcin](https://shilangyu.dev) for proofreading this post.
 
 [Reid Baker]: https://github.com/reidbaker
 [a reddit thread]: https://www.reddit.com/r/internetarchive/comments/10a9izs/internet_archive_headquarters
