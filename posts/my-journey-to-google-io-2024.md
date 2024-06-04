@@ -49,7 +49,9 @@ instead of paying a premium for the flights.
 > When I'll be attending conferences in the future, I'll either stay a few days
 > longer, or make sure I can rebook.
 
-# Thursday, May 9th – Taking off
+# Thursday, May 9th
+
+## Taking off
 
 This was my flight's itinerary:
 
@@ -73,16 +75,16 @@ Once over California, I could take in wonderful views:
 
 ![View on Clear Lake](/assets/california-2024v2/1 View on Clear Lake.avif)
 
-![View on the Bay – Golden Gate, San Francisco, Oakland and Berkeley](/assets/california-2024v2/2 View on Golden Gate, SF, and Oakland.avif)
+![View on the Bay – Golden Gate, San Francisco, Oakland and Berkeley](/assets/california-2024v2/1 View on Golden Gate, SF, and Oakland.avif)
 
-![View on South Bay and the Dumbarton bridge](/assets/california-2024v2/3 View on South Bay, Dumbarton bridge.avif)
+![View on South Bay and the Dumbarton bridge](/assets/california-2024v2/1 View on South Bay, Dumbarton bridge.avif)
 
 In the end, I arrived at SFO 4 hours late, around 8pm local time. It was a
 remarkably beautiful evening - warm, with delicate mist in the air.
 
 I took BART to the city, where I had the hotel.
 
-# Friday, May 10th – Exploring the city
+# Friday, May 10th
 
 ## Internet Archive
 
@@ -99,22 +101,21 @@ The HQ building very closely resembles the IA logo - but actually, it was
 the logo that came first, and then one of IA founders discovered the property
 and bought it.
 
-![Internet Archive HQ (300 Funston Avenue)](/assets/california-2024v2/4 Internet Archive outside.avif)
+![Internet Archive HQ (300 Funston Avenue)](/assets/california-2024v2/1 Internet Archive outside.avif)
 
 The building itself is a former [Fourth Church of Christ, Scientist]. It looks
-magnificent on the outside, but the inside is what surprised me the most!
+magnificent on the outside, but the inside is what surprised me the most.
 
-![Inside the main hall](/assets/california-2024v2/5 Internet Archive inside.avif)
+![Inside the main hall](/assets/california-2024v2/1 Internet Archive inside.avif)
 
-The main hall has remained mostly unchanged from the church times. It's a
-charming place where faith and technology come overlap in strange ways. There
-are huge server racks scattered around, with pew benches taking most of the
-space, and hundreds of figures[^ia_figures] of former and current IA employees
-(each Archive employee gets one after working there for 3 years).
+The main hall has remained mostly unchanged from the church times. There are
+huge server racks scattered around, with pew benches taking most of the space,
+and hundreds of figures[^ia_figures] of former and current IA employees (each
+Archive employee gets one after working there for 3 years).
 
-![I found the figure of [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)](/assets/california-2024v2/5.1 Internet Archive - Aaron Swartz.avif)
+![Completely accidentally, I found the figure of [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)](/assets/california-2024v2/1 Internet Archive - Aaron Swartz.avif)
 
-![There are 30-ish such towers in the HQ. Each has 360 spinning disks.](/assets/california-2024v2/5.2 Internet Archive - server racks.avif)
+![There are 30-ish such towers in the HQ. Each has 360 spinning disks.](/assets/california-2024v2/1 Internet Archive - server racks.avif)
 
 It felt a bit surreal to just casually walk around (and even touch!) the servers
 of one of the busiest websites in the world and talk with engineers who make
@@ -133,7 +134,7 @@ Having visited IA, I took the bus back to the hotel and rested a bit – but not
 too long, because it was another beautiful day. I went to Fisherman's Wharf, and
 then walked the waterfront to [Oracle Park].
 
-![View on Downtown SF](/assets/california-2024v2/6 SF Downtown.avif)
+![View on Downtown SF](/assets/california-2024v2/1 SF Downtown.avif)
 
 ## SF Giants
 
@@ -178,7 +179,7 @@ data point in my life that proves to always try to get out of the comfort zone.
 
 I'm _so glad_ I went.
 
-# Saturday, May 11th – Trip 1/2
+# Saturday, May 11th
 
 For the weekend, Nils and me had planned a trip to Santa Cruz.
 
@@ -194,9 +195,9 @@ stopped.
 
 I picked up Nils and drove down the coast to Santa Cruz for about 2 hours.
 
-![Mandatory stop at Taco Bell in Pacifica](/assets/california-2024v2/7 Pacifica.avif)
+![Mandatory stop at Taco Bell in Pacifica](/assets/california-2024v2/2 Pacifica.avif)
 
-## Santa Cruz
+## Santa Cruz, Saturday evening
 
 > _Santa Cruz in June_
 >
@@ -204,12 +205,13 @@ I picked up Nils and drove down the coast to Santa Cruz for about 2 hours.
 >
 > – [Red Hot Chili Peppers][song]
 
-Upon arrival to a cheap-ass motel in SC, we unloaded the bags and drove to the
-see the campus of University of California, ~~Summer Camp~~ Santa Cruz.
+Upon arrival to some cheap-ass motel in SC, we unloaded the bags and drove to
+the see the campus of University of California, ~~Summer Camp~~ Santa Cruz. It's
+beautifully placed on a hill, a short drive from the city.
 
-![The center of the campus, Quarry Plaza, was occupied by Palestine protesters](/assets/california-2024v2/7.5 UCSC Quarry Plaza.avif)
+![The center of the campus, Quarry Plaza, was occupied by Palestine protesters](/assets/california-2024v2/2 UCSC Quarry Plaza.avif)
 
-![I liked the murals a lot](/assets/california-2024v2/7.5 UCSC Murals.avif)
+![I liked the murals a lot](/assets/california-2024v2/2 UCSC Murals.avif)
 
 We walked around the campus, then hiked the woods in the back. What can I say –
 it's _absolutely stunning_.
@@ -217,9 +219,9 @@ it's _absolutely stunning_.
 As we returned, a thick fog began to roll in, and it was getting dark, so we
 drove back to Santa Cruz and had dinner at the lovely [Santa Cruz Diner].
 
-# Sunday, May 12th – Trip 2/2
+# Sunday, May 12th
 
-## Santa Cruz, day 2
+## Santa Cruz, Sunday morning
 
 In the morning, we checked out and drove to see the Santa Cruz Boardwalk and the
 beach.
@@ -228,7 +230,7 @@ I'm not a huge fan of amusement parks. I also noticed that this one had seen
 better times. It looked a bit old and dull. The weather – misty and chilly -
 just added to my slight disappointment.
 
-![View on the Boardwalk's Giant Dipper](/assets/california-2024v2/8 Santa Cruz Boardwalk.avif)
+![View on the Boardwalk's Giant Dipper](/assets/california-2024v2/3 Santa Cruz Boardwalk.avif)
 
 The next stop was Santa Cruz Mission. It's not as impressive as the mission in,
 say, Ventura, but it was still nice. We also grabbed a geocache there!
@@ -241,8 +243,8 @@ The clock was ticking though, and my 24h car rental was due in a few hours, so
 before noon we left Santa Cruz and rushed to Fremont (where Nils lives), with a
 quick stop for In-N-Out.
 
-As I later learned, we didn't have to rush so hard – The timer starts when I
-actually pick up the car, not since the time I selected when making a
+As I later learned, we didn't have to rush so hard – the clock starts ticking
+when I actually pick up the car, not from the time I selected when making a
 reservation on Booking.com.
 
 > **Mistake made**
@@ -253,9 +255,11 @@ reservation on Booking.com.
 
 ## Back to San Francisco
 
-I met with my friend Szymon,
+I met with my friend Szymon.
 
-# Monday, May 13th – Badge pickup
+At night, there were nothern lights.
+
+# Monday, May 13th
 
 I woke up in the morning and took Caltrain from the SF station down to Mountain
 View.
@@ -271,9 +275,11 @@ On Monday evening, Reid and me met up for the first time.
 We had a dinner at the superb [Milagros Latin Kitchen restaurant][restaurant] in
 Redwood City.
 
-![In front of Redwood City's City Hall](/assets/california-2024v2/10 Reid and Bartek.avif)
+![In front of Redwood City's City Hall](/assets/california-2024v2/4 Reid and Bartek.avif)
 
-# Tuesday, May 14th – I/O, day 1
+# Tuesday, May 14th
+
+## Google I/O, day 1
 
 I woke up in the morning and took Caltrain from the SF station down to Mountain
 View.
@@ -281,23 +287,27 @@ View.
 Me (and hundreds other people) were admitted late because of Palestine
 protesters who blocked one of the entrances.
 
-![Watching the main keynote](/assets/california-2024v2/9 Sitting at IO.avif)
+![Watching the main keynote](/assets/california-2024v2/5 Sitting at IO.avif)
 
 Overall, this was one of the best organized events I've attended to date. Lots
-of great food, drinks. I've got to admit I had a bit too many Bud Lights.
+of great food, drinks, and activities. I've got to admit I had a bit too many
+Bud Lights.
 
 But the best thing was meeting many people IRL who previously had only been
-GitHub usernames to me.
+GitHub usernames to me. I met guys from the triage team at Codemagic. I met
+Google engineers who develop the framework every day.
 
 As the sun began to set, I took Caltrain back to SF.
 
 > **Mistake made**
 >
 > I should've just kept my rental car instead of trying to save money by taking
-> public transport which, in the Bay, is perhaps good by US standards, but
-> otherwise really mostly sucks. I paid with my time and patience anyway.
+> public transport which, while being very good in San Francisco, barely exists
+> outside of it. I ended up paying with my time and patience.
 
-# Wednesday, May 15th – I/O, day 2
+# Wednesday, May 15th
+
+## Google I/O, day 1
 
 ## Arrested (almost)
 
@@ -308,10 +318,10 @@ advice, walked out of the amphitheater, and headed towards the trail entrance.
 
 To my disappointment, I was greeted by this sign:
 
-![Yes, the bird was alive](/assets/california-2024v2/12 Vista Point closed.avif)
+![Yes, the bird is real](/assets/california-2024v2/6 Vista Point closed.avif)
 
-Since nobody was looking around, I ignored all these signs and hiked to the
-hill, taking in the beautiful vistas of the South Bay.
+Since nobody was around, I ignored all those signs and hiked to the hill, taking
+in the beautiful vistas of the South Bay.
 
 It was a very pleasant short hike (~20min). After reaching the top, I lay on the
 grass and was marveling the area.
@@ -331,15 +341,23 @@ chatted a bit on the way down the hill.
 Looking back, my behavior was just plain stupid, but fortunately, the odds
 seemed to be in my favor on that day.
 
+## Departure
+
+![The last photo at the I/O sign](/assets/california-2024v2/6 Photo at the IO sign.avif)
+
+The day before I had lost a blouse that was in the welcome pack.
+
+Fortunately, my newly-met friend Bruno gave me his blouse. I am so thankful.
+
 # Wrapping up
 
 I feel happy and grateful that I could experience everything what I did during
-those few days.
+those few days. I met old friends, and made new ones.
 
-The Bay Area is the most beautiful place in the world. I enjoyed every minute of
-being there, and I hope to come back sooner than later.
+For me, the Bay Area is the most beautiful place in the world. I enjoyed every
+minute of being there, and I hope to come back sooner than later.
 
-Once again, I'd like to thank Reid, who invited me to the I/O.
+Once again, I'd like to thank Reid for the invite.
 
 --
 
