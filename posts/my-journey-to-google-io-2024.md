@@ -271,7 +271,12 @@ View.
 I walked[^mv] from the train station to near the Shoreline Amphitheatre, where
 the badge pickup facilities were located.
 
+In addition the badge, I got a water bottle, a T-shirt, and a hoodie (which I
+lost the next day).
+
 ![The tent where registration took place](/assets/california-2024v2/4 Registration.avif)
+
+![My badge, with GBikes in the background](/assets/california-2024v2/4 Got the badge.avif)
 
 ## Meeting with Reid
 
@@ -286,8 +291,8 @@ On Monday evening, Reid and me met up and had a dinner at the superb [Milagros L
 I woke up in the morning and took Caltrain from the SF station down to Mountain
 View.
 
-Me (and hundreds other people) were admitted late because of Palestine
-protesters who blocked one of the entrances.
+Me and hundreds other people were admitted late because of Palestine protesters
+who blocked one of the entrances.
 
 ![Watching the main keynote](/assets/california-2024v2/5 Sitting at IO.avif)
 
@@ -295,10 +300,14 @@ Overall, this was one of the best organized events I've attended to date. Lots
 of great food, drinks, and activities. I've got to admit I had a bit too many
 Bud Lights.
 
-The best thing was meeting many people IRL who previously had only been GitHub
+The best thing was meeting IRL the people who previously had only been GitHub
 usernames to me. I met guys from the triage team at Codemagic. I met Google
 engineers who develop the framework every day. I met many other community
 members whom I recognized from GitHub issues.
+
+Overall, it was a very fun day. In addition to watching the main keynote and
+developer keynote, I attended a few additional developer-focused sessions. On
+one of them, I (accidentally) sat next to Hixie, the Flutter project lead. It 
 
 As the sun began to set, I took Caltrain back to SF.
 
@@ -312,12 +321,15 @@ As the sun began to set, I took Caltrain back to SF.
 
 ## Google I/O, day 2
 
+I woke up in the morning, packed my things, left the hotel and took Caltrain
+from the SF station down to Mountain View, one last time.
+
 ## Arrested (almost)
 
-On the second day of I/O (Wed, May 15th) I didn't feel well and had to take a
-break from all the hustle happening at the venue. Some person that I had eaten
-lunch with suggested me to climb the nearby Shoreline Vista Point. I took his
-advice, walked out of the amphitheater, and headed towards the trail entrance.
+On that day, I didn't feel well and had to take a break from all the hustle
+happening at the venue. Some person that I had eaten lunch with suggested me to
+climb the nearby Shoreline Vista Point. I took his advice, walked out of the
+amphitheater, and headed towards the trail entrance.
 
 To my disappointment, I was greeted by this sign:
 
