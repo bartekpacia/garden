@@ -413,8 +413,8 @@ After a few hours, I arrived at SFO, and that was the end of it.
 
 # Wrapping up
 
-I feel happy and grateful that I could experience everything what I did during
-those few days. I met old friends, and made new ones.
+I feel happy and grateful that I could experience everything I did during those
+few days.
 
 For me, the Bay Area is the most beautiful place in the world. I enjoyed every
 minute of being there, and I hope to come back sooner than later.
