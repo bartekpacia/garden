@@ -12,7 +12,7 @@ On March 15th, I was surprised by an email invitation to Google I/O.
 
 When I clicked into `cc`, I noticed [Reid Baker]'s email - the Google employee
 whom I collaborated with on various boring-sounding Android-related integrations
-in the Flutter framework for the past year.
+in the Flutter framework for the past year[^contribs].
 
 I didn't immediately make any decision on whether to go or not to go. You know,
 I'm a student and have coursework to do and attendance to check off.[^first]
@@ -438,6 +438,11 @@ Thanks to [Marcin](https://shilangyu.dev) for proofreading this post.
 [Project Nimbus]: https://en.wikipedia.org/wiki/Project_Nimbus
 [Hixie]: https://github.com/hixie
 [Bruno]: https://github.com/bleroux
+
+[^contribs]:
+    If you're curious, [here are all the issues and
+    PRs](https://github.com/flutter/flutter/issues?q=author%3Abartekpacia+) I
+    created.
 
 [^first]:
     In retrospect – I cannot believe I was seriously thinking about not going.
