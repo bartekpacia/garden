@@ -230,7 +230,7 @@ beautifully placed on a hill, a short drive from the city.
 
 We walked around the campus, then hiked the woods in the back. What can I say –
 it's _absolutely stunning_. I envy all the people studying there, among birds
-chirping, squirrels running on sidewalks and climbing trees, and pacific wind
+chirping, squirrels running on sidewalks and climbing trees, and Pacific wind
 blowing.
 
 As we returned, a thick fog began to roll in, and it was getting dark, so we
