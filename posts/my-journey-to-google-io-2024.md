@@ -117,6 +117,9 @@ Archive employee gets one after working there for 3 years).
 
 ![Completely accidentally, I found the figure of [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)](/assets/california-2024v2/1 Internet Archive - Aaron Swartz.avif)
 
+There's also no air conditioning, so if Wayback Machine seems to be working slow
+for you, check the weather in San Francisco - there's a good chance it's hot!
+
 ![There are 30-ish such towers in the HQ. Each has 360 spinning disks.](/assets/california-2024v2/1 Internet Archive - server racks.avif)
 
 It felt a bit surreal to just casually walk around (and even touch!) the servers
