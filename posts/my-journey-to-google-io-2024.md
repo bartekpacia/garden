@@ -129,8 +129,17 @@ them run.
 > dominance of so-called social media.
 >
 > The so-called social media provides its users with an illusion of shared
-> experience. It is not shared at all. This is a big problem – since our society
-> is built on having shared experience - but it's steadily going away.
+> experience. It is not shared at all.
+>
+> In the past, we all used to read the same newspapers, watched the same TV
+> programmes, listened to same radio stations. Nowadays, everyone's feed is
+> unique, and results of search engine queries are tailored to you, to make you
+> see more ads. It's not only impossible for IA to archive everyone's unique
+> feed, but it's also hard to agree on common matters if there's not enough
+> shared experience among us.
+>
+> This is big and growing problem. Our (western, liberal, democratic) societies
+> are built on us having shared experience, which is steadily fading away.
 
 Having visited IA, I took the bus back to the hotel and rested a bit – but not
 too long, because it was another beautiful day. I went to Fisherman's Wharf, and
