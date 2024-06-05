@@ -77,7 +77,7 @@ Once over California, I could take in wonderful views:
 
 ![View on Clear Lake](/assets/california-2024v2/1 View on Clear Lake.avif)
 
-![View on the Bay – Golden Gate, San Francisco, Oakland and Berkeley](/assets/california-2024v2/1 View on Golden Gate, SF, and Oakland.avif)
+![View on the Bay – zoom in and you'll see Golden Gate Bridge, San Francisco, Oakland and Berkeley](/assets/california-2024v2/1 View on Golden Gate, SF, and Oakland.avif)
 
 ![View on South Bay and the Dumbarton bridge](/assets/california-2024v2/1 View on South Bay, Dumbarton bridge.avif)
 
@@ -279,7 +279,8 @@ point, on the other side of the Golden Gate Bridge.
 
 At night, I went to see the northern lights ([aurora borealis]) with some
 friends I met at the Friday party. Again, there was thick fog everywhere, so
-thick we could barely see lights of cars passing the bridge, let alone aurora.
+thick we could barely see the lights of cars passing the bridge, let alone
+aurora.
 
 Still, it was hella fun.
 
@@ -297,7 +298,7 @@ View.
 I walked[^mv] from the train station to near the Shoreline Amphitheatre, where
 the badge pickup facilities were located.
 
-In addition the badge, I got a water bottle, a T-shirt, and a hoodie (which I
+In addition the badge, I got a water bottle, a T-shirt, and a blouse (which I
 lost the next day).
 
 ![The tent where registration took place](/assets/california-2024v2/4 Registration.avif)
