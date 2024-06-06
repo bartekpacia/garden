@@ -416,8 +416,9 @@ After a few hours, I arrived at SFO, and that was the end of it.
 I feel happy and grateful that I could experience everything I did during those
 few days.
 
-For me, the Bay Area is the most beautiful place in the world. I enjoyed every
-minute of being there, and I hope to come back sooner than later.
+For me, the Bay Area – and California in general - is the most beautiful place in
+the world, despite its many flaws. I enjoyed every minute of being there, and I
+hope to come back sooner than later.
 
 ![](/assets/california-2024v2/6 Android.avif)
 
