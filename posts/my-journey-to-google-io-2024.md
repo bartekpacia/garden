@@ -2,7 +2,7 @@
 date: 20240604
 title: My journey to Google I/O '24
 description: A recount of my experience traveling to California for my first Google I/O ever.
-image: assets/california-2024v2/0 Flutter at IO.avif
+image: assets/california-2024v2/0 Flutter at IO.jpg
 ---
 
 # My journey to Google I/O '24
