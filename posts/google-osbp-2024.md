@@ -5,11 +5,11 @@ description: It ain't much, but it's honest work.
 image: assets/google-ospb-2024/it_aint_much.jpg
 ---
 
-# I was awarded the Google Open Source Peer Bonus
+# I was awarded Google Open Source Peer Bonus
 
-A bit late, but I'm happy to share that I was awarded the Open Source Peer Bonus
-– a Google initiative that recognizes and awards people who contributed to
-open-source projects.
+A bit late, but I'm happy to share that I was awarded Open Source Peer Bonus – a
+Google initiative that recognizes people who contributed to open-source
+projects.
 
 ![](assets/google-ospb-2024/email.avif)
 
@@ -17,24 +17,31 @@ open-source projects.
 
 My journey with contributing to Flutter started with me working at LeanCode on
 the [Patrol](https://github.com/leancodepl/patrol) project. Because we had to do
-things that no one ever did in Flutter ecosystem[^1], we naturally discovered a lot of
-problems (both in Flutter and surrounding tooling) – and I always strived to
-report every single one of them[^2]. After a few months, I realized I had
-created a few dozen issues.
+things that no one had done before in Flutter ecosystem[^1], we naturally
+discovered a lot of problems (both in Flutter itself and the tools surrounding
+it) – and I always strived to report every single one of them[^2]. After a few
+months, I realized I had created a few dozen issues.
 
 Somewhere around that time (that is, end of 2022), I also got pretty interested
 in build systems, and specifically, in Gradle (don't ask me why, it just
 happened). I think I read its docs a few times during the winter break, and
 realy liked it.
 
-I then noticed that Gradle in Flutter (`flutter.groovy`) wasn't doing some
-things suboptimally, or in a deprecated way, and I submitted some simple fixes.
-Then I went on to do more and more complicated things.
+I then noticed some Gradle warnings whenever I was running `flutter build apk`.
+It was a minor warning, something related to using deprecated Gradle features
+that would be removed in the subsequent major release. I had seen them countless
+times before and they never made sense to me – but now, armed with knowledge of
+Gradle, I understood what was happening and [went on to fix it].
+
+I then started reading Gradle source code inside Flutter repo [the gigantic
+`flutter.gradle` file](gradlefile), understanding how it works, and fixing more
+and more small problems, deprecations, etc. In the beginning it sure wasn't
+much, but it was honest work.
 
 # What I did
 
-I made various contributions across 3 repositories in the Flutter org (click on
-the links to see them):
+During the last year, I made various contributions across 3 repositories in the
+Flutter org (click on the links to see them):
 
 - [flutter/flutter](https://github.com/flutter/flutter/issues?q=author%3Abartekpacia+)
 - [flutter/engine](https://github.com/flutter/engine/pulls?q=author%3Abartekpacia)
@@ -89,4 +96,6 @@ welcoming to external contributors and putting so much trust in their hands.
   
   And if you complain, link to the issue, so people can at least give thumbs-up.
 
+[gradlefile]: https://github.com/flutter/flutter/blob/3.10.0/packages/flutter_tools/gradle/flutter.gradle
 [the talk]: https://youtu.be/WJKcZ5ob718
+[went on to fix it]: https://github.com/flutter/flutter/pull/122290
