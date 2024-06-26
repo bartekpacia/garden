@@ -92,9 +92,8 @@ welcoming to external contributors and putting so much trust in their hands.
 [^2]: I think that before anyone complains about any open-source project on some
   so-called social media website, they should first make sure the issue is
   reported, and if it's not, they should report it. In my book, only then you
-  get a license to complain.
-  
-  And if you complain, link to the issue, so people can at least give thumbs-up.
+  get a license to complain. And if you complain, link to the issue, so people
+  can at least give thumbs-up.
 
 [gradlefile]: https://github.com/flutter/flutter/blob/3.10.0/packages/flutter_tools/gradle/flutter.gradle
 [the talk]: https://youtu.be/WJKcZ5ob718
