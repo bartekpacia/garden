@@ -1,7 +1,8 @@
 ---
 date: 20190107
 title: Google Code-in 2018
-description: An amazing adventure
+description: An amazing adventure.
+image: /assets/gci-2018/Summertime.jpg
 ---
 
 # Google Code-in 2018
