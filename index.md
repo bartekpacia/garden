@@ -1,5 +1,6 @@
 ---
 title: Bartek Pacia
+description: My own digital garden.
 ---
 
 Hello there.
