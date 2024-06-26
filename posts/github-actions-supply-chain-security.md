@@ -1,7 +1,7 @@
 ---
 date: 20240511
 title: GitHub Actions beg for a supply chain attack
-description: We're
+description: We're asking for something bad to happen.
 ---
 
 # GitHub Actions beg for a supply chain attack
