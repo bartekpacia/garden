@@ -25,7 +25,7 @@ months, I realized I had created a few dozen issues.
 Somewhere around that time (that is, end of 2022), I also got pretty interested
 in build systems, and specifically, in Gradle (don't ask me why, it just
 happened). I think I read its docs a few times during the winter break, and
-realy liked it.
+really liked it.
 
 I then noticed some Gradle warnings whenever I was running `flutter build apk`.
 It was a minor warning, something related to using deprecated Gradle features
@@ -34,7 +34,7 @@ times before and they never made sense to me – but now, armed with knowledge o
 Gradle, I understood what was happening and [went on to fix it].
 
 I then started reading Gradle source code inside Flutter repo [the gigantic
-`flutter.gradle` file](gradlefile), understanding how it works, and fixing more
+`flutter.gradle` file][gradlefile], understanding how it works, and fixing more
 and more small problems, deprecations, etc. In the beginning it sure wasn't
 much, but it was honest work.
 
