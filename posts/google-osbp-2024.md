@@ -33,7 +33,7 @@ that would be removed in the subsequent major release. I had seen them countless
 times before and they never made sense to me – but now, armed with knowledge of
 Gradle, I understood what was happening and [went on to fix it].
 
-I then started reading Gradle source code inside Flutter repo [the gigantic
+I then started reading Gradle source code inside Flutter's [gigantic
 `flutter.gradle` file][gradlefile], understanding how it works, and fixing more
 and more small problems, deprecations, etc. In the beginning it sure wasn't
 much, but it was honest work.
