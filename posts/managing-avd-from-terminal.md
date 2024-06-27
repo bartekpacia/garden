@@ -63,8 +63,7 @@ you run it, rendering it unusable. I prefer the below:
 (emulator @Pixel_7_API_33 1> /dev/null 2>&1 &) > /dev/null 2>&1
 ```
 
-> 💡 Learn more about [commonly used options] and [advanced options] of the
-> `emulator` command.
+> 💡 Learn more about [advanced options] of the `emulator` command.
 
 </aside>
 
@@ -77,8 +76,8 @@ The first problem is that you can't use your computer's keyboard to input text
 in the emulator. The fix is quite simple. Change `hw.keyboard = no` to
 `hw.keyboard = yes` in `~/.android/avd/Pixel_7_API_33.avd/config.ini`.
 
-The second problem is that the default values of RAM and VM heap size, which are
-too low. To increase them, edit `hw.ramSize` and `vm.heapSize` in the same
+The second problem is that the default values of RAM and VM heap size  are too
+low. To increase them, edit `hw.ramSize` and `vm.heapSize` in the same
 `config.ini` file. Unfortunately, the `avdmanager create avd` command doesn't
 accept options to change these values when creating the AVD.
 
