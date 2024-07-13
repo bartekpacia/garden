@@ -348,7 +348,19 @@ namespace.
 
 # Summary
 
-And that's it for this article.
+And that's it for this article. Before we part, here's a shell script for me in
+the future to quickly install what I need:
+
+```shell
+sdkmanager --install 'emulator'
+sdkmanager --install 'sources;android-34'
+sdkmanager --install 'system-images;android-33;google_apis;arm64-v8a'
+sdkmanager --install 'system-images;android-33;google_apis_playstore;arm64-v8a'
+sdkmanager --install 'system-images;android-34;google_apis;arm64-v8a'
+sdkmanager --install 'system-images;android-34;google_apis_playstore;arm64-v8a'
+sdkmanager --install 'platform-tools'
+sdkmanager --install 'platforms;android-34'
+```
 
 Last thing: here's [my own shell config file], from where you can easily copy
 the PATH-related commands. Be inspired by it! (or just copy-paste)
