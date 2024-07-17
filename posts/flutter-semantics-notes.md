@@ -91,6 +91,44 @@ TODO, but generally:
 - Methods that start with "handle", e.g. `handlePlatformBrightnessChanged`, are
   callbacks to be run when the engine says so
 
+## What happens when accessibility is enabled?
+
+"how Flutter learns that it has to start sending accessibility info"
+
+#### iOS
+
+1. [FlutterViewController:](https://github.com/flutter/engine/blob/3.22.0/shell/platform/darwin/ios/framework/Source/FlutterViewController.mm#L2063-L2084)
+
+2. [PlatformView.h | setSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/shell/common/platform_view.h#L419-L450)
+
+3. [PlatformView.cc | setSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/shell/common/platform_view.cc#L46-L48)
+
+4. [Shell.h | OnPlatformViewSetSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/shell/common/shell.h#L616-L617)
+
+5. [Shell.cc | OnPlatformViewSetSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/shell/common/shell.cc#L1114-L1125)
+
+6. [Engine.h | SetSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/shell/common/engine.h#L808-L818)
+
+7. [Engine.cc | SetSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/shell/common/engine.cc#L448-L450)
+
+8. [RuntimeController.h | SetSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/runtime/runtime_controller.h#L263-L274)
+
+9. [RuntimeController.cc | SetSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/runtime/runtime_controller.cc#L208-L218)
+
+10. [PlatformConfiguration.h | UpdateSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/lib/ui/window/platform_configuration.h#L375-L385)
+
+11. [PlatformConfiguration.cc | UpdateSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/lib/ui/window/platform_configuration.cc#L267-L278) (crossing C++/Dart boundary)
+
+12. [hooks.dart | _updateSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/lib/ui/hooks.dart#L245-L248)
+
+13. [PlatformDispatcher._updateSemanticsEnabled](https://github.com/flutter/engine/blob/3.22.0/lib/ui/platform_dispatcher.dart#L1204-L1215)
+
+14. This callbacks gets invoked: [PlatformDispatcher.onSemanticsEnabledChanged](https://github.com/flutter/engine/blob/3.22.0/lib/ui/platform_dispatcher.dart#L1192-L1196)
+
+15. That callback is set up by `SemanticsBinding`: [link](https://github.com/flutter/flutter/blob/3.22.0/packages/flutter/lib/src/semantics/binding.dart#L22)
+
+The end :)
+
 [Semantics]: https://api.flutter.dev/flutter/widgets/Semantics-class.html
 [SemanticsProperties]: https://api.flutter.dev/flutter/semantics/SemanticsProperties-class.html
 [Semantics renderobject]: https://github.com/flutter/flutter/blob/3.16.0/packages/flutter/lib/src/widgets/basic.dart#L7307-L7317
