@@ -5,13 +5,13 @@ description: My notes about the talks I attended and overall experiences.
 image: assets/droidcon-2024/droidcon_berlin.png
 ---
 
-Last week (July 3rd-5th) I went to Berlin to attend the joint
-Droidcon/Fluttercon event.
+In the beginning of July (from 3rd to 5th) I went to Berlin to attend the joint
+Droidcon/Fluttercon conference.
 
 It was my second time attending that event. Last year I was a speaker, but this
 time my CFP unfortunately didn't make it through. When I learned that, I decided
 to not go, but then my good friend [Albert](https://github.com/Albert221) had 1
-spare ticket that he gave to me (he was a speaker, and speakers get 1 ticket to
+spare ticket that he gave me (he was a speaker, and speakers get 1 ticket to
 share). I'm very grateful for that, and that made me go.
 
 Being a regular attendee was pretty cool – I was not stressed at all, my only
@@ -99,9 +99,11 @@ this 1 week after the event, I see it was beneficial. I'd have forgetten so much
 if I hadn't been writing this stuff down!
 
 The worst part was definitely food that was provided on the venue – but for a
-different reason that last year.
+different reason that last year. Last year the food was just bad. After waiting
+in a long queue, I took a few bites and threw it away.
 
-Last year the food was just bad. After waiting in a long queue, I took a few
-bites and threw it away.
+This year quality was much better – they had a whole floor for food trucks – but
+there was not enough of it. On 2 out of 3 days, I didn't manage to get lunch,
+because they literally run out of them.
 
-This year quality was much better – they had a whole floor for food trucks.
+Aside from that little hiccup, I'm glad I went. It was a great event.
