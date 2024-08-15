@@ -2,12 +2,12 @@
 date: 20240815
 title: Cirrus CI is the best
 description: And nothing comes even close.
-image: assets/cirrus_ci_is_the_best/change my mind.png
+image: assets/cirrus-ci-is-the-best/change my mind.png
 ---
 
 # Cirrus CI is the best CI system out there
 
-![A man sitting behind a table with "Change my mind" poster][assets/cirrus_ci_is_the_best/change my mind.png]
+![A man sitting behind a table with "Change my mind" poster](assets/cirrus-ci-is-the-best/change my mind.png)
 
 ### Intro
 
@@ -119,17 +119,85 @@ but Cirrus CI does the best job here again.
 
 In addition to YAML, we can also define our jobs in [Starlark] (which generates
 YAML) – a tiny, deterministic language that's similar (both in syntax in
-semantics) to Python.
+semantics) to Python. Starlark code for Cirrus is written in the `.cirrus.star`
+file in the repo root.
 
-You have 10 tasks that all run the same `apt-get install` as their first step?
+Let's say you have 10 tasks that all run the same `apt-get install` as their
+first step? Easy – simply extract those calls to a function and put it in some
+`common.star` file:
 
-This is a very efficient and pleasant approach to generating workflows
-dynamically. No more YAML!
+```python
+# common.star
+
+def install_stuff():
+    return script(
+        "install_stuff",
+        "apt-get install bar",
+        'apt-get install whatever-you-want',
+    )
+```
+
+and then  call that function 10 times, just like you'd do in normal code:
+
+```python
+# .cirrus.star
+
+load("common.star", install_stuff) # import our common utils
+
+def main():
+  pubspec = fs.read("pubspec.yaml")
+  flutter_version = yaml.loads(pubspec)["environment"]["flutter"]
+
+  return [
+    task(
+      name = "Run thingies",
+      instance = container(image = "node:22-alpine.3.19"),
+      instructions = [
+        install_stuff(),
+        # ...
+      ],
+    ),
+  ]
+```
+
 
 > Or better even - instead of installing it 10 times, create a Dockerfile and
 > install the dependencies there. Cirrus CI will automatically build an image,
 > cache it, and use it for subsequent runs ([see docs][cirrus dockerfile]). How
 > cool is that!
+
+With Starlark, you can also generate the CI pipeline code dynamically. Here's an
+example that uses the Flutter version directly from `pubspec.yaml`
+(`package.json` but in Flutter world), and uses that to pull the matching OCI
+image:
+
+```python
+# .cirrus.star
+
+load("cirrus", "fs", "yaml")
+
+def main():
+  pubspec = fs.read("pubspec.yaml")
+  flutter_version = yaml.loads(pubspec)["environment"]["flutter"]
+
+  return [
+    task(
+      name = "Build Android app",
+      alias = "build_andrid",
+      instance = container(
+        image = "ghcr.io/cirruslabs/flutter:%s" % flutter_version,
+      ),
+      instructions = [
+        cache("pub", "~/.pub-cache"),
+        script("flutter", "build", "apk"),
+        # ...
+      ],
+    ),
+  ]
+```
+
+This is a very efficient and pleasant approach to generating workflows
+dynamically. No more YAML!
 
 ### Configuration that can be validated locally
 
