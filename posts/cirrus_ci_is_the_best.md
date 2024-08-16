@@ -262,7 +262,9 @@ Nothing is perfect, and neither is Cirrus CI – but it definitely does come the
 closest to some "Continuous Integration singularity".
 
 - The web console UI is very basic, but honestly, I don't care at all – it does
-  the job. Come on, it's CI, it doesn't have to be pretty.
+  the job. 
+
+  ![Come on, it's CI, it doesn't have to be pretty](assets/cirrus-ci-is-the-best/cirrus screenshot.png)
 
 - It's not completely free for open-source, like GitHub Actions. The free plan
   is generous though - 10 000 CPU-minutes for Linux tasks or 500 minutes for
