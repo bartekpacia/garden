@@ -125,10 +125,10 @@ Sooner or later CI configuration becomes an incomprehensible mess of duplicated
 YAML. There are [different approaches to solve that][github reusing workflows],
 but Cirrus CI does the best job here again.
 
-In addition to YAML, we can also define our jobs in [Starlark] (which generates
-YAML) – a tiny, deterministic language that's similar (both in syntax in
-semantics) to Python. Starlark code for Cirrus is written in the `.cirrus.star`
-file in the repo root. [Here are docs for programming Cirrus tasks in
+In addition to YAML, we can also define our jobs in [Starlark] – a tiny,
+deterministic language that's similar (both in syntax and semantics) to Python.
+Starlark code for Cirrus is written in the `.cirrus.star` file in the repo root.
+[Here are docs for programming Cirrus tasks in
 Starlark](https://cirrus-ci.org/guide/programming-tasks).
 
 Let's say you have 10 tasks that all run the same `apt-get install` as their
@@ -218,7 +218,8 @@ and
 
 How many times did you `git push` only to see this
 
-![github actions syntax error][assets/cirrus_ci_is_the_best/gha syntax error.png]
+![github actions syntax error][assets/cirrus_ci_is_the_best/gha syntax
+error.png]
 
 Sure, now there's a GitHub Actions extension for VSCode that makes makes it
 easier to write correct workflows thanks to its integration with JSON schema.
@@ -264,7 +265,8 @@ closest to some "Continuous Integration singularity".
 - The web console UI is very basic, but honestly, I don't care at all – it does
   the job. 
 
-  ![Come on, it's CI, it doesn't have to be pretty](assets/cirrus-ci-is-the-best/cirrus screenshot.png)
+  ![Come on, it's CI, it doesn't have to be
+  pretty](assets/cirrus-ci-is-the-best/cirrus screenshot.png)
 
 - It's not completely free for open-source, like GitHub Actions. The free plan
   is generous though - 10 000 CPU-minutes for Linux tasks or 500 minutes for
@@ -291,10 +293,13 @@ Cirrus CI shows it's possible.
 
 ### Further reading
 
-- I'm mentioning it the 3rd time now, but it's really worth it: [go watch GitHub Actions feels bad][gha feels bad], you will not regret!
-- [Introducing Cirrus CI](https://medium.com/cirruslabs/introducing-cirrus-ci-a75cd1f49af0)
+- I'm mentioning it the 3rd time now, but it's really worth it: [go watch GitHub
+  Actions feels bad][gha feels bad], you will not regret!
+- [Introducing Cirrus
+  CI](https://medium.com/cirruslabs/introducing-cirrus-ci-a75cd1f49af0)
 - [Cirrus CI stack](https://medium.com/cirruslabs/cirrus-ci-stack-8a38aa4576d6)
-- [Core principle of Continuous Integration systems is obsolete](https://medium.com/cirruslabs/core-principle-of-continuous-integration-systems-is-obsolete-8d926e17c721)
+- [Core principle of Continuous Integration systems is
+  obsolete](https://medium.com/cirruslabs/core-principle-of-continuous-integration-systems-is-obsolete-8d926e17c721)
 
 ### Summing up
 
@@ -321,8 +326,11 @@ breath of fresh air.
 [my cirrus ci pr]: https://github.com/cirruslabs/cirrus-cli/pull/716
 [persistent worker]: https://cirrus-ci.org/guide/persistent-workers
 [apple virt]: https://developer.apple.com/documentation/virtualization
-[github reusing workflows]: https://docs.github.com/en/actions/sharing-automations/reusing-workflows
+[github reusing workflows]:
+    https://docs.github.com/en/actions/sharing-automations/reusing-workflows
 [cirrus ci pricing]: https://cirrus-ci.org/pricing
-[cirrus dockerfile]: https://cirrus-ci.org/guide/docker-builder-vm/#dockerfile-as-a-ci-environment
+[cirrus dockerfile]:
+    https://cirrus-ci.org/guide/docker-builder-vm/#dockerfile-as-a-ci-environment
 [cirrus is simple]: https://cirrus-ci.org/guide/build-life
-[windows containers]: https://cirrus-ci.org/guide/supported-computing-services/#windows-support
+[windows containers]:
+    https://cirrus-ci.org/guide/supported-computing-services/#windows-support
