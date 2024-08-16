@@ -7,7 +7,7 @@ image: assets/cirrus-ci-is-the-best/change my mind.png
 
 # Cirrus CI is the best CI system out there
 
-![A man sitting behind a table with "Change my mind" poster](assets/cirrus-ci-is-the-best/change my mind.png)
+![](assets/cirrus-ci-is-the-best/change my mind.png)
 
 > **Disclaimer**
 > 
