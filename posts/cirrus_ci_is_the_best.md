@@ -1,5 +1,5 @@
 ---
-date: 20240815
+date: 20240816
 title: Cirrus CI is the best
 description: And nothing comes even close.
 image: assets/cirrus-ci-is-the-best/change my mind.png
