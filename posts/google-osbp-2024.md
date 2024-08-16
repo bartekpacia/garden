@@ -2,7 +2,7 @@
 date: 20240625
 title: I was awarded Google Open Source Peer Bonus
 description: It ain't much, but it's honest work.
-image: assets/google-ospb-2024/it_aint_much_2.jpg
+image: /assets/google-ospb-2024/it_aint_much_2.jpg
 ---
 
 # I was awarded Google Open Source Peer Bonus
