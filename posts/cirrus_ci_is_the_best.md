@@ -29,8 +29,8 @@ Microsoft want to pay for running CI for millions of projects out there? I'm
 pretty sure they'll stop it at some point, and actually start milking money out
 of us. What else would they try to capture so much market share?
 
-GitHub Actions also [has shaky fundamentals] and lots of strange behaviors. I
-mean, just go watch [this great video by
+GitHub Actions also [has shaky fundamentals][gha feels bad] and lots of strange
+behaviors. I mean, just go watch [this great video by
 fasterthanlime](https://youtu.be/9qljpi5jiMQ?si=-Ouh91gt7NjCkdZQ) (it's both
 scary and very funny).
 
