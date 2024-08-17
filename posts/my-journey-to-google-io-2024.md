@@ -175,6 +175,8 @@ cool souvenir.
 I experienced a similar problem at the Dodger Stadium in LA a few months back,
 and in the end I also got paper tickets. I think I might start collecting them!
 
+![](/assets/california-2024v2/1 Oracle Park.avif)
+
 ## Berkeley
 
 A few days earlier I had mentioned to my friend [Nils] that I'd be in the Bay,
