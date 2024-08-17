@@ -218,8 +218,7 @@ and
 
 How many times did you `git push` only to see this
 
-![github actions syntax error][assets/cirrus_ci_is_the_best/gha syntax
-error.png]
+![](assets/cirrus_ci_is_the_best/gha syntax error.png)
 
 Sure, now there's a GitHub Actions extension for VSCode that makes makes it
 easier to write correct workflows thanks to its integration with JSON schema.
