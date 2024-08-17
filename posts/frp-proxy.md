@@ -47,3 +47,33 @@ password = "admin"
 ```
 frpc -c frpc.toml
 ```
+
+## systemd
+
+Expected directory hierarchy:
+
+```
+~
+├── frp
+│   ├── frps
+│   └── frps.toml
+```
+
+
+Unit file:
+
+```
+[Unit]
+Description=Fast Reverse Proxy server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=%h/frp/frps -c %h/frp/frps.toml
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=default.target
+```
