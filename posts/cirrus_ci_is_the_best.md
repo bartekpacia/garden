@@ -64,7 +64,7 @@ will run the task `test` in a fresh Docker container:
 task:
   name: test
   container:
-    image: azul-openjdk-alpine:21
+    image: azul/zulu-openjdk-alpine:21
   lint_script: ./gradlew detekt
   test_script: ./gradlew test
 ```
