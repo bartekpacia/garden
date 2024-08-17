@@ -13,14 +13,14 @@ image: /assets/frp-proxy/ngrok-but-free.png
 
 In recent weeks, I've been spending a lot of time building on the backend (and
 like it a lot!). After the initial spike where I was running stuff on my laptop,
-time came to actually the server out to the web, so my friend's frontend (hosted
-on Vercel) will be able to hit the backend.
+time came to actually expose the server to the outside world, so that my
+friend's frontend (hosted on Vercel) will be able to reach it.
 
 Ah, the age old question, once again. How to expose my thing to the world?
 
 A minute or two to get the container up and running on Google Cloud Run seems to
 not be _that long_, but compared to ~5 seconds it takes to rebuild my server
-image locally, it's night a night and day difference.
+image locally, it's a night and day difference.
 
 So, I reached for the old, good ngrok – or is it? Well, last time I used it a
 few years ago, it was this cute little tool. Now it seems to have grown into
@@ -157,15 +157,16 @@ in the browser.
 
 You should be able to see contents of the directory you run `static-server` in.
 
-### Wrapping up
+## Wrapping up
 
 The whole thing is hosted on the cheapest $5/month VPS from DigitalOcean, and it
 works perfectly. Now, whenever I start developing my backend locally, but want
-to also have it exosed to the grand World Wide Web, I use `frpc`.
+to also have it exposed to the grand World Wide Web, I use `frpc`.
 
 I didn't bother to set up TLS, so it's only `http` for now, but that's fine for
 my use case. I might get to it in the future.
 
+[frp]: https://github.com/fatedier/frp
 [systemd_user_vs_system_service]: https://superuser.com/q/853717/721371
 [systemd_linger]: https://unix.stackexchange.com/q/521538/417321
 [eli_fileserver]: https://eli.thegreenplace.net/2023/static-server-an-http-server-in-go-for-static-content
