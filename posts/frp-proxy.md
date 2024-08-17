@@ -1,8 +1,11 @@
 ---
 date: 20240818
-title: frp (Fast Reverse Proxy) setup guide
+title: frp (Fast Reverse Proxy) instead of ngrok
 description: ngrok but for free, who wouldn't want it?!
+image: /assets/frp-proxy/ngrok-but-free.png
 ---
+
+# frp (Fast Reverse Proxy) instead of ngrok
 
 ## Intro
 

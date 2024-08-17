@@ -1,6 +1,6 @@
 ---
 date: 20240816
-title: Cirrus CI is the best
+title: Cirrus CI is the best CI system out there
 description: And nothing comes even close.
 image: /assets/cirrus-ci-is-the-best/change-my-mind.png
 ---
