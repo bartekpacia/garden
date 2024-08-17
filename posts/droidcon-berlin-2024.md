@@ -2,7 +2,7 @@
 date: 20240814
 title: Going to Berlin for Droidcon/Fluttercon
 description: My notes about the talks I attended and overall experiences.
-image: assets/droidcon-2024/droidcon_berlin.png
+image: /assets/droidcon-2024/droidcon_berlin.png
 ---
 
 # Going to Berlin for Droidcon/Fluttercon

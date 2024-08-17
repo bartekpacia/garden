@@ -2,7 +2,7 @@
 date: 20240511
 title: GitHub Actions beg for a supply chain attack
 description: We're asking for something bad to happen.
-image: assets/gha-security/gh_actions.png
+image: /assets/gha-security/gh_actions.png
 ---
 
 # GitHub Actions beg for a supply chain attack
