@@ -7,6 +7,8 @@ image: /assets/frp-proxy/ngrok-but-free.png
 
 # frp (Fast Reverse Proxy) instead of ngrok
 
+![](assets/frp-proxy/ngrok-but-free.png)
+
 ## Intro
 
 (feel free too skip it if you're here just for the config)
@@ -33,8 +35,8 @@ address just to tunnel public traffic to my laptop.
 I went on the lookout for a free, self-hosted alternatives, and quickly found
 [the `frp` project][frp] (Fast Reverse Proxy). It was exactly what I needed. 
 
-To get started, download the latest frp release for your machine from
-https://github.com/fatedier/frp/releases. Once you unzip, you should find two
+To get started, download the latest frp release for your machine [from here]
+(https://github.com/fatedier/frp/releases). Once you unzip, you should find two
 binaries in there:
 - `frps` - Fast Reverse Proxy server
 - `frpc` - Fast Reverse Proxy client
@@ -169,4 +171,5 @@ my use case. I might get to it in the future.
 [frp]: https://github.com/fatedier/frp
 [systemd_user_vs_system_service]: https://superuser.com/q/853717/721371
 [systemd_linger]: https://unix.stackexchange.com/q/521538/417321
-[eli_fileserver]: https://eli.thegreenplace.net/2023/static-server-an-http-server-in-go-for-static-content
+[eli_fileserver]:
+    https://eli.thegreenplace.net/2023/static-server-an-http-server-in-go-for-static-content
