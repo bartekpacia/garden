@@ -28,7 +28,7 @@ So, I reached for the old, good ngrok – or is it? Well, last time I used it a
 few years ago, it was this cute little tool. Now it seems to have grown into
 something much bigger, that I don't care enough about to understand, and gives
 me low-key enshittification vibes. Also, I ain't paying $10/month for stable IP
-address just to tunnel public traffic to my laptop.
+address just to tunnel public traffic to my laptop.[^1]
 
 ## Meet frp
 
@@ -173,3 +173,7 @@ my use case. I might get to it in the future.
 [systemd_linger]: https://unix.stackexchange.com/q/521538/417321
 [eli_fileserver]:
     https://eli.thegreenplace.net/2023/static-server-an-http-server-in-go-for-static-content
+
+
+[^1]: If you want ngrok-like experience _and_ don't want to self-host, check out
+    Cloudflare Tunnels. Thanks Luis Duarte for pointing this out.
