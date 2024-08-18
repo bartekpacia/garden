@@ -42,15 +42,14 @@ they're depending on every day.
 
 ## Install Java Development Kit
 
-I prefer the official OpenJDK distribution, but other ones (like Eclipse
-Temurin) also work. On macOS (which I use), installing it is as simple as:
+On macOS, I prefer to use the OpenJDK distribution provided by Homebrew, but
+other ones (like Eclipse Temurin) are also fine:
 
 ```
-brew install openjdk@21
+brew install openjdk
 ```
 
-> Unless you have valid reasons not to, you should use JDK 21, since it's the
-> latest LTS release.
+> Unless you have valid reasons not to, you should the latest JDK.
 >
 > Here's [a great post from Jake Wharton] that explains this in much more
 > detail. Go read it!
