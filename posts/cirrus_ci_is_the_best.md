@@ -11,7 +11,7 @@ image: /assets/cirrus-ci-is-the-best/change-my-mind.png
 
 > **Disclaimer**
 > 
-> I'm in no way affiliated with Cirrus CI, apart from submitting a few PRs to
+> I'm in no way affiliated with [Cirrus CI], apart from submitting a few PRs to
 > their repos. I'm just genuinely amazed at how _good_ it is.
 
 ### A rant-ish intro
@@ -34,7 +34,7 @@ behaviors. I mean, just go watch [this great video by
 fasterthanlime](https://youtu.be/9qljpi5jiMQ?si=-Ouh91gt7NjCkdZQ) (it's both
 scary and very funny).
 
-I will try to convince you that Cirrus CI is _objectively_ better than every
+I will try to convince you that [Cirrus CI] is _objectively_ better than every
 other major CI system in existence: GitHub Actions, CircleCI, GitLab CI/CD, and
 Buildkite.
 
@@ -290,6 +290,22 @@ The sad thing to me is that Cirrus CI isn't more popular. So many people accept
 the (arguably pretty shitty) status quo of CI. It can be so much better, and
 Cirrus CI shows it's possible.
 
+## Who uses it?
+
+If you're a solo developer, I hope you're sold by now. But if you're a company
+(or a solo developer, just a bit less adventurous), you might be thinking: okay,
+this Cirrus CI thing is all fine and dandy, but does anyone actually use it?
+
+Cirrus CI is used by projects such as
+[FreeBSD](https://cgit.freebsd.org/src/tree/.cirrus.yml),
+[PostgreSQL](https://wiki.postgresql.org/wiki/Continuous_Integration),
+[Podman](https://github.com/containers/podman/blob/5f069d874297358f629454a2a4a0b96c15a81836/.cirrus.yml),
+and
+[Bitcoin](https://github.com/bitcoin/bitcoin/blob/ee367170cb2acf82b6ff8e0ccdbc1cce09730662/.cirrus.yml).
+It was also used as part of Flutter's CI infra for many years, but Google being
+Google, they decided to use only their infra and [ditched
+it](https://github.com/flutter/flutter/pull/133575).
+
 ### Further reading
 
 - I'm mentioning it the 3rd time now, but it's really worth it: [go watch GitHub
@@ -314,6 +330,7 @@ breath of fresh air.
     don't use something that's free. It says something, lol.
 [^2]: I really do recommend watching this video. It's just freaking awesome.
 
+[cirrus ci]: https://cirrus-ci.org
 [nektos/act]: https://github.com/nektos/act
 [gha feels bad]: https://youtu.be/9qljpi5jiMQ
 [cirrus yaml]: https://cirrus-ci.org/guide/writing-tasks
