@@ -29,14 +29,16 @@ Microsoft want to pay for running CI for millions of projects out there? I'm
 pretty sure they'll stop it at some point, and actually start milking money out
 of us. What else would they try to capture so much market share?
 
-GitHub Actions also [has shaky fundamentals][gha feels bad] and lots of strange
-behaviors. I mean, just go watch [this great video by
+Apart from that, I think there are solid technical arguments against GitHub
+Actions. It [has shaky fundamentals][gha feels bad]. Many things are harder than
+they should be; other are unsupported (e.g. local execution). I mean, just go
+watch [this great video by
 fasterthanlime](https://youtu.be/9qljpi5jiMQ?si=-Ouh91gt7NjCkdZQ) (it's both
 scary and very funny).
 
-I will try to convince you that [Cirrus CI] is _objectively_ better than every
-other major CI system in existence: GitHub Actions, CircleCI, GitLab CI/CD, and
-Buildkite.
+In this blogpost, I'll try to convince you that [Cirrus CI] is _objectively_
+better than every other major CI system in existence: GitHub Actions, CircleCI,
+GitLab CI/CD, and Buildkite.
 
 ## Why is Cirrus CI the best
 
@@ -270,6 +272,9 @@ closest to some "Continuous Integration singularity".
 - It's not completely free for open-source, like GitHub Actions. The free plan
   is generous though - 10 000 CPU-minutes for Linux tasks or 500 minutes for
   macOS tasks (which always use 4 CPUs). [See pricing][cirrus ci pricing].
+
+- It's not priviliged like GitHub Actions, so you don't have access to
+  `$GITHUB_TOKEN` automatically. Gotta generate that PAT.
 
 - For private personal repos, it costs $10/month (though I think it's a very
   fair price). For private org repos, it's $10/seat/month.
