@@ -16,6 +16,8 @@ image: /assets/cirrus-ci-is-the-best/change-my-mind.png
 
 ### A rant-ish intro
 
+(feel free to skip if you're not into that)
+
 I'm a fan of CI. I love seeing green check next to my PRs. The thing is,
 **"modern" CI systems mostly suck**.
 
