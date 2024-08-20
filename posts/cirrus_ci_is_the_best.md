@@ -29,7 +29,7 @@ Microsoft want to pay for running CI for millions of projects out there? I'm
 pretty sure they'll stop it at some point, and actually start milking money out
 of us. What else would they try to capture so much market share?
 
-But apart from that, I think there are solid technical arguments agains GitHub
+Apart from that, I think there are solid technical arguments against GitHub
 Actions. It [has shaky fundamentals][gha feels bad]. Many things are harder than
 they should be; other are unsupported (e.g. local execution). I mean, just go
 watch [this great video by
