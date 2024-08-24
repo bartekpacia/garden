@@ -1,38 +1,55 @@
 # Keep your project resilient against CI enshittification
 
-Modern CI mostly suck.
+[In my previous post][cirrus ci is the best], I complained that most CI systems
+suck, but there's one that doesn't - [Cirrus CI](https://cirrus-ci.org).
+
+**Unfortunately**, as much as I'd like to use Cirrus CI in all projects I work
+on, it's not often possible, especially in work settings.
 
 The larger your project is, the harder it gets to migrate your CI. I get that.
 After all, most of us gotta ship stuff instead of playing with CI (how
 unfortunate).
 
-Even if you can't/don't want to migrate off of your current $CI right now, I
-have some tips for you how to minimize dependency of your project on your CI
-system.
+**Fortunately**, even if you can't migrate off of your current $CI
+right now, I have some tips for you how to minimize dependency of your project
+on your CI system.
+
+Benefits:
+- easier to understand and maintain
+- possible to run locally
+
+In my own experience, many Actions aren't well maintained[^1]. Many times I had
+to rip out an Action and replace it with a plain old shell script, because the
+Action that hasn't been updated in a few years and started crashing.
+
+And since GitHub Actions is in denial of being a package manager, all actions
+bundle all the dependencies.
+
+_Another reason is security_, but this is [a whole another topic].
 
 I'd like to share how I approach creating CI pipelines. In general, they could
 be summed as "depend on as little vendor-specific features as possible". Treat
 CI as dumb compute. Don't try to be smart with it.
 
-This post is skewed towards GitHub Actions, since it's by far the most popular
-(unfortunately) and many open-source projects use it, but the tips should be
-applicable to most contemporary CI platforms like Circle CI.
+This post is skewed towards GitHub Actions, since it's (unfortunately) by far
+the most popular one and many open-source projects use it. Most of the tips are
+also applicable to other CIs, though.
 
 ### Do not use Actions in GitHub Actions
 
-Yes, you read that right. It sounds backward at first, and it indeed is a catchy
-headline. I basically mean this:
+Yes, you read that right. It sounds backward at first, and a bit like a catchy
+headline. But I'll stand by it. I basically mean this:
 
-**Think twice before using an Action.**
+**Think twice before using a new GitHub Action.**
 
-(Or an Orb. Whatever)
+(Or a CircleCI Orb. Whatever.)
 
 The popularity of GitHub Actions is also a huge advantage, with active community
-creating custom actions. This is all cool and dandy, until you realize you've
-offloaded all of your CI to GitHub, and can't do _anything_ locally.
+creating custom actions. This is all cool and dandy, until you realize that most
+of steps in your workflow are custom Actions, and can't do _anything_ locally.
 
-Prefer to download and call the binary directly. This makes it easier to migrate
-off of GitHub Actions later on.
+I prefer to download and call the binary directly. This makes it easier to
+migrate off of GitHub Actions later on.
 
 Example 1:
 
@@ -44,13 +61,64 @@ Example 2:
 - 👎 base64-decode action
 - 👍 $ base64 --decode
 
-In my own experience, many Actions aren't well maintained[^1]. Many times I had
-to rip out an Action that hasn't been updated in a few years.
+### Example: jq and yq
 
-And since GitHub Actions is in denial of being a package manager, all actions
-bundle all the dependencies.
+All the uses of various GitHub Actions for installing and using `jq` and `yq`
+I've seen could be removed and replaced with calling the binaries directly.
 
-_Another reason is security_, but this is [a whole another topic].
+Instead of:
+
+```
+steps:
+  - name: Set foobar to cool with yq
+    uses: mikefarah/yq@v4
+    with:
+      cmd: yq -i '.foo.bar = "cool"' config.yaml
+
+  - name: Set up jq
+    uses: dcarbone/install-jq-action@v2
+
+  - name: Query workspaceId with jq
+    run: jq '.target.workspaceId' output.json > workspace_id.txt
+```
+
+simply do:
+
+```yaml
+steps:
+  - name: Set foobar to cool
+    run: yq -i '.foo.bar = "cool"' config.yaml
+  - name: Query workspaceId with jq
+    run: jq '.target.workspaceId' output.json > workspace_id.txt
+```
+
+There's often no need to install common tools – they're already included in the
+absolutely massive ~50GB Vm image that GitHub Actions uses. [See what's
+installed by default on the ubuntu-24.04 runners][ubuntu-runner].
+
+Maybe there are situations when the Action is useful - but only then you should
+use the action, not default to it from the start.
+
+### Example: 1Password CLI
+
+### Example: decode base64 to a file
+
+```yaml
+steps:
+  - name: Run Workflow
+    id: write_file
+    uses: timheuer/base64-to-file@v1.2
+    with:
+      fileName: 'myTemporaryFile.txt'
+      fileDir: './main/folder/subfolder/'
+      encodedString: ${{ secrets.SOME_ENCODED_STRING }}
+```
+
+I genuinely don't understand why this Action exists. It's a one-liner in shell:
+
+```shell
+echo ${{ secrets.SOME_ENCODED_STRING }} | base64 --decode > ./main/folder/subfolder/myTemporaryFile.txt
+```
 
 ### Do not paste secrets directly.
 
@@ -108,6 +176,16 @@ Use the correct shebang in the shell script file. Remember that bash != sh. If
 possible, stick to POSIX sh compatibility (although that's my personal
 zboczenie).
 
+### Write good shell scripts
+
+Shell is an arcane language, full of warts and pitfalls – but it's a
+skill just like any other,
+
+Some guidelines that I try to follow when writing shell code:
+- use pure `sh` with the `/usr/bin/env sh shebang`, avoid bashisms
+- use `set -euo pipefail` [bash strict mode]
+- use [shellcheck] and make sure there are no warnings
+
 ### Format it
 
 Tools like `gofmt`, `rustfmt`, and `prettier` are popular in their respective
@@ -123,6 +201,12 @@ prettier --write .github/**/*.yaml
 ```
 
 If possible, use default prettier style - the less config, the better.
+
+[ubuntu-runner]: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2404-Readme.md
+[cirrus ci is the best]: ./cirrus_ci_is_the_best
+[a whole another topic]: ./github-actions-supply-chain-security
+[shellcheck]: https://www.shellcheck.net
+[bash strict mode]: http://redsymbol.net/articles/unofficial-bash-strict-mode
 
 [^1]:
     I want to make clear that I absolutely mean no insult at all to the
