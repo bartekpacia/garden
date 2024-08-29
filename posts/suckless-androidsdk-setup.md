@@ -71,12 +71,17 @@ throats! /s). I don't like installing Android Studio because it's heavy and
 because I already have IntelliJ IDEA installed. Why should I bother installing
 something I won't use?
 
+### The latest version
+
 So on that page, instead of clicking “Download Android Studio”, scroll down and
 find the ["Command line tools only" section] and then download the variant for
 your OS. Alternatively, you can use `curl`:
 
 ```bash
-$ curl --remote-name https://dl.google.com/android/repository/commandlinetools-mac-9477386_latest.zip
+$ curl -fsSL \
+	--output-dir ~ \
+	--output android-clt.zip \
+	https://dl.google.com/android/repository/commandlinetools-mac-9477386_latest.zip
 ```
 
 > To make things simpler, let's assume we're in the `Downloads` directory:
@@ -84,6 +89,20 @@ $ curl --remote-name https://dl.google.com/android/repository/commandlinetools-m
 > ```bash
 > $ cd ~/Downloads
 > ```
+
+
+
+### A specific version
+
+What's that weird number in the filename? Well, don't ask me, I've no idea, just
+like I also had no idea how to download older releases of the command-line
+tools. [Finally I decided to figure it out](https://stackoverflow.com/questions/78890085list-of-android-sdk-command-line-tools-releases-version-by-version/78890086#78890086).
+
+
+
+
+
+### What's inside
 
 Now extract the downloaded archive:
 
