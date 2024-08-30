@@ -255,6 +255,8 @@ just added to my slight disappointment.
 The next stop was Santa Cruz Mission. It's not as impressive as the mission in,
 say, Ventura, but it was still nice. We also grabbed a geocache there!
 
+![Unfortunately, it was closed, so we only walked around it](/assets/california-2024v2/2%20Santa%20Cruz%20Mission.avif)
+
 As we were about to leave, Nils searched for "ice cream" on Google Maps and we
 went to the place that had the highest rating – Marianne's Ice Cream. This
 rating thing actually works – we found a true local gem.
