@@ -5,7 +5,7 @@ description: My own digital garden.
 
 Hello there.
 
-I'm Bartek and this is my digital garden - my very own place on the World Wide
+I'm Bartek, and this is my digital garden – my very own place on the World Wide
 Web. You'll find here my thoughts on different topics, random notes, and
 (sometimes) even a coherent, longer article. You won't find ads, trackers,
 cookies, and other bullshit.
