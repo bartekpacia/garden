@@ -10,6 +10,7 @@
 
   --font-size-nav-toc: 12px;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-text-primary: #bcc1c6;
@@ -22,13 +23,16 @@
 img[src^="/assets/img/dark"] {
   display: none;
 }
+
 img[src^="/assets/img/light"] {
   display: inherit;
 }
+
 @media (prefers-color-scheme: dark) {
   img[src^="/assets/img/dark"] {
     display: inherit;
   }
+
   img[src^="/assets/img/light"] {
     display: none;
   }
@@ -67,6 +71,7 @@ body {
   max-width: var(--main-width);
   margin: 0 auto;
 }
+
 @media screen and (max-width: 745px) {
   .centered-content {
     padding: 0 1em;
@@ -81,16 +86,20 @@ body {
   max-width: var(--main-width);
   margin: 0 auto;
 }
+
 #TOC ul {
   list-style: none;
   padding-inline-start: 18px;
 }
+
 #TOC > ul > li:first-child > a {
   font-weight: bold;
 }
+
 #TOC a {
   text-decoration: none;
 }
+
 @media screen and (min-width: 1364px) {
   #TOC {
     margin: 0;
@@ -142,6 +151,7 @@ footer {
   }
 }
 
+
 blockquote {
   margin: 0;
   padding: 0.5em;
@@ -160,6 +170,7 @@ img,
 video {
   width: 100%;
 }
+
 figcaption {
   line-height: 1;
   font-size: 0.9em;
@@ -188,6 +199,7 @@ table {
   opacity: 0.15;
   width: 1.5em;
 }
+
 .anchor:hover {
   text-decoration: none;
 }
@@ -200,6 +212,7 @@ h5:hover > .anchor::before,
 h6:hover > .anchor::before {
   opacity: 1;
 }
+
 /* end: heading anchor links */
 
 .published-date {
