@@ -43,166 +43,233 @@ pre.numberSource {
   padding: 0.5em;
   --color-code-highlight-bg: var(--solarized-base2);
 }
+
 pre code {
   color: var(--solarized-base00);
   /* TODO: fix appearance of code */
-  /* line-height: 1; */
+  line-height: 1;
   /* font-size: 14px; */
 }
+
 pre.numberSource > code.sourceCode > span > a:first-child::before {
   color: var(--solarized-base1);
 }
 
 code {
+  border-radius: 0.25em;
+  padding: 2px 4px;
   background-color: var(--solarized-base3);
-  padding: 2px;
+  /*transition: background-color 0.3s ease;*/
+}
+
+a code:hover {
+  background-color: transparent;
+  /*animation: fadeinout 0.35s ease-in-out;*/
 }
 
 code span.kw {
   color: var(--solarized-green);
   font-weight: normal;
   font-style: normal;
-} /* Keyword */
+}
+
+/* Keyword */
 code span.dt {
   color: var(--solarized-yellow);
   font-weight: normal;
   font-style: normal;
-} /* DataType */
+}
+
+/* DataType */
 code span.dv {
   color: var(--solarized-cyan);
   font-weight: normal;
   font-style: normal;
-} /* DecVal */
+}
+
+/* DecVal */
 code span.bn {
   color: var(--solarized-cyan);
   font-weight: normal;
   font-style: normal;
-} /* BaseN */
+}
+
+/* BaseN */
 code span.fl {
   color: var(--solarized-cyan);
   font-weight: normal;
   font-style: normal;
-} /* Float */
+}
+
+/* Float */
 code span.ch {
   color: var(--solarized-cyan);
   font-weight: normal;
   font-style: normal;
-} /* Char */
+}
+
+/* Char */
 code span.st {
   color: var(--solarized-cyan);
   font-weight: normal;
   font-style: normal;
-} /* String */
+}
+
+/* String */
 code span.co {
   color: var(--solarized-base1);
   font-weight: normal;
   font-style: italic;
-} /* Comment */
+}
+
+/* Comment */
 code span.ot {
   color: var(--solarized-blue);
   font-weight: normal;
   font-style: normal;
-} /* Other */
+}
+
+/* Other */
 code span.al {
   color: var(--solarized-red);
   font-weight: normal;
   font-style: normal;
-} /* Alert */
+}
+
+/* Alert */
 code span.fu {
   color: var(--solarized-blue);
   font-weight: normal;
   font-style: normal;
-} /* Function */
+}
+
+/* Function */
 code span.er {
   color: var(--solarized-red);
   font-weight: normal;
   font-style: normal;
-} /* Error */
+}
+
+/* Error */
 code span.wa {
   color: var(--solarized-orange);
   font-weight: normal;
   font-style: italic;
-} /* Warning */
+}
+
+/* Warning */
 code span.cn {
   color: var(--solarized-cyan);
   font-weight: normal;
   font-style: normal;
-} /* Constant */
+}
+
+/* Constant */
 code span.sc {
   color: var(--solarized-red);
   font-weight: normal;
   font-style: normal;
-} /* SpecialChar */
+}
+
+/* SpecialChar */
 code span.vs {
   color: var(--solarized-cyan);
   font-weight: normal;
   font-style: normal;
-} /* VerbatimString */
+}
+
+/* VerbatimString */
 code span.ss {
   color: var(--solarized-red);
   font-weight: normal;
   font-style: normal;
-} /* SpecialString */
+}
+
+/* SpecialString */
 code span.im {
   color: var(--solarized-base00);
   font-weight: normal;
   font-style: normal;
-} /* Import */
+}
+
+/* Import */
 code span.va {
   color: var(--solarized-blue);
   font-weight: normal;
   font-style: normal;
-} /* Variable */
+}
+
+/* Variable */
 code span.cf {
   color: var(--solarized-green);
   font-weight: normal;
   font-style: normal;
-} /* ControlFlow */
+}
+
+/* ControlFlow */
 code span.op {
   color: var(--solarized-green);
   font-weight: normal;
   font-style: normal;
-} /* Operator */
+}
+
+/* Operator */
 code span.bu {
   color: var(--solarized-base00);
   font-weight: normal;
   font-style: normal;
-} /* BuiltIn */
+}
+
+/* BuiltIn */
 code span.ex {
   color: var(--solarized-base00);
   font-weight: normal;
   font-style: normal;
-} /* Extension */
+}
+
+/* Extension */
 code span.pp {
   color: var(--solarized-orange);
   font-weight: normal;
   font-style: normal;
-} /* Preprocessor */
+}
+
+/* Preprocessor */
 code span.at {
   color: var(--solarized-base00);
   font-weight: normal;
   font-style: normal;
-} /* Attribute */
+}
+
+/* Attribute */
 code span.do {
   color: var(--solarized-base1);
   font-weight: normal;
   font-style: italic;
-} /* Documentation */
+}
+
+/* Documentation */
 code span.an {
   color: var(--solarized-base1);
   font-weight: normal;
   font-style: italic;
-} /* Annotation */
+}
+
+/* Annotation */
 code span.cv {
   color: var(--solarized-base1);
   font-weight: normal;
   font-style: italic;
-} /* CommentVar */
+}
+
+/* CommentVar */
 code span.in {
   color: var(--solarized-base1);
   font-weight: normal;
   font-style: italic;
-} /* Information */
+}
+
+/* Information */
 a.sourceLine::before {
   text-decoration: none;
 }
@@ -212,19 +279,27 @@ code.diff span.kw {
   color: var(--solarized-yellow);
   font-weight: normal;
   font-style: normal;
-} /* --- lines */
+}
+
+/* --- lines */
 code.diff span.dt {
   color: var(--solarized-blue);
   font-weight: normal;
   font-style: normal;
-} /* +++ lines, @@ ... @@ lines */
+}
+
+/* +++ lines, @@ ... @@ lines */
 code.diff span.st {
   color: var(--solarized-red);
   font-weight: normal;
   font-style: normal;
-} /* - lines */
+}
+
+/* - lines */
 code.diff span.va {
   color: var(--solarized-green);
   font-weight: normal;
   font-style: normal;
-} /* + lines */
+}
+
+/* + lines */
