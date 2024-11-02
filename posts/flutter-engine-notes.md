@@ -128,5 +128,5 @@ Run Android tests of `AccessibilityBridge` with Roboelectric:
 	--java-filter io.flutter.view.AccessibilityBridge
 ```
 
-[the official guide]: https://github.com/flutter/flutter/blob/master/docs/engine/dev/Setting-up-the-Engine-development-environment.md
+[the official guide]: https://github.com/flutter/engine/blob/main/docs/contributing/Setting-up-the-Engine-development-environment.md
 [depot_tools]: https://chromium.googlesource.com/chromium/tools/depot_tools
